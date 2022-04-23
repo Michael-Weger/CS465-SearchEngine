@@ -14,7 +14,7 @@ namespace CS465_SearchEngine
     {
         public static void Main(string[] args)
         {
-            InvertedIndex index = new InvertedIndex("./index.txt");
+            InvertedIndex index = new InvertedIndex("./Environment/index.txt");
             CreateHostBuilder(args).Build().Run();
         }
 
