@@ -16,10 +16,7 @@ namespace CS465_SearchEngine.Source.Web
         public void Initialize(InvertedIndex invertedIndex, DocumentMap documentMap)
         {
             InvertedIndex = invertedIndex;
-            InvertedIndex.traverse();
-
             DocumentMap = documentMap;
-            documentMap.Print();
         }
 
         public Task<List<Document>> OrSearch(string rawQuery)

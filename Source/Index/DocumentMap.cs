@@ -56,8 +56,22 @@ namespace CS465_SearchEngine.Source.Index
 			foreach (int key in Map.Keys)
 			{
 				Document document = Map.GetValueOrDefault(key);
-				Console.WriteLine(document.DocumentId + "," + document.FilePath + "," + document.DistinctWords + "," + document.TotalWords);
+				Console.WriteLine(document.DocumentId + ", " + document.FilePath + ", " + document.DistinctWords + ", " + document.TotalWords);
 			}
+		}
+
+		public void PrintStatistics()
+		{
+			Console.WriteLine("\nDistinct and Total words per document: ");
+			int totalWordsCollection = 0;
+			foreach (int key in Map.Keys)
+			{
+				Document document = Map.GetValueOrDefault(key);
+				Console.WriteLine("\nDocumentId: " + document.DocumentId + "\nFilePath: " + document.FilePath + "\nDistinct Words: " + document.DistinctWords + "\nTotal Words: " + document.TotalWords);
+				totalWordsCollection += document.TotalWords;
+			}
+
+			Console.WriteLine("\nTotal Words Collection: " + totalWordsCollection);
 		}
 
 		public void WriteToFile()

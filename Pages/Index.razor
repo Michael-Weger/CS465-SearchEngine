@@ -1,7 +1,135 @@
 @page "/"
 
-<h1>Hello, world!</h1>
+@using CS465_SearchEngine.Source.Web;
+@using CS465_SearchEngine.Source.Index.Utility;
+@using System.Collections.Generic;
+@inject QueryService mQueryService
 
-Welcome to your new app.
+<h1>Search</h1>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+<p>This component demonstrates fetching data from a service.</p>
+
+<EditForm Model="@QueryData" OnValidSubmit="@SubmitQuery">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="QueryText" @bind-Value="QueryData.RawQuery" />
+    <button type="submit">Submit</button>
+    <p>
+        <InputRadioGroup @bind-Value="QueryData.Type">
+            Search Type:
+            <br>
+            @foreach (SearchType type in Enum.GetValues(typeof(SearchType)))
+            {
+                <InputRadio Value="@type" />
+                <text>&nbsp;</text>@type<br>
+            }
+        </InputRadioGroup>
+    </p>
+</EditForm>
+
+
+@if (!FirstQuerySubmitted)
+{
+    <p><em>Your results will appear here! </em></p>
+}
+else if (IsProcessingQuery)
+{
+    <p><em>Processing Query...</em></p>
+}
+else if ((resultDocuments == null || resultDocuments.Count == 0) && (resultPositional == null || resultPositional.Count == 0))
+{
+    <p><em>No results found. Try a more concise search.</em></p>
+}
+else if (resultDocuments != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Document ID</th>
+                <th>Document Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Document document in resultDocuments)
+            {
+                <tr>
+                    <td>@document.DocumentId</td>
+                    <td>@document.FilePath</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Document ID</th>
+                <th>Document Name</th>
+                <th>Term Positions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Tuple<Document, string> result in resultPositional)
+            {
+
+                <tr>
+                    <td>@result.Item1.DocumentId</td>
+                    <td>@result.Item1.FilePath</td>
+                    <td>@result.Item2</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code
+{
+    // Flags used for user feedback
+    private bool FirstQuerySubmitted;
+    private bool IsProcessingQuery;
+
+    // Search results.
+    // TODO Standardize results to avoid needing this.
+    private List<Document> resultDocuments;
+    private List<Tuple<Document, string>> resultPositional;
+
+    // Fields
+    private QueryModel QueryData = new();
+
+    public async Task SubmitQuery()
+    {
+        if (!FirstQuerySubmitted)
+            FirstQuerySubmitted = true;
+
+        IsProcessingQuery = true;
+
+        resultDocuments = null;
+        resultPositional = null;
+
+        switch (QueryData.Type)
+        {
+            case QueryModel.SearchType.Or:
+                resultDocuments = await mQueryService.OrSearch(QueryData.RawQuery);
+                break;
+            case QueryModel.SearchType.And:
+                resultDocuments = await mQueryService.AndSearch(QueryData.RawQuery);
+                break;
+            case QueryModel.SearchType.Positional:
+                resultPositional = await mQueryService.PositionalSearch(QueryData.RawQuery);
+                break;
+        }
+
+        IsProcessingQuery = false;
+    }
+
+    public enum SearchType
+    {
+        Or,
+        And,
+        Positional
+    }
+}
+

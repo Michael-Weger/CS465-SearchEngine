@@ -62,6 +62,37 @@ namespace CS465_SearchEngine.Source.Index
 			this.Dictionary.traverse();
         }
 
+		public void PrintStatistics()
+        {
+			List<Term> terms = this.Dictionary.AsList();
+
+			Console.WriteLine("\nDistinct Words: " + terms.Count);
+
+			Console.WriteLine("\nTerm Frequency:");
+			foreach (Term term in terms)
+            {
+				Console.WriteLine(term.Key + " (Frequency: " + term.Frequency + ") " + term.DocumentIds());
+			}
+
+			List<Term> sortedTerms = terms.OrderByDescending(term => term.Frequency).ToList();
+
+			try
+			{
+				Console.WriteLine("\nkth Most Frequent Terms:");
+				Console.WriteLine("Most frequent term: " + sortedTerms[0].Key + " (Frequency: " + sortedTerms[0].Frequency + ")");
+				Console.WriteLine("10th most frequent term: " + sortedTerms[9].Key + " (Frequency: " + sortedTerms[9].Frequency + ")");
+				Console.WriteLine("50th most frequent term: " + sortedTerms[49].Key + " (Frequency: " + sortedTerms[49].Frequency + ")");
+				Console.WriteLine("100th most frequent term: " + sortedTerms[99].Key + " (Frequency: " + sortedTerms[99].Frequency + ")");
+				Console.WriteLine("500th most frequent term: " + sortedTerms[499].Key + " (Frequency: " + sortedTerms[499].Frequency + ")");
+				Console.WriteLine("1000th most frequent term: " + sortedTerms[999].Key + " (Frequency: " + sortedTerms[999].Frequency + ")");
+			}
+			catch(ArgumentOutOfRangeException)
+            {
+				Console.WriteLine("Not enough terms to display subsequent results!");
+            }
+			Console.WriteLine("");
+		}
+
 		/// <summary>
 		/// Gets proper Term instances from a user's search query
 		/// </summary>
@@ -325,7 +356,7 @@ namespace CS465_SearchEngine.Source.Index
 
 			try
 			{
-				foreach (Term term in this.Dictionary)
+				foreach (Term term in this.Dictionary.AsList())
 				{
 					writer.WriteLine(term);
 				}
@@ -379,9 +410,8 @@ namespace CS465_SearchEngine.Source.Index
 
 				reader.Close();
 			}
-			catch (Exception w)
+			catch (Exception)
 			{
-				Console.WriteLine(w.StackTrace);
 				reader.Close();
 				throw new IOException("Failed to read the inverted index file.");
 			}
