@@ -65,5 +65,17 @@ namespace CS465_SearchEngine.Source.Index.Utility
 
             return Key + " " + postingsStr;
         }
+
+        public string DocumentIds()
+        {
+            string postingsStr = "";
+            foreach (Posting posting in Postings)
+                postingsStr += posting.DocumentId + ", ";
+
+            if (postingsStr.EndsWith(", "))
+                postingsStr = postingsStr.Substring(0, postingsStr.LastIndexOf(", "));
+
+            return "Postings: " + postingsStr;
+        }
     }
 }

@@ -136,8 +136,6 @@ namespace CS465_SearchEngine.Source.DataStructures
                 // The node to be inserted has not been a duplicate and is less than the current value. Insert behind the current node.
                 else if(comparison > 0)
                 {
-                    Console.WriteLine(currentNode.Value + " | " + newNode.Value);
-
                     if(currentNode.Previous != null)
                     {
                         currentNode.Previous.Next = newNode;

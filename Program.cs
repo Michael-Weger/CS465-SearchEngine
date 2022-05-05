@@ -22,6 +22,12 @@ namespace CS465_SearchEngine
             InvertedIndex index = new InvertedIndex("./Environment/index.txt");
             ParserInverter tokenizer = new ParserInverter(index, documentMap, "./DocumentInput", "./Documents", true, "./Environment/stopWordsLong.txt");
 
+            documentMap.Print();
+            index.traverse();
+
+            documentMap.PrintStatistics();
+            index.PrintStatistics();
+
             QueryService service = (QueryService) host.Services.GetService(typeof(QueryService));
 
             service.Initialize(index, documentMap);
