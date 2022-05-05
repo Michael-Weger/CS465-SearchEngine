@@ -3,6 +3,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.DataStructures
 {
     public class BTree<T> where T : IComparable
@@ -31,6 +34,9 @@ namespace CS465_SearchEngine.Source.DataStructures
             this.Root = new BTreeNode<T>(Degree);
         }
 
+        /// <summary>
+        /// Number of keys in the BTree.
+        /// </summary>
         public int Count
         {
             get { return _Count; }
@@ -80,6 +86,10 @@ namespace CS465_SearchEngine.Source.DataStructures
             return result;
         }
 
+        /// <summary>
+        /// Returns this BTree as a list.
+        /// </summary>
+        /// <returns>The files of the BTree sorted in descending order as a list.</returns>
         public List<T> AsList()
         {
             List<T> list = new List<T>(_Count);

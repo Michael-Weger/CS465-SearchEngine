@@ -2,12 +2,18 @@
 using System;
 using System.Collections.Generic;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.Index.Utility
 {
+    /// <summary>
+    /// Class representing a term. Contains posting list for the term.
+    /// </summary>
     public class Term : IComparable
     {
-        public readonly String Key;
-        public readonly SkipPointerLinkedList<Posting> Postings;
+        public readonly String Key; // The term's string key
+        public readonly SkipPointerLinkedList<Posting> Postings; // Posting list
 
         public Term(String key)
         {
@@ -21,24 +27,28 @@ namespace CS465_SearchEngine.Source.Index.Utility
             this.Postings = new SkipPointerLinkedList<Posting>(postings);
         }
 
+        /// <summary>
+        /// Number of documents the term appeared in.
+        /// </summary>
         public int Frequency
         {
             get { return Postings.Count; }
         }
 
+        /// <summary>
+        /// Appends a posting to the posting list.
+        /// </summary>
+        /// <param name="posting">The posting to add.</param>
         public void AddPosting(Posting posting)
         {
             this.Postings.Add(posting);
         }
 
-        public void AddPosition(int documentId, int position)
-        {
-            Posting posting = Postings.Get(documentId);
-
-            if (posting != default)
-                posting.AddPosition(position);
-        }
-
+        /// <summary>
+        /// Compares this term to another term or string representing the term key.
+        /// </summary>
+        /// <param name="obj">The term or string to compare against.</param>
+        /// <returns>The comparison result.</returns>
         public int CompareTo(object obj)
         {
             if(obj is string)
@@ -57,6 +67,10 @@ namespace CS465_SearchEngine.Source.Index.Utility
             }
         }
 
+        /// <summary>
+        /// Returns a string representation of this Term.
+        /// </summary>
+        /// <returns>A string representation of this term.</returns>
         public override String ToString()
         {
             string postingsStr = "";
@@ -66,6 +80,10 @@ namespace CS465_SearchEngine.Source.Index.Utility
             return Key + " " + postingsStr;
         }
 
+        /// <summary>
+        /// Returns a string listing of document Ids.
+        /// </summary>
+        /// <returns>A string representation of document Ids.</returns>
         public string DocumentIds()
         {
             string postingsStr = "";

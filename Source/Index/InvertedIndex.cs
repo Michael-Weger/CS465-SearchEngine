@@ -6,6 +6,9 @@ using CS465_SearchEngine.Source.DataStructures.Nodes;
 using CS465_SearchEngine.Source.Index.Utility;
 using System.Linq;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.Index
 {
 	/// <summary>
@@ -39,16 +42,29 @@ namespace CS465_SearchEngine.Source.Index
             }
 		}
 
+		/// <summary>
+		/// The number of Terms in the InvertedIndex
+		/// </summary>
 		public int Count
         {
 			get { return Dictionary.Count; }
         }
 
+		/// <summary>
+		/// Returns the term matching the specified string if it exists.
+		/// </summary>
+		/// <param name="str">The string to search by.</param>
+		/// <returns>The matching term if it exists.</returns>
 		public Term GetTerm(string str)
 		{
 			return this.Dictionary.Search(str);
 		}
 
+		/// <summary>
+		/// Adds a term created from the specified string to the index.
+		/// </summary>
+		/// <param name="str">The string from which to create a term.</param>
+		/// <returns>The added term.</returns>
 		public Term AddTerm(string str)
 		{
 			Term term = new Term(str);
@@ -57,11 +73,17 @@ namespace CS465_SearchEngine.Source.Index
 			return term;
 		}
 
+		/// <summary>
+		/// Exposes BTree#traverse()
+		/// </summary>
 		public void traverse()
         {
 			this.Dictionary.traverse();
         }
 
+		/// <summary>
+		/// Prints index related statistics to console.
+		/// </summary>
 		public void PrintStatistics()
         {
 			List<Term> terms = this.Dictionary.AsList();
@@ -210,9 +232,10 @@ namespace CS465_SearchEngine.Source.Index
 			{
 				try
 				{
-					terms.OrderBy(term => term.Frequency);
+					terms.OrderBy(term => term.Frequency); // Order by ascending frequency for efficiency.
 					SkipPointerLinkedList<Posting> intersect = terms[0].Postings;
 
+					// Intersect each pair of postings
 					for (int i = 1; i < terms.Count; i++)
 					{
 						intersect = IntersectPostings(intersect, terms[i].Postings);
@@ -220,6 +243,7 @@ namespace CS465_SearchEngine.Source.Index
 
 					return intersect;
 				}
+				// A null term invalidates the AND search
 				catch(NullReferenceException)
                 {
 					return new SkipPointerLinkedList<Posting>();

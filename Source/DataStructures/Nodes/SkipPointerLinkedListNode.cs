@@ -1,5 +1,8 @@
 ﻿using System;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.DataStructures.Nodes
 {
     /// <summary>

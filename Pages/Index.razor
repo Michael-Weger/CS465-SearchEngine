@@ -87,18 +87,25 @@ else
 
 @code
 {
+
+    // Michael Weger
+    // CS465, S22, Project #1
+
     // Flags used for user feedback
     private bool FirstQuerySubmitted;
     private bool IsProcessingQuery;
 
     // Search results.
-    // TODO Standardize results to avoid needing this.
     private List<Document> resultDocuments;
     private List<Tuple<Document, string>> resultPositional;
 
     // Fields
     private QueryModel QueryData = new();
 
+    /// <summary>
+    /// Submits the user query form to the QueryService.
+    /// </summary>
+    /// <returns>Search results.</returns>
     public async Task SubmitQuery()
     {
         if (!FirstQuerySubmitted)

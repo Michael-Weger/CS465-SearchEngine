@@ -2,6 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.DataStructures.Nodes
 {
     /// <summary>
@@ -25,11 +28,18 @@ namespace CS465_SearchEngine.Source.DataStructures.Nodes
             this.Children = new List<BTreeNode<T>>(degree);
         }
 
+        /// <summary>
+        /// Whether or not this node is full based on its order/degree.
+        /// </summary>
         public bool IsFull
         {
             get { return Keys.Count == this.Degree*2 - 1; }
         }
 
+
+        /// <summary>
+        /// Whether or not this node is a leaf..
+        /// </summary>
         public bool IsLeaf
         {
             get { return Children.Count == 0; }
@@ -137,6 +147,10 @@ namespace CS465_SearchEngine.Source.DataStructures.Nodes
             }
         }
 
+        /// <summary>
+        /// Recursively adds this node's keys and its children to the specified list.
+        /// </summary>
+        /// <param name="list">List to add keys to.</param>
         public void AsList(List<T> list)
         {
             int index = 0;

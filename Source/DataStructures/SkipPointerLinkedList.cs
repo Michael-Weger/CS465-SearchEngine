@@ -3,6 +3,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.DataStructures
 {
     /// <summary>
@@ -86,6 +89,11 @@ namespace CS465_SearchEngine.Source.DataStructures
             updateSkipPointers();
         }
 
+        /// <summary>
+        /// Gets an element matching the specified key.
+        /// </summary>
+        /// <param name="compareBy">The key to compare against.</param>
+        /// <returns>The matching element, or default.</returns>
         public T Get(IComparable compareBy)
         {
             if (this.First == null)
@@ -205,6 +213,10 @@ namespace CS465_SearchEngine.Source.DataStructures
             return str;
         }*/
 
+        /// <summary>
+        /// Returns this collection as a string.
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             string str = "";
@@ -225,6 +237,10 @@ namespace CS465_SearchEngine.Source.DataStructures
             return str;
         }
 
+        /// <summary>
+        /// Returns this collection as a standard list.
+        /// </summary>
+        /// <returns>A list containing this collection's elements.</returns>
         public List<T> asList()
         {
             List<T> results = new List<T>(this._Count);
@@ -239,6 +255,10 @@ namespace CS465_SearchEngine.Source.DataStructures
             return results;
         }
 
+        /// <summary>
+        /// Returns an enumeration of this collection.
+        /// </summary>
+        /// <returns>An enumeration of this collection.</returns>
         public IEnumerator<T> GetEnumerator()
         {
             SkipPointerLinkedListNode<T> currentNode = First;
@@ -249,6 +269,10 @@ namespace CS465_SearchEngine.Source.DataStructures
             }
         }
 
+        /// <summary>
+        /// Returns an enumeration of this collection.
+        /// </summary>
+        /// <returns>An enumeration of this collection.</returns>
         IEnumerator IEnumerable.GetEnumerator()
         {
             return this.GetEnumerator();

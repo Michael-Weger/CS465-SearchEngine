@@ -5,13 +5,19 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
+// Michael Weger
+// CS465, S22, Project #1
+
 namespace CS465_SearchEngine.Source.Index
 {
+	/// <summary>
+	/// Class representing and managing a DocumentId - Document mapping.
+	/// </summary>
     public class DocumentMap
     {
-		private string FilePath;
-        private Dictionary<int, Document> Map;
-        private int NextDocumentId;
+		private string FilePath; // Path at which the mapping is saved.
+        private Dictionary<int, Document> Map; // The documentId - Document mapping in memory
+        private int NextDocumentId; // The next documentId to use.
 
         public DocumentMap(string filePath)
         {
@@ -28,21 +34,39 @@ namespace CS465_SearchEngine.Source.Index
             }
         }
 
+		/// <summary>
+		/// Returns the next document ID. Pre-increments to prepare for the next Id to use.
+		/// </summary>
+		/// <returns>The next document Id to use.</returns>
 		public int GetNextDocumentId()
         {
 			return ++NextDocumentId; // Pre increment to move to next Id
         }
 
+		/// <summary>
+		/// Returns the object representation of a document mapped to the provided document Id.
+		/// </summary>
+		/// <param name="documentId">The documentId to find the corresponding document to.</param>
+		/// <returns>The document mapped to the documentId.</returns>
 		public Document GetDocument(int documentId)
         {
 			return Map.GetValueOrDefault(documentId);
 		}
 
+		/// <summary>
+		/// Adds the provided document to the mapping.
+		/// </summary>
+		/// <param name="document">The document to add to the mapping.</param>
 		public void AddDocument(Document document)
 		{
 			Map.Add(NextDocumentId, document);
 		}
 
+		/// <summary>
+		/// Whether or not the provided document exists in the mapping and on disk.
+		/// </summary>
+		/// <param name="documentId">The document to check if it exists.</param>
+		/// <returns>Whether or not the provided document exists in the mapping and on disk.</returns>
 		public bool DocumentExists(int documentId)
         {
 			Document document = Map.GetValueOrDefault(documentId);
@@ -50,6 +74,9 @@ namespace CS465_SearchEngine.Source.Index
 			return document != default && File.Exists(document.FilePath);
 		}
 
+		/// <summary>
+		/// Prints the document mapping to console.
+		/// </summary>
 		public void Print()
 		{
 			Console.WriteLine("Mapped Documents");
@@ -60,6 +87,9 @@ namespace CS465_SearchEngine.Source.Index
 			}
 		}
 
+		/// <summary>
+		/// Prints document mapping statistics to console.
+		/// </summary>
 		public void PrintStatistics()
 		{
 			Console.WriteLine("\nDistinct and Total words per document: ");
@@ -74,6 +104,9 @@ namespace CS465_SearchEngine.Source.Index
 			Console.WriteLine("\nTotal Words Collection: " + totalWordsCollection);
 		}
 
+		/// <summary>
+		/// Writes the document mapping to file.
+		/// </summary>
 		public void WriteToFile()
 		{
 			if (!File.Exists(FilePath))
@@ -99,9 +132,12 @@ namespace CS465_SearchEngine.Source.Index
 				writer.Close();
 				throw new IOException("Failed to write to the document map file.");
 			}
-
 		}
 
+		/// <summary>
+		/// Resolves the documents mapping from file.
+		/// </summary>
+		/// <param name="filePath"></param>
 		private void ResolveFromFile(String filePath)
 		{
 			if (!File.Exists(filePath))
@@ -121,7 +157,8 @@ namespace CS465_SearchEngine.Source.Index
 					try
                     {
 						int documentId  = Convert.ToInt32(documentSplit[0]);
-
+						
+						// Advance the document based on the last highest document id read from disk.
 						if (NextDocumentId < documentId)
 							NextDocumentId = documentId + 1;
 
