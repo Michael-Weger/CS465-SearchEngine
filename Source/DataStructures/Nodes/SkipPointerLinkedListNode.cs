@@ -27,7 +27,7 @@ namespace CS465_SearchEngine.Source.DataStructures.Nodes
         /// </summary>
         /// <param name="compareTo">The value to compare against.</param>
         /// <returns>The next applicable node remaining less than the provided value.</returns>
-        public SkipPointerLinkedListNode<T> AdvanceNode(T compareTo)
+        public SkipPointerLinkedListNode<T> AdvanceNode(IComparable compareTo)
         {
             // Check for skips
             if (this.Skip != null && this.Skip.Value.CompareTo(compareTo) <= 0)

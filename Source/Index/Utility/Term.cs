@@ -9,6 +9,15 @@ namespace CS465_SearchEngine.Source.Index.Utility
         public readonly String Key;
         public readonly SkipPointerLinkedList<Posting> Postings;
 
+        public Term(String key, int documentId)
+        {
+            this.Key = key;
+            this.Postings = new SkipPointerLinkedList<Posting>();
+
+            Posting posting = new Posting(documentId);
+            this.Postings.Add(posting);
+        }
+
         public Term(String key, ICollection<Posting> postings)
         {
             this.Key = key;
@@ -18,6 +27,19 @@ namespace CS465_SearchEngine.Source.Index.Utility
         public int Frequency
         {
             get { return Postings.Count; }
+        }
+
+        public void AddPosting(Posting posting)
+        {
+            this.Postings.Add(posting);
+        }
+
+        public void AddPosition(int documentId, int position)
+        {
+            Posting posting = Postings.Get(documentId);
+
+            if (posting != default)
+                posting.AddPosition(position);
         }
 
         public int CompareTo(object obj)

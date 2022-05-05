@@ -86,6 +86,36 @@ namespace CS465_SearchEngine.Source.DataStructures
             updateSkipPointers();
         }
 
+        public T Get(IComparable compareBy)
+        {
+            if (this.First == null)
+                return default;
+
+            SkipPointerLinkedListNode<T> currentNode = this.First;
+            while (currentNode != null)
+            {
+                int comparison = currentNode.Value.CompareTo(compareBy);
+
+                // Found a hit, check positional data if applicable.
+                if (comparison == 0)
+                {
+                    return currentNode.Value;
+                }
+                // Miss, move forward
+                else if (comparison > 0)
+                {
+                    currentNode = currentNode.AdvanceNode(compareBy);
+                }
+                // Value does not exist
+                else
+                {
+                    return default;
+                }
+            }
+
+            return default;
+        }
+
         /// <summary>
         /// Inserts an element at the appropriate spot to keep the data strcture sorted in ascending order.
         /// </summary>

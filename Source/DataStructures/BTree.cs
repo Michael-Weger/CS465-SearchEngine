@@ -7,6 +7,7 @@ namespace CS465_SearchEngine.Source.DataStructures
     {
         private BTreeNode<T> Root;
         private int Degree;
+        private int _Count;
 
         /// <summary>
         /// Intantiates a BTree with a default order of 2 making it equivalent to a binary tree.
@@ -26,6 +27,11 @@ namespace CS465_SearchEngine.Source.DataStructures
 
             this.Degree = (int) Math.Ceiling(order / 2d); // Store the minimum degree instead of order to avoid calculating a median repeatedly.
             this.Root = new BTreeNode<T>(Degree);
+        }
+
+        public int Count
+        {
+            get { return _Count; }
         }
 
         /// <summary>
@@ -64,7 +70,12 @@ namespace CS465_SearchEngine.Source.DataStructures
                 this.Root.SplitMergeChild(0);
             }
 
-            return this.Root.Insert(item);
+            bool result = this.Root.Insert(item);
+
+            if (result)
+                this._Count++;
+
+            return result;
         }
     }
 }
