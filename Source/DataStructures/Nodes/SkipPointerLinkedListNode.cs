@@ -34,7 +34,7 @@ namespace CS465_SearchEngine.Source.DataStructures.Nodes
             {
                 SkipPointerLinkedListNode<T> nextSkip = this.Skip;
                 // Advance as many skips as possible keeping node B < A
-                while (nextSkip != null && nextSkip.Skip.Value.CompareTo(compareTo) <= 0)
+                while (nextSkip != null && nextSkip.Skip != null && nextSkip.Skip.Value.CompareTo(compareTo) <= 0)
                 {
                     nextSkip = nextSkip.Skip;
                 }

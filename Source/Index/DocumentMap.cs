@@ -30,7 +30,7 @@ namespace CS465_SearchEngine.Source.Index
 
 		public int GetNextDocumentId()
         {
-			return NextDocumentId++; // Post increment to move to next Id
+			return ++NextDocumentId; // Pre increment to move to next Id
         }
 
 		public Document GetDocument(int documentId)
@@ -50,6 +50,16 @@ namespace CS465_SearchEngine.Source.Index
 			return document != default && File.Exists(document.FilePath);
 		}
 
+		public void Print()
+		{
+			Console.WriteLine("Mapped Documents");
+			foreach (int key in Map.Keys)
+			{
+				Document document = Map.GetValueOrDefault(key);
+				Console.WriteLine(document.DocumentId + "," + document.FilePath + "," + document.DistinctWords + "," + document.TotalWords);
+			}
+		}
+
 		public void WriteToFile()
 		{
 			if (!File.Exists(FilePath))
@@ -58,21 +68,25 @@ namespace CS465_SearchEngine.Source.Index
 			}
 
 			StreamWriter writer = new StreamWriter(FilePath);
+			writer.AutoFlush = true;
 
 			try
 			{
-				foreach (Document document in Map.Values)
+				foreach (int key in Map.Keys)
                 {
+					Document document = Map.GetValueOrDefault(key);
 					writer.WriteLine(document.DocumentId + "," + document.FilePath + "," + document.DistinctWords + "," + document.TotalWords);
-                }
+				}
+
+				writer.Close();
 			}
-			catch(IOException)
-            {
+			catch (IOException)
+			{
+				writer.Close();
 				throw new IOException("Failed to write to the document map file.");
 			}
 
-			writer.Close();
-        }
+		}
 
 		private void ResolveFromFile(String filePath)
 		{
@@ -88,7 +102,7 @@ namespace CS465_SearchEngine.Source.Index
 				string line;
 				while ((line = reader.ReadLine()) != null)
 				{
-					string[] documentSplit = line.Split(","); // 0 - DocId, 1 - FilePath, 2 - UniqueWords, 3 - TotalWords
+					string[] documentSplit = line.Split(",", StringSplitOptions.RemoveEmptyEntries); // 0 - DocId, 1 - FilePath, 2 - UniqueWords, 3 - TotalWords
 
 					try
                     {

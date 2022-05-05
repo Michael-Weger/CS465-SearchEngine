@@ -1,9 +1,11 @@
 ﻿using CS465_SearchEngine.Source.DataStructures.Nodes;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace CS465_SearchEngine.Source.DataStructures
 {
-    public class BTree<T> where T : IComparable
+    public class BTree<T> : IEnumerable<T>, IEnumerable where T : IComparable
     {
         private BTreeNode<T> Root;
         private int Degree;
@@ -76,6 +78,23 @@ namespace CS465_SearchEngine.Source.DataStructures
                 this._Count++;
 
             return result;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            List<T> list = new List<T>(_Count);
+            if (this.Root != null)
+            {
+                this.Root.AsList(list);
+                return list.GetEnumerator();
+            }
+            else
+                return default;
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return this.GetEnumerator();
         }
     }
 }

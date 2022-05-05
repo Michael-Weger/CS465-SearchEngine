@@ -18,11 +18,11 @@ namespace CS465_SearchEngine
         {
             IHost host = CreateHostBuilder(args).Build();
 
-            QueryService service = (QueryService) host.Services.GetService(typeof(QueryService)); //host.Services..ApplicationServices.GetRequiredService<QueryService>();
-
             DocumentMap documentMap = new DocumentMap("./Environment/documents.txt");
-            ParserInverter tokenizer = new ParserInverter("./DocumentInput", "./Documents", documentMap, true, "./Environment/stopWordsLong.txt");
             InvertedIndex index = new InvertedIndex("./Environment/index.txt");
+            ParserInverter tokenizer = new ParserInverter(index, documentMap, "./DocumentInput", "./Documents", true, "./Environment/stopWordsLong.txt");
+
+            QueryService service = (QueryService) host.Services.GetService(typeof(QueryService));
 
             service.Initialize(index, documentMap);
 

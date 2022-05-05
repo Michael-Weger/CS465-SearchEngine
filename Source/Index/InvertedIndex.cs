@@ -14,6 +14,7 @@ namespace CS465_SearchEngine.Source.Index
 	public class InvertedIndex
 	{
 		private BTree<Term> Dictionary;
+		private string FilePath;
 
 		public InvertedIndex()
 		{
@@ -26,7 +27,10 @@ namespace CS465_SearchEngine.Source.Index
 
 			try
 			{
+				this.FilePath = filePath;
+
 				this.ResolveFromFile(filePath);
+				this.traverse();
 			}
 			catch(Exception e)
 			{
@@ -45,9 +49,9 @@ namespace CS465_SearchEngine.Source.Index
 			return this.Dictionary.Search(str);
 		}
 
-		public Term AddTerm(string str, int documentId)
+		public Term AddTerm(string str)
 		{
-			Term term = new Term(str, documentId);
+			Term term = new Term(str);
 			this.Dictionary.Insert(term);
 
 			return term;
@@ -309,12 +313,33 @@ namespace CS465_SearchEngine.Source.Index
 			return positionalIntersect;
 		}
 
-		private void WriteToFile()
+		public void WriteToFile()
         {
+			if (!File.Exists(FilePath))
+			{
+				File.Create(FilePath);
+			}
 
-        }
+			StreamWriter writer = new StreamWriter(FilePath);
+			writer.AutoFlush = true;
 
-		//Term Posting,pos,pos,pos Posting,pos,pos,pos...
+			try
+			{
+				foreach (Term term in this.Dictionary)
+				{
+					writer.WriteLine(term);
+				}
+
+				writer.Close();
+			}
+			catch (IOException)
+			{
+				writer.Close();
+				throw new IOException("Failed to write to the index file.");
+			}
+		}
+
+		//Term;Posting:pos,pos,pos;Posting:pos,pos,pos...
 		private void ResolveFromFile(String filePath)
 		{
 			if (!File.Exists(filePath))
@@ -329,13 +354,13 @@ namespace CS465_SearchEngine.Source.Index
 				string line;
 				while((line = reader.ReadLine()) != null)
                 {
-					string[] documentSplit = line.Split(" "); // Splitting whitespace splits the term and documents. Term is index 0.
+					string[] documentSplit = line.Split(" ", StringSplitOptions.RemoveEmptyEntries); // Splitting whitespace splits the term and documents. Term is index 0.
 					List<Posting> postings = new List<Posting>(documentSplit.Length - 1);
 
 					// Resolve each document
 					for(int i = 1; i < documentSplit.Length; i++)
                     {
-						string[] postingSplit = documentSplit[i].Split(","); // Splitting commas separates the docId from the positional data
+						string[] postingSplit = documentSplit[i].Split(",", StringSplitOptions.RemoveEmptyEntries); // Splitting commas separates the docId from the positional data
 
 						int documentId = Convert.ToInt32(postingSplit[0]);
 						List<int> positions = new List<int>(postingSplit.Length - 1);
@@ -350,15 +375,16 @@ namespace CS465_SearchEngine.Source.Index
                     }
 
 					Dictionary.Insert(new Term(documentSplit[0], postings));
-                }
-            }
-			catch (IOException e)
+				}
+
+				reader.Close();
+			}
+			catch (Exception w)
 			{
-				Console.WriteLine(e.StackTrace);
+				Console.WriteLine(w.StackTrace);
+				reader.Close();
 				throw new IOException("Failed to read the inverted index file.");
 			}
-
-			reader.Close();
 		}
 	}
 }

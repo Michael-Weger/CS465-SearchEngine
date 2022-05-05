@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace CS465_SearchEngine.Source.DataStructures.Nodes
@@ -134,6 +135,21 @@ namespace CS465_SearchEngine.Source.DataStructures.Nodes
                 leftNode.Children.AddRange(child.Children.GetRange(this.Degree, this.Degree));
                 child.Children.RemoveRange(this.Degree, this.Degree);
             }
+        }
+
+        public void AsList(List<T> list)
+        {
+            int index = 0;
+            for (index = 0; index < this.Keys.Count; index++)
+            {
+                if (!this.IsLeaf)
+                    Children[index].AsList(list);
+
+                list.Add(this.Keys[index]);
+            }
+
+            if (!this.IsLeaf)
+                this.Children[index].AsList(list);
         }
     }
 }

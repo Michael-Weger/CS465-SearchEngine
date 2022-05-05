@@ -9,24 +9,26 @@ namespace CS465_SearchEngine.Source.Index
 {
     public class ParserInverter
     {
+        private InvertedIndex Index;
+        private DocumentMap DocumentMap;
+
         private string InputDirectory;
         private string OutputDirectory;
 
-        private DocumentMap DocumentMap;
+        private bool DoCaseFolding;
         private List<string> StopWords;
 
-        private bool DoCaseFolding;
+        public ParserInverter(InvertedIndex index, DocumentMap documentMap, string inputDirectory, string outputDirectory, bool doCaseFolding) : this(index, documentMap, inputDirectory, outputDirectory, doCaseFolding, "") { }
 
-        public ParserInverter(string inputDirectory, string outputDirectory, DocumentMap documentMap, bool doCaseFolding) : this(inputDirectory, outputDirectory, documentMap, doCaseFolding, "") { }
-
-        public ParserInverter(string inputDirectory, string outputDirectory, DocumentMap documentMap, bool doCaseFolding, string stopWordsPath)
+        public ParserInverter(InvertedIndex index, DocumentMap documentMap, string inputDirectory, string outputDirectory, bool doCaseFolding, string stopWordsPath)
         {
+            this.Index = index;
+            this.DocumentMap = documentMap;
+
             this.InputDirectory = inputDirectory;
             this.OutputDirectory = outputDirectory;
 
-            this.DocumentMap = documentMap;
             this.DoCaseFolding = doCaseFolding;
-
             this.StopWords = this.ReadStopWords(stopWordsPath);
 
             this.ProcessDocuments();
@@ -54,7 +56,6 @@ namespace CS465_SearchEngine.Source.Index
                     while ((line = reader.ReadLine()) != null)
                     {
                         line = this.ProcessString(line);
-                        Console.WriteLine(line);
                         stopWords.Add(line);
                     }
 
@@ -99,65 +100,95 @@ namespace CS465_SearchEngine.Source.Index
 
             foreach(string filePath in files)
             {
-                Console.WriteLine(filePath);
-                int documentId = DocumentMap.GetNextDocumentId();
+                Console.WriteLine("Processing document: " + filePath);
 
+                int documentId = DocumentMap.GetNextDocumentId();
 
                 try
                 {
-                    (InvertedIndex, int, int) results = ProcessDocument(filePath, documentId);
-                    File.Move(filePath, Path.Combine(OutputDirectory, Path.GetFileName(filePath)));
+                    (int, int) results = ProcessDocument(filePath, documentId);
+                    string outputPath = Path.Combine(OutputDirectory, Path.GetFileName(filePath));
+                    File.Move(filePath, outputPath);
 
-                    InvertedIndex index = results.Item1;
-                    index.traverse();
-                    //finalIndex.Merge(index);
-
-                    Document document = new Document(documentId, filePath, results.Item2, results.Item3);
+                    Document document = new Document(documentId, outputPath, results.Item1, results.Item2);
                     DocumentMap.AddDocument(document);
                 }
-                catch(IOException)
+                catch(Exception)
                 {
                     continue; // Failed to read the file, try again later.
                 }
             }
 
+            Index.WriteToFile();
+            DocumentMap.WriteToFile();
+
             return finalIndex;
         }
 
-        private (InvertedIndex, int, int) ProcessDocument(string filePath, int documentId)
+        private (int, int) ProcessDocument(string filePath, int documentId)
         {
             if (!File.Exists(filePath))
             {
                 throw new FileNotFoundException("Requested doucment to tokenize at " + filePath + " does not exist.");
             }
 
-            InvertedIndex index = new InvertedIndex();
-
             int totalWords = 0;
             int currPosition = 1;
 
             StreamReader reader = new StreamReader(filePath);
-            string line;
             Regex rgx = new Regex("[^a-zA-z0-9 ]"); // Whitelists all alphanumeric characters and whitespace
+            List<string> distinctList = new List<string>();
+
+            string line;
             while ((line = reader.ReadLine()) != null)
             {
                 line = this.ProcessString(line);
                 // Tokenizes line based on certain delimiters
                 List<string> words = line.Split(new char[] { ' ', '.', '?', '!', '_', '-' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+                
+                distinctList.AddRange(words);
+                distinctList = distinctList.Distinct().ToList();
 
                 // Update total words for statistics
                 totalWords += words.Count;
 
                 words.RemoveAll(word => this.StopWords.Contains(word)); // Remove Stopwords
 
-                foreach(string word in words)
+                foreach (string word in words)
                 {
-                    Term term = index.GetTerm(word);
+                    Term term = this.Index.GetTerm(word);
 
+                    // New term
                     if (term == default)
-                        term = index.AddTerm(word, documentId);
+                    {
+                        term = this.Index.AddTerm(word);
+                        Posting posting = new Posting(documentId);
 
-                    term.AddPosition(documentId, currPosition);
+                        term.AddPosting(posting);
+                        posting.AddPosition(currPosition);
+                    }
+                    // Eixstant term, possibly a new posting.
+                    else
+                    {
+                        Posting posting;
+                        try
+                        {
+                            posting = term.Postings.Get(documentId);
+                        }
+                        catch(NullReferenceException)
+                        {
+                            posting = default;//Posting posting = term.Postings.Get(documentId);
+                        }
+                        
+                        // New posting
+                        if(posting == default)
+                        {
+                            posting = new Posting(documentId);
+                            term.AddPosting(posting);
+                        }
+
+                        posting.AddPosition(currPosition);
+                    }
 
                     currPosition++;
                 }
@@ -165,9 +196,9 @@ namespace CS465_SearchEngine.Source.Index
 
             reader.Close();
 
-            int distinctWords = index.Count;
+            int distinctWords = distinctList.Count;
 
-            return (index, distinctWords, totalWords);
+            return (distinctWords, totalWords);
         }
     }
 }
