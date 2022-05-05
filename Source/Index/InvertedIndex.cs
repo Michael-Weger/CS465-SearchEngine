@@ -11,17 +11,16 @@ namespace CS465_SearchEngine.Source.Index
 	/// <summary>
 	/// Class representing an inverted index for a simple information retrieval system.
 	/// </summary>
-	public class cInvertedIndex
+	public class InvertedIndex
 	{
 		private BTree<Term> Dictionary;
-		private List<bool> Documents;
 
-		public cInvertedIndex()
+		public InvertedIndex()
 		{
 			Dictionary = new BTree<Term>(6);
 		}
 
-		public cInvertedIndex(String filePath)
+		public InvertedIndex(String filePath)
 		{ 
 			Dictionary = new BTree<Term>(5);
 

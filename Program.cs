@@ -19,7 +19,11 @@ namespace CS465_SearchEngine
             IHost host = CreateHostBuilder(args).Build();
 
             QueryService service = (QueryService) host.Services.GetService(typeof(QueryService)); //host.Services..ApplicationServices.GetRequiredService<QueryService>();
-            service.Initialize("./Environment/index.txt");
+
+            InvertedIndex index = new InvertedIndex("./Environment/index.txt");
+            DocumentMap documentMap = new DocumentMap("./Environment/documents.txt");
+
+            service.Initialize(index, documentMap);
 
             host.Run();
         }

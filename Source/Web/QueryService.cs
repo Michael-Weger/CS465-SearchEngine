@@ -10,50 +10,58 @@ namespace CS465_SearchEngine.Source.Web
 {
     public class QueryService
     {
-        private cInvertedIndex Index;
+        private InvertedIndex InvertedIndex;
+        private DocumentMap   DocumentMap;
 
-        public void Initialize(string indexPath)
+        public void Initialize(InvertedIndex invertedIndex, DocumentMap documentMap)
         {
-            Index = new cInvertedIndex(indexPath);
+            InvertedIndex = invertedIndex;
+            DocumentMap = documentMap;
         }
 
-        public Task<List<int>> OrSearch(string rawQuery)
+        public Task<List<Document>> OrSearch(string rawQuery)
         {
             return Task.Run( () =>
             {
                 List<string> processedQuery = PreprocessQuery(rawQuery);
-                List<Posting> postings = Index.OrSearch(processedQuery);
-                List<int> documentIds = new List<int>(postings.Count);
+                List<Posting> postings = InvertedIndex.OrSearch(processedQuery);
+                List<Document> documents = new List<Document>(postings.Count);
 
                 foreach (Posting posting in postings)
-                    documentIds.Add(posting.DocumentId);
+                {
+                    if(DocumentMap.DocumentExists(posting.DocumentId))
+                        documents.Add(DocumentMap.GetDocument(posting.DocumentId));
+                }
 
-                return documentIds;
+                return documents;
             });
         }
 
-        public Task<List<int>> AndSearch(string rawQuery)
+        public Task<List<Document>> AndSearch(string rawQuery)
         {
             return Task.Run(() =>
             {
                 List<string> processedQuery = PreprocessQuery(rawQuery);
-                SkipPointerLinkedList<Posting> postings = Index.AndSearch(processedQuery);
-                List<int> documentIds = new List<int>(postings.Count);
+                SkipPointerLinkedList<Posting> postings = InvertedIndex.AndSearch(processedQuery);
+                List<Document> documents = new List<Document>(postings.Count);
 
                 foreach (Posting posting in postings)
-                    documentIds.Add(posting.DocumentId);
+                {
+                    if (DocumentMap.DocumentExists(posting.DocumentId))
+                        documents.Add(DocumentMap.GetDocument(posting.DocumentId));
+                }
 
-                return documentIds;
+                return documents;
             });
         }
 
-        public Task<List<Tuple<int, string>>> PositionalSearch(string rawQuery)
+        public Task<List<Tuple<Document, string>>> PositionalSearch(string rawQuery)
         {
             return Task.Run(() =>
             {
                 Tuple<List<string>, List<int>> processedQuery = PreprocessPositionalQuery(rawQuery);
-                List<List<Tuple<int, int, int>>> searchResults = Index.PositionalSearch(processedQuery.Item1, processedQuery.Item2);
-                List<Tuple<int, string>> results = new List<Tuple<int, string>>(searchResults.Count);
+                List<List<Tuple<int, int, int>>> searchResults = InvertedIndex.PositionalSearch(processedQuery.Item1, processedQuery.Item2);
+                List<Tuple<Document, string>> results = new List<Tuple<Document, string>>(searchResults.Count);
 
                 int previousDocumentId = -1;
                 string previousPositions = "";
@@ -61,9 +69,9 @@ namespace CS465_SearchEngine.Source.Web
                 {
                     if(previousDocumentId != path.First().Item1)
                     {
-                        if(previousDocumentId != -1)
+                        if(previousDocumentId != -1 && DocumentMap.DocumentExists(previousDocumentId))
                         {
-                            results.Add(new Tuple<int, string>(previousDocumentId, previousPositions));
+                            results.Add(new Tuple<Document, string>(DocumentMap.GetDocument(previousDocumentId), previousPositions));
                         }
 
                         previousDocumentId = path.First().Item1;
@@ -81,9 +89,9 @@ namespace CS465_SearchEngine.Source.Web
                     }
                 }
 
-                if (previousDocumentId != -1)
+                if (previousDocumentId != -1 && DocumentMap.DocumentExists(previousDocumentId))
                 {
-                    results.Add(new Tuple<int, string>(previousDocumentId, previousPositions));
+                    results.Add(new Tuple<Document, string>(DocumentMap.GetDocument(previousDocumentId), previousPositions));
                 }
 
                 return results;
