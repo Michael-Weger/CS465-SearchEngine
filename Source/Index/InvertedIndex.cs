@@ -35,6 +35,29 @@ namespace CS465_SearchEngine.Source.Index
             }
 		}
 
+		public int Count
+        {
+			get { return Dictionary.Count; }
+        }
+
+		public Term GetTerm(string str)
+		{
+			return this.Dictionary.Search(str);
+		}
+
+		public Term AddTerm(string str, int documentId)
+		{
+			Term term = new Term(str, documentId);
+			this.Dictionary.Insert(term);
+
+			return term;
+		}
+
+		public void traverse()
+        {
+			this.Dictionary.traverse();
+        }
+
 		/// <summary>
 		/// Gets proper Term instances from a user's search query
 		/// </summary>

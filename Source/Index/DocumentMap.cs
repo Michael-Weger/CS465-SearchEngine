@@ -28,9 +28,19 @@ namespace CS465_SearchEngine.Source.Index
             }
         }
 
+		public int GetNextDocumentId()
+        {
+			return NextDocumentId++; // Post increment to move to next Id
+        }
+
 		public Document GetDocument(int documentId)
         {
 			return Map.GetValueOrDefault(documentId);
+		}
+
+		public void AddDocument(Document document)
+		{
+			Map.Add(NextDocumentId, document);
 		}
 
 		public bool DocumentExists(int documentId)
@@ -38,7 +48,7 @@ namespace CS465_SearchEngine.Source.Index
 			Document document = Map.GetValueOrDefault(documentId);
 
 			return document != default && File.Exists(document.FilePath);
-        }
+		}
 
 		public void WriteToFile()
 		{

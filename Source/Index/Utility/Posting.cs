@@ -9,6 +9,12 @@ namespace CS465_SearchEngine.Source.Index.Utility
         public readonly int DocumentId;
         public readonly SkipPointerLinkedList<int> Positions;
 
+        public Posting(int documentId)
+        {
+            this.DocumentId = documentId;
+            this.Positions = new SkipPointerLinkedList<int>();
+        }
+
         public Posting(int documentId, ICollection<int> positions)
         {
             this.DocumentId = documentId;
