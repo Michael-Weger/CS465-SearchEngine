@@ -101,16 +101,24 @@ namespace CS465_SearchEngine.Source.Index
             {
                 Console.WriteLine(filePath);
                 int documentId = DocumentMap.GetNextDocumentId();
-                (InvertedIndex, int, int) results = ProcessDocument(filePath, documentId);
 
-                File.Move(filePath, Path.Combine(OutputDirectory, Path.GetFileName(filePath)));
 
-                InvertedIndex index = results.Item1;
-                index.traverse();
-                //finalIndex.Merge(index);
+                try
+                {
+                    (InvertedIndex, int, int) results = ProcessDocument(filePath, documentId);
+                    File.Move(filePath, Path.Combine(OutputDirectory, Path.GetFileName(filePath)));
 
-                Document document = new Document(documentId, filePath, results.Item2, results.Item3);
-                DocumentMap.AddDocument(document);
+                    InvertedIndex index = results.Item1;
+                    index.traverse();
+                    //finalIndex.Merge(index);
+
+                    Document document = new Document(documentId, filePath, results.Item2, results.Item3);
+                    DocumentMap.AddDocument(document);
+                }
+                catch(IOException)
+                {
+                    continue; // Failed to read the file, try again later.
+                }
             }
 
             return finalIndex;
