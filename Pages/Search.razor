@@ -1,0 +1,133 @@
+﻿@page "/search"
+
+@using CS465_SearchEngine.Source.Web
+@using System.Collections.Generic;
+@inject QueryService mQueryService
+
+<h1>Search</h1>
+
+<p>This component demonstrates fetching data from a service.</p>
+
+<EditForm Model="@QueryData" OnValidSubmit="@SubmitQuery">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText id="QueryText" @bind-Value="QueryData.RawQuery" />
+    <button type="submit">Submit</button>
+    <p>
+        <InputRadioGroup @bind-Value="QueryData.Type">
+            Search Type:
+            <br>
+            @foreach (SearchType type in Enum.GetValues(typeof(SearchType)))
+            {
+                <InputRadio Value="@type" />
+                <text>&nbsp;</text>@type<br>
+            }
+        </InputRadioGroup>
+    </p>
+</EditForm>
+
+
+@if (!FirstQuerySubmitted)
+{
+    <p><em>Your results will appear here! </em></p>
+}
+else if (IsProcessingQuery)
+{
+    <p><em>Processing Query...</em></p>
+}
+else if ((resultDocumentIds == null || resultDocumentIds.Count == 0) && (resultPositional == null || resultPositional.Count == 0))
+{
+    <p><em>No results found. Try a more concise search.</em></p>
+}
+else if (resultDocumentIds != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Document ID</th>
+                <th>Document Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var documentId in resultDocumentIds)
+            {
+                <tr>
+                    <td>@documentId</td>
+                    <td>TDOD</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Document ID</th>
+                <th>Document Name</th>
+                <th>Term Positions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Tuple<int, string> result in resultPositional)
+            {
+                
+                <tr>
+                    <td>@result.Item1</td>
+                    <td>TDOD</td>
+                    <td>@result.Item2</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code
+{
+    // Flags used for user feedback
+    private bool FirstQuerySubmitted;
+    private bool IsProcessingQuery;
+
+    // Search results.
+    // TODO Standardize results to avoid needing this.
+    private List<int> resultDocumentIds;
+    private List<Tuple<int, string>> resultPositional;
+
+    // Fields
+    private QueryModel QueryData = new();
+
+    public async Task SubmitQuery()
+    {
+        if (!FirstQuerySubmitted)
+            FirstQuerySubmitted = true;
+
+        IsProcessingQuery = true;
+
+        resultDocumentIds = null;
+        resultPositional = null;
+
+        switch (QueryData.Type)
+        {
+            case QueryModel.SearchType.Or:
+                resultDocumentIds = await mQueryService.OrSearch(QueryData.RawQuery);
+                break;
+            case QueryModel.SearchType.And:
+                resultDocumentIds = await mQueryService.AndSearch(QueryData.RawQuery);
+                break;
+            case QueryModel.SearchType.Positional:
+                resultPositional = await mQueryService.PositionalSearch(QueryData.RawQuery);
+                break;
+        }
+
+        IsProcessingQuery = false;
+    }
+
+    public enum SearchType
+    {
+        Or,
+        And,
+        Positional
+    }
+}

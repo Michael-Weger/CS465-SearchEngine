@@ -14,8 +14,6 @@ namespace CS465_SearchEngine.Source.DataStructures
     {
         public  SkipPointerLinkedListNode<T> First;
         private SkipPointerLinkedListNode<T> Last;
-        private SkipPointerLinkedListNode<T> MostRecentSkip;
-        private int Frequency;
         private int _Count;
 
         /// <summary>
@@ -23,7 +21,7 @@ namespace CS465_SearchEngine.Source.DataStructures
         /// </summary>
         public SkipPointerLinkedList()
         {
-            this.Frequency = 1;
+            
         }
 
         /// <summary>
@@ -32,8 +30,6 @@ namespace CS465_SearchEngine.Source.DataStructures
         /// <param name="collection">The collection of items to initalize using.</param>
         public SkipPointerLinkedList(ICollection<T> collection)
         {
-            this.Frequency = (int) Math.Sqrt(collection.Count);
-
             foreach (T item in collection)
             {
                 this.Add(item);
@@ -49,10 +45,9 @@ namespace CS465_SearchEngine.Source.DataStructures
         /// Adds the specified element to the collection in ascending order.
         /// </summary>
         /// <param name="item">The element to add to the data structure.</param>
-        void Add(T item)
+        public void Add(T item)
         {
             SkipPointerLinkedListNode<T> node = new SkipPointerLinkedListNode<T>(item);
-            bool resetSkipNodes = false;
 
             if(this.First == null)
             {
@@ -61,8 +56,15 @@ namespace CS465_SearchEngine.Source.DataStructures
             }
             else if (this.Last != null)
             {
+                int comparison = this.Last.Value.CompareTo(item);
+
+                // Prevent duplicates
+                if (comparison == 0)
+                {
+                    return;
+                }
                 // The new item has a greater Id than the current last one
-                if(this.Last.Value.CompareTo(item) <= 0)
+                else if (comparison <= 0)
                 {
                     this.Last.Next = node;
                     node.Previous = this.Last;
@@ -76,7 +78,6 @@ namespace CS465_SearchEngine.Source.DataStructures
             }
 
             this._Count++;
-            this.Frequency = (int)Math.Sqrt(Count);
 
             // Update skip pointers to keep them evenly spaced
             // I debated not adding this as, for the purposes of this project, there shouldn't be any reason to insert doucments with younger Ids, but decided to do so anyway
@@ -95,7 +96,13 @@ namespace CS465_SearchEngine.Source.DataStructures
 
             while (currentNode != null)
             {
-                if(currentNode.Value.CompareTo(newNode.Value) < 0)
+                int comparison = currentNode.Value.CompareTo(newNode.Value);
+
+                if (comparison == 0)
+                {
+                    return; // Duplicate value quit early
+                }
+                else if(comparison < 0)
                 {
                     // Update ahead
                     if(currentNode.Next != null)
@@ -122,6 +129,7 @@ namespace CS465_SearchEngine.Source.DataStructures
 
             int frequency = (int) Math.Sqrt(this._Count);
             int nodesIterated = 0;
+
             SkipPointerLinkedListNode<T> lastSkipNode = this.First;
             SkipPointerLinkedListNode<T> currentNode  = this.First;
 
