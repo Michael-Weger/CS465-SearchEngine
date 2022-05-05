@@ -25,7 +25,6 @@ namespace CS465_SearchEngine.Source.DataStructures
             }
 
             this.Degree = (int) Math.Ceiling(order / 2d); // Store the minimum degree instead of order to avoid calculating a median repeatedly.
-            Console.WriteLine(Degree);
             this.Root = new BTreeNode<T>(Degree);
         }
 
