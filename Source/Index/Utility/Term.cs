@@ -9,13 +9,10 @@ namespace CS465_SearchEngine.Source.Index.Utility
         public readonly String Key;
         public readonly SkipPointerLinkedList<Posting> Postings;
 
-        public Term(String key, int documentId)
+        public Term(String key)
         {
             this.Key = key;
             this.Postings = new SkipPointerLinkedList<Posting>();
-
-            Posting posting = new Posting(documentId);
-            this.Postings.Add(posting);
         }
 
         public Term(String key, ICollection<Posting> postings)
@@ -62,7 +59,11 @@ namespace CS465_SearchEngine.Source.Index.Utility
 
         public override String ToString()
         {
-            return Key + ":" + Postings;
+            string postingsStr = "";
+            foreach (Posting posting in Postings)
+                postingsStr += posting.ToString();
+
+            return Key + " " + postingsStr;
         }
     }
 }

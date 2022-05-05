@@ -51,7 +51,7 @@ namespace CS465_SearchEngine.Source.Index.Utility
 
         public override String ToString()
         {
-            return DocumentId + ":" + Positions;
+            return DocumentId + "," + Positions;
         }
     }
 }

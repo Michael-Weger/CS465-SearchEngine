@@ -16,7 +16,10 @@ namespace CS465_SearchEngine.Source.Web
         public void Initialize(InvertedIndex invertedIndex, DocumentMap documentMap)
         {
             InvertedIndex = invertedIndex;
+            InvertedIndex.traverse();
+
             DocumentMap = documentMap;
+            documentMap.Print();
         }
 
         public Task<List<Document>> OrSearch(string rawQuery)
@@ -29,7 +32,7 @@ namespace CS465_SearchEngine.Source.Web
 
                 foreach (Posting posting in postings)
                 {
-                    if(DocumentMap.DocumentExists(posting.DocumentId))
+                    if (DocumentMap.DocumentExists(posting.DocumentId))
                         documents.Add(DocumentMap.GetDocument(posting.DocumentId));
                 }
 

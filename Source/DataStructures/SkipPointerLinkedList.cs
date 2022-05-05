@@ -64,7 +64,7 @@ namespace CS465_SearchEngine.Source.DataStructures
                     return;
                 }
                 // The new item has a greater Id than the current last one
-                else if (comparison <= 0)
+                else if (comparison < 0)
                 {
                     this.Last.Next = node;
                     node.Previous = this.Last;
@@ -102,7 +102,7 @@ namespace CS465_SearchEngine.Source.DataStructures
                     return currentNode.Value;
                 }
                 // Miss, move forward
-                else if (comparison > 0)
+                else if (comparison < 0)
                 {
                     currentNode = currentNode.AdvanceNode(compareBy);
                 }
@@ -130,20 +130,26 @@ namespace CS465_SearchEngine.Source.DataStructures
 
                 if (comparison == 0)
                 {
+                    Console.WriteLine("Exit");
                     return; // Duplicate value quit early
                 }
-                else if(comparison < 0)
+                // The node to be inserted has not been a duplicate and is less than the current value. Insert behind the current node.
+                else if(comparison > 0)
                 {
-                    // Update ahead
-                    if(currentNode.Next != null)
+                    Console.WriteLine(currentNode.Value + " | " + newNode.Value);
+
+                    if(currentNode.Previous != null)
                     {
-                        newNode.Next = currentNode.Next;
-                        currentNode.Next.Previous = currentNode;
+                        currentNode.Previous.Next = newNode;
+                        newNode.Previous = currentNode.Previous;
                     }
 
-                    // Update behind
-                    newNode.Previous = currentNode;
-                    currentNode.Next = newNode;
+                    currentNode.Previous = newNode;
+                    newNode.Next = currentNode;
+                }
+                else
+                {
+                    currentNode = currentNode.Next;
                 }
             }
         }
@@ -177,7 +183,8 @@ namespace CS465_SearchEngine.Source.DataStructures
                 currentNode = currentNode.Next;
             }
         }
-
+        /*
+         * Is formatted to show skip pointers and have brackets but due to generics ToString is needed for writing to disk without implmenting a new interface.
         public override string ToString()
         {
             string str = "{ ";
@@ -196,6 +203,26 @@ namespace CS465_SearchEngine.Source.DataStructures
             }
 
             str += "}";
+
+            return str;
+        }*/
+
+        public override string ToString()
+        {
+            string str = "";
+            SkipPointerLinkedListNode<T> currentNode = this.First;
+
+            while (currentNode != null)
+            {
+                str += currentNode.Value.ToString();
+
+                if (currentNode.Next != null)
+                    str += ",";
+                else
+                    str += " ";
+
+                currentNode = currentNode.Next;
+            }
 
             return str;
         }
