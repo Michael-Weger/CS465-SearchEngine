@@ -10,17 +10,19 @@ namespace CS465_SearchEngine.Source.Index
     public class ParserInverter
     {
         private string InputDirectory;
+        private string OutputDirectory;
 
         private DocumentMap DocumentMap;
         private List<string> StopWords;
 
         private bool DoCaseFolding;
 
-        public ParserInverter(string inputDirectory, DocumentMap documentMap, bool doCaseFolding) : this(inputDirectory, documentMap, doCaseFolding, "") { }
+        public ParserInverter(string inputDirectory, string outputDirectory, DocumentMap documentMap, bool doCaseFolding) : this(inputDirectory, outputDirectory, documentMap, doCaseFolding, "") { }
 
-        public ParserInverter(string inputDirectory, DocumentMap documentMap, bool doCaseFolding, string stopWordsPath)
+        public ParserInverter(string inputDirectory, string outputDirectory, DocumentMap documentMap, bool doCaseFolding, string stopWordsPath)
         {
             this.InputDirectory = inputDirectory;
+            this.OutputDirectory = outputDirectory;
 
             this.DocumentMap = documentMap;
             this.DoCaseFolding = doCaseFolding;
@@ -99,21 +101,22 @@ namespace CS465_SearchEngine.Source.Index
             {
                 Console.WriteLine(filePath);
                 int documentId = DocumentMap.GetNextDocumentId();
-                (InvertedIndex, Document) results = ProcessDocument(filePath, documentId);
-                
-                InvertedIndex index = results.Item1;
-                Document document = results.Item2;
-                
-                index.traverse();
+                (InvertedIndex, int, int) results = ProcessDocument(filePath, documentId);
 
+                File.Move(filePath, Path.Combine(OutputDirectory, Path.GetFileName(filePath)));
+
+                InvertedIndex index = results.Item1;
+                index.traverse();
                 //finalIndex.Merge(index);
+
+                Document document = new Document(documentId, filePath, results.Item2, results.Item3);
                 DocumentMap.AddDocument(document);
             }
 
             return finalIndex;
         }
 
-        private (InvertedIndex, Document) ProcessDocument(string filePath, int documentId)
+        private (InvertedIndex, int, int) ProcessDocument(string filePath, int documentId)
         {
             if (!File.Exists(filePath))
             {
@@ -156,9 +159,7 @@ namespace CS465_SearchEngine.Source.Index
 
             int distinctWords = index.Count;
 
-            Document document = new Document(documentId, filePath, distinctWords, totalWords);
-
-            return (index, document);
+            return (index, distinctWords, totalWords);
         }
     }
 }

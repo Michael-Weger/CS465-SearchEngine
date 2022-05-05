@@ -21,7 +21,7 @@ namespace CS465_SearchEngine
             QueryService service = (QueryService) host.Services.GetService(typeof(QueryService)); //host.Services..ApplicationServices.GetRequiredService<QueryService>();
 
             DocumentMap documentMap = new DocumentMap("./Environment/documents.txt");
-            ParserInverter tokenizer = new ParserInverter("./DocumentInput", documentMap, true, "./Environment/stopWordsLong.txt");
+            ParserInverter tokenizer = new ParserInverter("./DocumentInput", "./Documents", documentMap, true, "./Environment/stopWordsLong.txt");
             InvertedIndex index = new InvertedIndex("./Environment/index.txt");
 
             service.Initialize(index, documentMap);
