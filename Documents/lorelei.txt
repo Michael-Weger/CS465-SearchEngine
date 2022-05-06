@@ -1,0 +1,44 @@
+[[File:Lorelei.png|250px|frameless|right]]
+'''Lady Lorelei''' is a [[Heroes#Major_Heroes|Major Hero]] and has a kit that revolves around supporting the dwarves, but that doesn't mean she doesn't have the strength to fight on her own terms. 
+
+: ''An elven noble of the royal high court, Lady Lorelei was tasked with a diplomatic mission to the dwarves. Along with she brought members of her royal guard such as [[Salogel Sureshot]] in order to protect her. She did not expect her mission to take her to strange, corrupted lands and take part in a war between the dwarves and twisted, evil monsters. Though diplomatic and courteous, Lorelei holds an air of superiority over the dwarves due to her strong control of life and death with the Regrowth Pendant. She looks to support the dwarves in their battles and complete her mission, while also putting her own prowess on display to put the dwarves in awe.''
+
+== Items ==
+
+Lorelei has the standard [[Heroes#Major_Hero_Kit|Major Hero kit]], the Regrowth Pendant, and carries Empyrean and its eternal Arrow of Light.
+
+[[File:Regrowth pendant.png|frameless|left]]
+
+=== Regrowth Pendant ===
+
+<br>
+: ''A beautifully fashioned pendant made from a gemstone infused with pure ether. While wearing this pendant the heart and mind are in tune with ether, granting powers over life that is normally reserved for the gods.''
+
+* The Regrowth Pendant acts as Lorelei's potion, as such left clicking it will fully heal Lorelei and clear all negative status effects at the cost of 100 mana. In addition she recieves Regeneration IV for 10 seconds.
+* Right clicking the Regrowth Pendant has two uses:
+** Right clicking a dwarf will heal them for 5 hearts, give them Regeneration II for 10 seconds, and provide them 50 mana for the cost of 25 mana to Lorelei.
+** Right clicking a monster will levitate them, giving Lorelei control of the monster's position using the cursor, and allowing Lorelei to pull them in by scrolling down and push them away by scrolling up. Right clicking again will cancel this. During this action Lorelei is locked to the Regrowth Pendant in her hand and it has a cooldown of 30 seconds. [[Death's Servant]] is immune to this action, [[Golem|Golems]] are levitated for a shorter duration.
+
+<br>
+[[File:Ethereal longbow.png|32px|frameless|left]]
+
+=== Empyrean ===
+
+<br>
+: ''A treasure of the high elven court capable of shooting beams of pure moonlight. Its beams will pierce through their targets enabling the destruction of whole hordes. Striking down a demon will grant nearby dwarves rampages.''
+
+* Unlike a typical bow, Empyrean fires moonlight beams in a line which penetrate targets unless Lorelei is rampaging. Killing monsters with these beams gives dwarves nearby that beam a rampage.
+* Empyrean is capable of firing a maximum of 3 beams at a time, with the amount of beams dependent on how long Lorelei waits between shots. Waiting less than 1.5 second between shots will only fire 1 beam, between 1.5 and 3 seconds will fire 2 beams, and waiting more than 3 seconds will fire 3 beams.
+* The length of the beams is dependent on how far back Lorelei pulls the bow before firing.
+* By default the beams each do 30% of the damage a normal arrow from a bow does, meaning hitting all 3 beams will yield about the same damage as hitting a bow shot. If Lorelei is rampaging, these beams will instantly kill anything that can be killed with a rampage, but do not penetrate for the rampage duration (meaning a maximum of 3 monsters can be instantly killed per shot).
+* Holding Empyrean will also give Lorelei Knockback Resistance, useful for if she has lost her Elven Hero Helmet.
+* Empyrean is also subject to modified rules of nerfing bows indoors. Under a roof each beam will only do 50% of their original damage, and within 5 blocks of Lorelei the beams do no damage.
+* Lorelei does not need to craft arrows; as Empyrean has Infinity it only requires its solitary single Arrow of Light.
+
+== Tips as Lorelei ==
+
+* During build phase Lorelei has a lot of spare time due to spawning with much of the supplies she needs, thus she can spend her time building or mining gold, doing actions to support the dwarves as a whole.
+* Lorelei's strength is greatly amplified when she focuses mostly on supporting dwarves rather than strictly acting on her own accord. Groups of dwarves can be given rampages practically indefinitely, whether by directly providing them by killing the monster or by weakening them and making them easy for other dwarves to kill.
+* The Regrowth Pendant can make a dwarf almost immortal if Lorelei heals them repeatedly when needed. Bleeding dwarves especially only need about 2 to 4 heals to no longer be bleeding in most cases, and these dwarves are high priority to give those heals.
+* Levitating monsters with the Regrowth Pendant can be used in many ways. Weaker monsters can be delivered directly to dwarves to give them a rampage, stronger ones can be held in place so that all dwarves can attack them easily, and the strongest ones like [[Iron Golem|Iron Golems]] can be thrown into shrine protection as long as it is still active, instantly killing them. Even if shrine protection is not accessible, throwing them into ravines or pits can also be effective in delaying their ability to attack dwarves.
+* When rampaging, Lorelei can efficiently kill 3 extra monsters by firing Empyrean and then switching back to the sword to continue rampaging, going between the two at will. As well, weaker monsters like [[Rat|Rats]] can be killed instantly with one shot, making killing large groups of them incredibly easy and providing rampages for all those around.

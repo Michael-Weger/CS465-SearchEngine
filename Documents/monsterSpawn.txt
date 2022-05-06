@@ -1,0 +1,32 @@
+[[File:Monster spawn.png|thumb|right|One of many different types of mob spawns.]]
+'''Monster spawn''' is the location which [[monsters]] spawn at after they die, regardless of what monster class they are. Once at this location, they are given temporary protection so that they are able to leave the spawn and not be killed at that location. There is also a number of negative effects that dwarves are afflicted with when they enter the area around monster spawn.
+
+== Monster Protection ==
+
+After spawning, monsters will be completely invulnerable to all melee damage, including rampages for an extremely short duration. Dwarves can roll their rampage off of invulnerable monsters, resetting the time on the rampage but not killing the monster.
+
+At the same time, for a slightly longer duration monsters are immune to arrows, with some restrictions.
+* Leaping as a [[Zombie]] or [[Wolf]] will clear this resistance.
+* Shooting a dwarf and hitting them as a [[Skeleton]] will clear this resistance.
+* [[Creeper|Creepers]] that are hit with arrows will have their fuse interrupted, even if they do not take damage.
+
+== Dwarf Penalties ==
+
+When too close to the monster spawn, dwarves are afflicted with negative status effects that cripple their ability to fight every few seconds, ramping up in severity the longer they are in the region. These effects do not reset by leaving the region, as it saves the current penalty and does the next higher one when re-entering it. A shrine falling however does reset the effects back to 0, since it is a new monster spawn region and to give people the chance to leave without incurring the severe penalties.
+
+The penalties are dealt in the following order:
+
+* Warning 1: Nausea. Nausea causes the dwarf to not be able to start or roll a rampage, making the one they have at that moment only last for a few seconds, if they have one at all.
+* Warning 2: Nausea.
+* Warning 3: Nausea.
+* Warning 4: Nausea and Poison II.
+* Warning 5: Nausea and Poison III.
+* Warning 6: Nausea and Poison IV. 
+* Warning 7: Nausea, Poison V, Wither II, Blindness, and the item currently in the hand of the dwarf is deleted.
+* Warning 8: Nausea, Poison VI, Wither III, Blindness, the item currently in the hand of the dwarf is deleted, and half of the dwarf's current maximum health is dealt as damage. The dwarf is warned they "feel extremely faint".
+* Warning 9: Nausea, Poison VII, Wither IV, Blindness, the item currently in the hand of the dwarf is deleted, and half of the dwarf's current maximum health is dealt as damage. The dwarf is warned they "will soon meet their demise".
+* Warning 10: The dwarf is instantly killed, meeting a terrible demise.
+
+== Doom Portal ==
+
+Explained on the [[Death's_Servant#Doom_Portal_Mechanics|Death's Servant page]], the Doom Portal they can open allows monsters to quickly teleport from their spawn to that portal, keeping their current spawn protections when passing through. The area the portal occupies also carries all penalties of the current monster spawn, making it highly dangerous for dwarves that already have high monster spawn penalties.

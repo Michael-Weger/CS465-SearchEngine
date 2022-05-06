@@ -1,0 +1,30 @@
+[[File:Blaze cannon.png|250px|frameless|right]]
+: ''Blaze artillary approaches.''
+
+'''Blaze Cannons''' are [[Monsters#Special_Monsters|special monster]] siege units which are able to destroy dwarven [[defenses]] on an unrivalled scale and provide buffs to all player monsters that pass by it.
+
+== Mechanics ==
+
+<br>
+[[File:Holy purifier.png|32px|frameless|left]]
+Blaze Cannons are given the Flare Scepter:
+<br>
+<br>
+* With a left click, the Blaze Cannon will fire a fireball. This fireball is incredibly destructive and does considerable damage to dwarves, but substantial damage to defenses. Each fireball fired will consume one Blaze Cannon Fuel per shot, which can be gained back by providing buffs to monsters. Firing will also slow the Blaze Cannon for a considerable amount of time.
+* Fireballs can be knocked back by dwarves by shooting them, but they cannot melee them. Knocked back fireballs can do damage to the Blaze Cannon itself.
+* Blaze Cannons cannot fire close to their mob spawn; they must therefore move away from it before firing.
+* Monsters which run somewhat close to the Blaze Cannon will receive absorption hearts. Over time the number of absorption hearts provided will diminish, eventually providing none. Initially 10 hearts are provided, and each stage of diminishment will reduce the number of hearts given by 2.
+* Each monster that receives buffs will provide the Blaze Cannon with Blaze Cannon Fuel. In smaller games (20 players or less) each monster buffed will provide 2 fuel, and in larger games will only provide 1. A maximum of 20 Blaze Cannon Fuel can be held at any one time.
+* Though not advised, meleeing with the Flare Scepter also applies Fire Aspect V to dwarves, causing them to burn for extended periods of time.
+
+== Monster Role ==
+
+* A Blaze Cannon's role is that of a siege weapon. Blaze Cannons should be focused on obliterating dwarven defenses such as walls, halls, shrine boxes, etc.
+* Positioning near the monsters' main path to the shrine is advised, as providing absorption buffs is the Blaze Cannon's only way of acquiring more ammo. However, it is imperative that a Blaze Cannon remain somewhat elusive. Dwarves are poised to target Blaze Cannons over almost all other mobs due to their destructive potential, so staying out of harm's way is necessary.
+* Once a Blaze Cannon has completely diminished its absorption buff, it should use the rest of its ammo and then either die to be more effective as a different monster, or possibly attempt to bait dwarves into overextending in an attempt to kill them.
+
+== Dwarven Strategy ==
+
+* Blaze Cannons are a high priority target for dwarves, as when left unchecked Blaze Cannons make short work of all dwarven defenses. Knocking back their fireballs by shooting them, even if they do not strike the Blaze Cannon, is still a good counter as it means the fireball will not hit the wall.
+* Only able to take two arrow shots, Blaze Cannons are vulnerable in ranged combat. Since their role does not need them to be anywhere close to dwarves however, they can often be hard to hit at extreme ranges while still being effective. Knocking back their fireballs can cause devastating damage if they directly hit them as well, and because its explosion can be more effective than just firing aimlessly.
+* Getting within melee range is certain death for a Blaze Cannon. Being able to be one-shot by a rampage, slow after firing, and generally having no melee attack means getting close to a Blaze Cannon has little to no negative effect as long as they are not in a dangerous position. Some Blaze Cannons will use their value as a target to their advantage and attempt to force dwarves to overextend, so identifying possible alternative threats is also important.

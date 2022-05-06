@@ -1,0 +1,29 @@
+[[File:Mt willy shrine.png|thumb|right|One of the many different shrine appearances.]]
+The '''dwarven shrine''', generally called the shrine, is the main objective of the game as a whole. Dwarves are meant to defend the shrine, while [[monsters]] aim to capture it. Most [[maps]], though not all, have more than one shrine which must be captured in order. Once all the shrines are captured the game ends in the dwarves' loss, as there is no way for dwarves to keep monsters at bay forever. 
+
+== Shrine Mechanics ==
+
+In order to capture a shrine, monsters only have to stand on or directly around the shrine blocks. The easiest way to know if the monster is within range to capture the shrine is to check if the monster is gaining one additional monster mana per second than usual, as the shrine provides this to incentivize monsters to stand on the shrine and progress the game.
+
+For dwarves, shrines generally provide light and also deny Zombies from the ability to use their final upgrade, Furious, in order to deal additional damage to isolated dwarves. Dwarves can also put Gold into the shrine by right clicking the item on the shrine blocks of an ''active'' shrine. Any shrine that is behind the currently active shrine does not allow gold to be deposited.
+
+== Shrine Progression ==
+[[File:Frost_hold_final_shrine.png|thumb|right|A final shrine without defenses.]]
+
+Shrines have different capture rates and dwarf to monster ratios depending on the order they are in on a map. 
+
+First shrines, depending on the map, are strong in that it takes more time for monsters to capture them but weak in that they cannot be regenerated quickly by dwarves. Monsters standing on the first shrine will do long lasting damage to their health even if it does not capture it. One single monster is also capable of causing more damage than a number of dwarves can counteract. Most first shrines are also outside and ranged combat is much more effective than on later shrines to stop the monsters, but monsters also get a much larger amount of area to traverse.
+
+The interim shrines, once again depending on the map, are usually faster to regenerate but also faster for monsters to capture. Fewer dwarves are necessary to counteract the monsters capturing them. These shrines vary in location from outdoors and indoors so their general combat defense can also vary, but the areas are usually more restrictive in where the monsters can move around in.
+
+The final shrine almost always has the fastest regeneration rate but also the fastest capture rate, as well as requiring the least amount of dwarves to counteract capturing monsters. Final shrine rooms are generally small and only have a few entrances to give the last remaining dwarves an advantageous battleground before they eventually fall.
+
+All monsters except for Infiltrator Skeletons with the final level of their Infiltrator upgrade are instantly killed by the dwarven gods if they stray too far beyond the currently active shrine.
+
+=== Shrine Shields ===
+
+Each shrine will also receive a shield when first activated, as denoted by the name of the shrine being blue at the top of the screen. During this time, shrines will only receive half the amount of damage they would normally from monsters standing on them. The shrine shield is active for the entire first night on first shrines, and for 30 seconds after activating for all other subsequent shrines. After the shield expires the name of the shrine will change to white.
+
+Monsters are capable of breaking the shrine shield by lowering a shrine's health to 50% before it would expire normally.
+
+If the game is in [[Rush Mode]], shrines will never be shielded and will regenerate health more slowly than usual.

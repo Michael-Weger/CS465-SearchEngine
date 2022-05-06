@@ -1,0 +1,40 @@
+[[File:Magnus the red.png|250px|frameless|right]]
+'''Magnus the Red''' is a [[Heroes#Major_Heroes|Major Hero]] and a god at close-quarters combat, able to melt anything coming his way with his Holy Purifier, and keep his fellow dwarves alive with his Holy Water.
+
+: ''A renound war hero, Magnus the Red is one of the Paladin Order's most decorated leaders. A good friend of General Kurt and an aspirational icon, Magnus has earned the right to wield weapons capable of burning away anything and anyone that keeps him from rocking and rolling his way to victory. Lesser paladins look in awe as waves of death pass over the demon hordes, embellished to entice them into wanting to be even greater than themselves. Whenever he heals, they do, whenever he slays demons, they feel inspired to do the same, and with their efforts maybe one day they too will become heroes.''
+
+== Items ==
+
+Magnus has the standard [[Heroes#Major_Hero_Kit|Major Hero kit]] and he carries a flamethrower: The Holy Purifier. He also uses the Holy Ale to heal his wounds and those of this allies around him.
+
+[[File:Holy purifier.png|frameless|left]]
+=== Holy Purifier ===
+
+<br>
+: ''A flamethrower gifted to Magnus by Kurt. Its flames are capable of purifying whole hordes of monsters.''
+
+* The Holy Purifier is a flamethrower capable of melting monsters' health incredibly quickly with flames that can travel 15 blocks in an arc. It requires only 3 ammo to kill an AI Zombie and penetrates monsters, meaning multiple can be hit by the same pump of flame.
+* The flamethrower can hold 100 ammo at any point which is the equivalent of 25 continuous seconds of firing. To refill his ammo, Magnus has to stand on top of oil blocks and left click, during which the stack size of the Holy Purifier will display its current ammo. Each left click will refill 4 ammo. Magnus also cannot refill within 6 seconds of the last time he used the Holy Purifier, but it does have 8 Attack Damage which can be used to protect himself while refilling.
+* Though still potent against them, the Holy Purifier only does half damage to [[Iron Golem|Iron Golems]]. It also does no damage whatsoever to [[Death's Servant]].
+* Holding the Holy Purifier also gives Magnus Knockback Resistance, which is useful if his Dwarven Hero Helmet has broken.
+
+<br>
+[[File:Holy water.png|32px|frameless|left]]
+
+=== Holy Water ===
+
+<br>
+: ''A vial of holy water blessed by the priests of the paladin order. Magnus uses the water amidst the melee to christen his allies healing any dwarves within healing range.''
+
+* The Holy Water acts as Magnus's potion; as such, left clicking it will fully heal Magnus and clear all negative status effects at the cost of 100 mana. In addition, all dwarves in a 4 block radius of Magnus will also get fully healed at no cost.
+* Magnus can also use this ale when already at full health, something that could potentially be dangerous as he could rapidly drain his mana, so he should be extra careful not to do so.
+
+== Tips as Magnus ==
+
+* During build phase Magnus has a lot of spare time due to spawning with much of the supplies he needs, thus he can spend his time building or mining gold, doing actions to support the dwarves as a whole. Magnus should also spend time locating the Oil around the map, as it will be required to refill his Holy Purifier.
+* At any given point, Magnus can give himself a rampage by firing 2 bouts of flame and then swinging at an AI Zombie once at the cost of only 2 ammo. By this process, Magnus can virtually have a rampage throughout the whole game.
+* The Holy Purifier's flames can also one shot as long as Magnus has a rampage. Getting a kill and then immediately firing a few bouts of flame can clear an entire room with little effort, only at a cost of a few ammo.
+* If there is no quicker way to acquire a rampage and use these powerful skills, Magnus can just unload his Holy Purifier into a room at the cost of a large amount of ammo, but still clearing the room. A scenario where this may occur is when the shrine is at very low health and the monsters need to be taken off it extremely quickly.
+* Though not instant, using the Holy Purifier to melt [[Iron Golem]] chestplates is effective in mitigating the time they spend alive causing damage.
+* Going out to refill the Holy Purifier can be a dangerous task, so usage of the Holy Purifier should be done sparingly when in situations where Oil is close to monster spawn. Sometimes Magnus can take another dwarf with him in order to help him reach and acquire Oil as long as it does not leave the shrine defenseless.
+* In addition to just simply helping dwarves not use mana by healing near them, Magnus can effectively keep dwarves in danger alive by using his Holy Water over and over near them, whether they're trapped in a Dwarven Slab or just being mauled by monster hordes.

@@ -1,0 +1,28 @@
+[[File:Venomburner.png|250px|frameless|right]]
+: ''A cluster of venomburners approaches.''
+
+'''Venomburners''' are [[Monsters#Special_Monsters|special monsters]] which are tanky and highly capable at harassing dwarves, able to take many hits and drain dwarves' mana rapidly.
+
+== Mechanics ==
+
+<br>
+[[File:Spider fangs.png|32px|frameless|left]]
+Venomburners are given Spider Fangs:
+<br>
+<br>
+* With a left click, Venomburners ignite dwarves and have lifesteal. In darkness, Venomburners will also drain dwarves' mana drastically.
+* With a right click, Venomburners spit a trail of falling fire which ignites dwarves that come in contact with it. If the Venomburner is also within melee range it will get the same lifesteal and manasteal as it would get from left clicking.
+
+== Monster Role ==
+
+* Venomburners are especially tanky with their high health pool and lifesteal, meaning they can take hits and unless the dwarf is rampaging will probably escape with most of their health intact. 
+* Sitting above dwarves on shrine boxes, walls, trees, and even just jumping above them and spitting fire can be especially harassing and disruptive to dwarves, especially if within melee range due to the manasteal.
+* Venomburners, even with their larger hitbox, are deceptively hard to hit with a bow due to the way the true target is the player hitbox for arrows. With this added layer of difficulty and jump boost, it is difficult to take out a Venomburner from range.
+* If a Venomburner can single out a dwarf in the dark it is an opportunity to drain all of the dwarf's mana and leave them helpless to higher damaging monsters such as [[Zombie|zombies]] and [[Wolf|wolves]]. Melee attacks and flame spit which drain mana will have additional purple particles and a sound cue.
+
+== Dwarven Strategy ==
+
+* Venomburners, while not directly damaging, are incredibly powerful in sapping the dwarves of resources and inhibiting their ability to perform long rampage chains. Due to their jump boost they will often be found in hard to reach places and will either need to be taken out creatively or through shooting an arrow at them while rampaging.
+* Though resiliant, aiming slightly above the Venomburner with bow shots is the most consistent way of hitting them, making it possible, though tough, to take them out from range.
+* Much like when dealing with [[Wolf|wolves]], staying within lit areas when fighting Venomburners is ideal since they cannot steal mana in the light.
+* Starting a rampage with a Venomburner is difficult due to their lifesteal capability and tankiness. It is much easier to start a rampage with an [[Zombie|AI zombie]] and roll it to kill the Venomburner instead.

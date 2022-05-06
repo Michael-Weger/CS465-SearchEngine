@@ -1,0 +1,63 @@
+{{#seo:
+|title=The Gazebo - Guide
+|keywords=dvz, dwarves vs zombies, playmindcrack, coathar
+|description=Welcome to Gazebo Dwarves vs Zombies! This game follows the war between two opposing sides, the dwarves and the monsters.
+}}
+Welcome to '''Gazebo Dwarves vs Zombies'''! This game follows the war between two opposing sides, the dwarves and the monsters. Dwarves are much more powerful than monsters but only have one single life, as after they die they become monsters which can die and respawn repeatedly. The goal of the dwarves is to defend their shrines from the monsters, who seek to capture them. The game will always result in the dwarves losing either by all dying or the shrines being captured and there is no way for the dwarves to win, so they seek instead to survive as long as possible before they eventually fall.
+
+Read our '''[[Getting Started]]''' guide, browse the pages below, or search for more.
+<br>
+
+{|
+|- style="vertical-align:top;"
+| '''Gameplay''':
+* [[Progression]]
+** [[Dwarven Equipment|Equipment]]
+** [[Defenses]]
+** [[Plague]]
+** [[Combat]]
+* [[Shrine|Shrines]]
+* [[Monster Spawn]]
+* [[Rush Mode]]
+<br>
+| '''Server Information''':
+* [https://gazebodvz.com/rules Rules]
+* [[Frequently Asked Questions]]
+* [[Achievements]] & [[Quests]]
+* [[Updates]]
+* [[Maps]]
+* [[Events]]
+* [[Titles]]
+* [[Commands]]
+<br>
+|- style="vertical-align:top;"
+| '''[[Heroes|Dwarven Heroes]]''':
+* [[General Kurt]]
+* [[Magnus the Red]]
+* [[Sprocket]]
+* [[Margrave Hector]]
+* [[Lady Lorelei]]
+* [[Grand Paladin Ziros]]
+* [[Salogel Sureshot]]
+* [[Lord of the Undead]]
+* [[Priestess Arianna]]
+* [[Myra the Unseen]]
+* [[Guard Captain Alfon]]
+* ''[[SuperHorse]]'' (rare/event)
+<br>
+| '''[[Monsters|Monster Classes]]''':
+* [[Zombie]]
+* [[Skeleton]]
+* [[Creeper]] ''([[Broodmother]])''
+* [[Digging Zombie]]
+* [[Wolf]]
+* [[Venomburner]]
+* [[Spiderling]]
+* [[Rat]]
+* [[Slime]]
+* [[Super Creeper]]
+* [[Iron Golem]]
+* [[Blaze Cannon]]
+* [[Death's Servant]]
+<br>
+|}

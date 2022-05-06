@@ -1,0 +1,39 @@
+
+Rules
+
+Rule 1
+    Be respectful to other players. Don't use slurs or any form of bigotry - this includes your Minecraft skin/username, Discord username, and anything you build on the server. Do not harass or attack other users in chat. Don't share other people's personal information. 
+
+Rule 2
+    Do not cheat or exploit. Do not use modified clients, and do not abuse or exploit bugs. Please report bugs to the admins, and do not share information about them with other players until they've been fixed. 
+
+Rule 3
+    Don't try to ruin other people's experience. This includes harassment outside of chat, team griefing, or simply not playing the game. It also includes annoying behaviour like making checkerboards as a dwarf, spamming cobblestone everywhere or blocking dwarves off. Keep chat sensible. 
+
+Rule 4
+    No impersonation - on Discord or on the Minecraft server. 
+
+Rule 5
+    Don't call out rule breaking in chat - use /report to alert moderators. This works even if moderators are not in the game. Leave moderators to deal with issues, don't start arguments in chat. Don't abuse the report system by sending false reports. Don't discuss bans/warns in chat. 
+
+Rule 6
+    Do not bring multiple accounts into the game. 
+
+Rule 7
+    Don't promote other servers. 
+
+Rule 8
+    Don't record or stream while in our Discord voice channels, other than the Recording/Streaming channel. 
+
+Rule 9
+    And the normal catchall rule: don't be a dick. Conduct yourself with common sense and maturity. 
+
+Reporting players
+
+If you see a player violating one of these rules, do not call the player out in chat. Use the in-game report command:
+
+/report <player> <reason>
+
+If there is a hacker but you are unaware of who it is, you can replace the player with a "?"
+
+Please remember that abuse of this command will not be tolerated. Alternatively, send an email to reports@coathar.com.

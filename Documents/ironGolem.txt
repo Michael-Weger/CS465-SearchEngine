@@ -1,0 +1,31 @@
+[[File:Iron golem.png|250px|frameless|right]]
+: ''Mighty iron golems approach.''
+
+'''Iron Golems''' are [[Monsters#Special_Monsters|special monsters]] that deal massive damage, shatter armor, and instantly destroy walls at will. Iron Golems are immune to rampages until their chestplate breaks.
+
+== Mechanics ==
+
+<br>
+[[File:Diamond pickaxe.png|32px|frameless|left]]
+Iron Golems are given the Ancient Pickaxe:
+<br>
+<br>
+* With a left click, the Iron Golem will deal massive damage and instantly destroy most blocks.
+
+Iron Golems also cannot be killed with a rampage and have Knockback Resistance as long as their chestplate is not broken, but do have Slowness during that time as well. The durability of the Iron Golem's chestplate is also dependent on the number of dwarves alive at the time they spawn.
+
+== Monster Role ==
+
+* Iron Golems can instantly break nearly every block, allowing them to create tunnels, tear down walls, and circumvent most defenses with relative ease.
+* With their immunity to rampages coming from their chestplate, they live and die by its durability. Avoiding early combat, especially taking arrow hits is recommended to keep the chestplate mostly intact until reaching its destination.
+* Cornering a dwarf is an effective way to deal massive damage to them, as getting stuck leaves them with little options to avoid taking hits.
+* Even if a dwarf seems capable of outhealing the Iron Golem damage, the continued pressure will deplete their mana and armor much quicker than other monsters can manage, and can be done constantly.
+* Iron Golems also have unrivalled control over space, able to take control of a shrine just by being present on it. This can be effectively used to progress the game by capturing a shrine that is particularly hard to crack.
+
+== Dwarven Strategy ==
+
+* Iron Golems, as stated above, live and die by their chestplate durability. Hitting them from range can quickly deplete that without having to initiate a melee, but if entering melee it is best to use the Strength buff from a rampage to deal armor damage quicker and use Momentum absorption hearts to avoid taking major damage.
+* Kiting Iron Golems can be fairly easy due to their Slowness and Mining Fatigue debuffs. Running around them to avoid being hit is effective. 
+* It is also imperative that dwarves do not get cornered by Iron Golems as it will result in massive damage or even death. Using the Dwarven Oak Shield is advised to avoid those situations.
+* Iron Golems are loud and even make noise when moving, which can be used to effectively hunt them down.
+* Most [[Heroes#Major_Heroes|Major Heroes]] can deal with Iron Golems in some way much quicker than initiating direct combat. Leaving Iron Golems to Major Heroes if they are in game is advised as long as they know what they're doing so the Iron Golems are dealt with quickly and with little negative effect.

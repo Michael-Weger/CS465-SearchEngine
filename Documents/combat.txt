@@ -1,0 +1,27 @@
+'''Combat''' in DvZ does rely on some extent of skill, but also a level of teamwork and reliance on others. In both types of combat, a dwarf should make sure they are healing with their Healing Ale when they are at about 10 hearts, but some level of personal preference can come on that point. As well, combat is meaningless if it does not serve to protect the shrine, so that should always be the dwarves' top priority.
+
+== Ranged Combat ==
+
+Ranged combat is limited, as it can only really take place outside where there are no roofs to mitigate damage. There are some areas indoors that allow Bow usage since their height is over 30 blocks, but these cases are few and far between.
+
+At the beginning of the game, monsters are weak; Zombies, Skeletons, and Creepers can all be one shot with a bow. However, this rapidly changes, as almost all of these monsters gain abilities to have more health and survive more shots. Player Zombies in particular shouldn’t be shot at unless you are certain you can hit three consecutive shots, as they will regenerate their health quickly after the first shot. This holds true for Wolves as well. Venomburners can also be ignored at range because they are somewhat difficult to hit. However, every other monster in the game is fair in ranged combat and can be dispatched quickly if not in one shot altogether. Iron Golems are the only exception, but it is best to keep them at range and slowly plink down their armor than engage them in melee combat. 
+
+Having the high-ground truly is the advantage in ranged combat, it gives more visibility to potential targets, more range to keep above the 5 block range minimum, and makes a dwarf harder to hit at melee range. Towers and high walls are advised, but no higher than 5-7 blocks as it becomes hard to get down and work around.
+
+Player monsters should be an archer’s #1 target, especially Super Creepers, Blaze Cannons, and Skeletons. These monsters tend to hang out of melee range and can do serious damage to walls and other dwarves, so they should be dispatched as fast as possible. AI Zombies are the lowest priority, as they serve for rampage fodder more than anything.
+
+Once inside, archers have to transition to…
+
+== Melee Combat ==
+
+Whether using a sword or a shovel, melee combat follows one rule: get a rampage and roll it. The best rampage starters and rollers are AI Zombies, but Rats and Spiderlings take precedence as starters because of how weak they are if they are visible. Once a rampage is started, using AI Zombies to move from Player monster to Player monster and kill them will slow their assault on the other dwarves and the shrine. AI Zombies also have names, so this can be useful for tracking down and focusing one particular AI to start a rampage.
+
+Any monster (except Golems and Death’s Servant) can be killed with a rampage, so using this ability to their advantage, dwarves can take monsters out before they can be impactful in damaging the dwarves. Creepers and Super Creepers can also be interrupted by hitting them, so when they are seen it is best to tap them every so often or focus them to kill them so they can’t do real damage or launch dwarves into the air.
+
+Golems and Death’s Servant, being immune to rampages, are different beasts entirely. Golems, due to their slow speed and high damage output, are best to kite and continually beat on them until their chestplate breaks, at which point they can be killed with a rampage. Death’s Servant can have the same be done, but dwarves best not to engage when low mana as they will not regain it any time soon.
+
+Melee combat is also a massive drain on mana and armor durability. Generally, less than 300 mana means a dwarf should fall back to regenerate some of it, and less than 5 armor bars means their armor needs repairing. In fact, less than 4 armor bars means some piece of their armor has broken, and they will start taking more damage than before.
+
+If you find a dwarf finds themselves in a dire situation with low mana, it is best to seek out a rampage and keep rolling it. This is because Momentum absorption hearts can keep their health safe while they regenerate mana, but this should only be done in the most dire of situations, as when their rampage ends or they take too much damage at one time, they will need to heal again which may cause them to run out of mana completely.
+
+The Dwarven Oak Shield is a powerful item that gives each dwarf 10 chances to escape from danger or charge mobs which are trying to escape. If a Skeleton is harassing a dwarf, they can try getting a rampage and then charging the Skeleton with their shield to kill it. An alternative to this is getting a rampage and shooting the Skeleton before it runs out, which will instantly kill it as long as the arrow lands while the dwarf still has the rampage.

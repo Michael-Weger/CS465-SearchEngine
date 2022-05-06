@@ -1,0 +1,29 @@
+[[File:Super creeper.png|250px|frameless|right]]
+: ''A gaggle of super creepers approaches.''
+
+'''Super Creepers''' are [[Monsters#Special_Monsters|special monsters]] with massive potential to kill dwarves. Though Super Creepers can damage walls more than that of other [[Creeper|Creepers]], their value increases exponentially when attempting to blow up on dwarves.
+
+== Mechanics ==
+
+<br>
+[[File:Explosion.png|32px|frameless|left]]
+Super Creepers are given SUPER Explosion:
+<br>
+<br>
+* With a left click, the Super Creeper will initiate a long fuse that ends with a large explosion which does considerable damage to dwarves and walls and throws dwarves extremely high in the air. This fuse can be interrupted by being hit. After this fuse is initiated, any dwarf within the future blast radius will hear ticking that increases in rate the less time it has before explosion.
+* With a right click, the Super Creeper will make the same sound its left click makes but slightly quieter and without exploding.
+
+== Monster Role ==
+
+* Super Creepers are poised to one goal: blow up on dwarves. If the right conditions are met dwarves will be launched so high in the air they are almost certain to die from the fall. 
+* Even if the dwarf isn't launched, one Super Creeper explosion can do about half the health of the dwarf in damage, and two at the same time can almost instantly kill them. Blowing up behind walls is most advised since unlike normal [[Creeper|Creepers]], damage is not dependent on how close the Super Creeper is to its target.
+* Super Creepers must use evasion and sneaking to their advantage. Being one of the highest value targets in the game, Super Creeper locations are often called out to each other by dwarves, so even being seen once can mean being hunted by dwarves.
+* Due to their much longer fuse, the timing must be right when attempting to blow up on a dwarf. Using the right click can give a general estimate of how long the fuse is beforehand, as well as trick dwarves into thinking you are about to explode.
+
+== Dwarven Strategy ==
+
+* Super Creepers are extremely high value targets that almost always need to be taken out from range. They have no additional movement abilities and are shiny, making them easy to spot. This should be used to hunt and hit a well aimed shot on them, since they can only normally take one.
+* Standing under strong roofs will certainly save dwarves from the launch, but standing by mountains and water can also suffice since dwarves can land on or in them to avoid the brunt of the fall damage.
+* Due to their long fuse, it is also much easier to interrupt a Super Creeper. Their left click hiss is also near-global, meaning dwarves can know the direction they're coming from immediately. The right click fake hiss is quieter, so the volume is the best means of telling if it's the real hiss or not.
+* When fighting in close quarters Super Creepers are more valuable for their raw damage so it is best to keep health high to avoid being blasted for about half health.
+* Dwarves that stand in the future blast radius of the Super Creeper after it has initiated its fuse will hear ticking that increases in rate the longer the fuse progresses. Leaving the immediate vicinity will make the ticking inaudible, signaling the dwarf is safe in that position.

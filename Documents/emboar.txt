@@ -1,0 +1,26 @@
+[[File:Emboar.png|250px|frameless|right]]
+: ''A singular of Emboars stampedes into sight.''
+
+'''Emboars''' are [[Monsters#Special_Monsters|special monsters]] which spawn during the [[Events#April_Event|April Event]] with the ability to deal significant damage to both dwarves and their defenses by charging headfirst into them.
+
+== Mechanics ==
+
+<br>
+[[File:Wolf_fangs.png|32px|frameless|left]]
+Emboars are given Emboar Tusks:
+<br>
+<br>
+* With a right click, the Emboar will initiate a headlong charge in the direction they're facing and become immune to rampages. Any dwarves impacted by the charge will be damaged, ignited, and thrown into the air. When a wall is impacted an explosion occurs damaging the wall and nearby dwarves, and throwing the emboar back from the recoil of the impact. This charge can be cancelled by right clicking the Tusks again, or by crouching. Taking damage will also cancel the charge.
+* Left clicking will deal damage and high knockback due to the Tusk's knockback 2 enchantment
+
+== Monster Role ==
+
+* The main goal of any Emboar, much like [[Creeper|Creepers]], is to damage walls and disrupt dwarves. Using the rampage immunity from their charge, Emboars can impact a rampaging dwarf safely and try to end their rampage early or use it to safely move past dwarves to impact the wall.
+* While not rampage immune, their thickened hide grants Emboars knockback resistance. In conjunction with the knockback on their tusks Emboars can easily push dwarves around the battlefield even when not charging.
+* If a dwarf is nearby a wall try to impact them before the wall during a charge. The dwarf will take damage from both the direct impact and the explosion from impacting the wall dealing a higher burst of damage potentially catching them off guard.
+
+== Dwarven Strategy ==
+
+* Emboars are extremely tough targets thanks to their high health and knockback resistance. If possible, they should be handled at range due to their ability to easily displace dwarves.
+* If they cannot be handled at a range, dwarves should attack Emboars just after they impact a wall as they will not be able to charge away.
+* Dwarves should try to stay away from walls around charging Emboars as they could potentially get hit by both the direct impact and explosion damage.

@@ -5,8 +5,4 @@
     <RootNamespace>CS465_SearchEngine</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Source\Documents\" />
-  </ItemGroup>
-
 </Project>

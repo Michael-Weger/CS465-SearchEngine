@@ -1,0 +1,32 @@
+[[File:Rat.png|250px|frameless|right]]
+: ''A mischief of rats approaches.''
+
+Rats are [[Monsters#Special_Monsters|special monsters]] which are very small and relatively weak but are able to accrue large amounts of mana from breaking torches and also able to steal gold from shrines.
+
+== Mechanics ==
+
+<br>
+[[File:Rat talon.png|32px|frameless|left]]
+Rats are given Rat Talons:
+<br>
+<br>
+* With a left click, Rats deal incredibly low damage. However, when they break torches they receive 50 mana per torch broken, as opposed to the 8 that other monsters gain.
+* With a right click, when looking at an active shrine block, a Rat will steal one gold per click, making a sound for each gold stolen.
+
+== Monster Role ==
+
+* Rats look to eat all the torches in sight, using their small size to evade dwarves attempting to kill them. 
+* As well, Rats can hide in small crevices and holes to avoid detection, especially when stealing gold since the noise alerts dwarves to the Rat's actions.
+* Having extremely low health means that dwarves can kill and start a rampage from a Rat with a single hit, something they should not willingly allow without danger.
+
+== Dwarven Strategy ==
+
+* Rats, if left unchecked, can cause games to progress much quicker than anticipated due to the large amounts of mana that can be generated from placed torches. Since they are hard to hunt down, dwarves should instead take measures to ensure the Rats do not obtain mana by removing unnecessary torches.
+* When stealing gold Rats will make a sound that should be audible from decently far away, so it should be clear when one is stealing gold and somewhere within the shrine region.
+* One swing in melee will almost always kill a Rat, providing an easy target to start rampages.
+
+== AI Rats ==
+
+: ''Main article: [[Creeper#AI Rats]]''
+
+* In addition to player Rats, Destruction Creepers can also spawn AI Rats from infested walls, these rats steal Gold at the cost of their life, and die in two melee hits rather than one. They also do not count towards any kill total stat such as sword kills, bow kills, etc. but do count toward stats such as longest rampage.

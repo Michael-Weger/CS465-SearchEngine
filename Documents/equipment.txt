@@ -1,0 +1,195 @@
+'''Dwarven Equipment''' consists of the tools, weapons, materials, and consumables which dwarves use to create and maintain [[Defenses]], defend shrines, and to stay in combat. All of these are required to be used in some form or another in order to be a successful dwarf, some even being critical enough to be the difference between an early death and fighting as the last one alive.
+
+If the game is in [[Rush Mode]], dwarves will spawn with tools, weapons and additional supplies at the start of the game.
+
+== Combat and Collecting ==
+
+These items are integral to a dwarf's kit and are used in order to obtain the materials they need and to be able to fight in combat. Most of these items only require the dwarf to have one of, but are also required to be able to play the game properly as a dwarf in any capacity.
+
+[[File:Healing ale.png|32px|frameless|left]]
+=== Healing Ale ===
+[[File:Healing ale racks.png|thumb|right|A set of Healing Ale racks where they can be obtained.]]
+
+Right click an ale on a rack to acquire a Healing Ale. This is your lifeline, left clicking it will fully heal you for the cost of 100 mana (shown as your XP level). This mana will then slowly regenerate.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+[[File:Diamond sword.png|32px|frameless|left]]
+=== Dwarven Runeblade ===
+[[File:Sword racks.png|thumb|right|A set of Dwarven Runeblade racks.]]
+
+Right click the image of a sword on a rack to a obtain a Dwarven Runeblade. This is the dwarves' melee weapon. Left clicking it will deal 10 Attack Damage, but more importantly, getting a kill with it will give them a rampage.
+* '''Rampage''': Also known as a 'PROC' (Powerful Rampage of Course), killing a monster will give a dwarf a rampage which will allow them to one shot every monster for 3 seconds except for [[Iron Golem|Iron Golems]] and [[Death's Servant]] before their chestplate breaks, or [[Slime|Slimes]] which are latched to a dwarf. This ability will roll, meaning if the dwarf kills another monster with a rampage, the timer for the rampage will reset back to 3 seconds. While rampaging, dwarves emit green sparkles.
+* '''Momentum''': Additionally, when a dwarf gets a kill they will receive 4 absorption hearts. These hearts will reset upon each kill.
+* '''Scavenger''': As well, when killing monsters with a rampage, a dwarf has a 30% chance of generating a few useful items in their inventory such as Mortar, Torches, Gold, Cobblestone, Arrows, or slightly less useful: Stone Cakes.
+
+<br>
+[[File:bow.png|32px|frameless|left]]
+=== Dwarven Shortbow ===
+[[File:Dwarven shortbow rack.png|thumb|right|Dwarven Shortbow racks where they can be obtained.]]
+
+Right click the image of a bow on a rack or table to obtain a Dwarven Shortbow. This is the dwarves' ranged weapon. Left clicking it will start a cast time to create 6 arrows in their inventory. Right clicking it will fire an arrow, the more they hold right click, the further an arrow will go, however regardless of how much the bow is pulled back the arrow will have the same damage under default conditions. Arrows do pass through other dwarves.
+* '''Limitations on Bow Damage''': When dwarves are under a roof, their bow will only do 30% of its maximum damage. A roof constitutes as any non-transparent block (not leaves, glass, barriers, etc.) which is 30 blocks or less above the dwarves head. Within 5 blocks, their bow will do no damage. [[Slime|Slimes]] are immune to arrow damage.
+
+<br>
+[[File:Dwarven oak shield.png|32px|frameless|left]]
+=== Dwarven Oak Shield ===
+
+When a dwarf right clicks on the sword racks to receive a Dwarven Runeblade, they will also receive the Dwarven Oak Shield. Right clicking a shield will engage it for 30 seconds and use up one shield charge, making it if the dwarf holds it in their hand they will be immune to knockback. After 30 seconds, the shield will disengage. Shields have a total of 10 charges and do not roll ramapages, but do have 5 damage.
+
+<br>
+[[File:Dwarven armor.png|32px|frameless|left]]
+=== Dwarven Armor ===
+[[File:Armor stands.png|thumb|right|Armor crafting tables and armor blocks in various states of refinement.]]
+
+Without armor, a dwarf will not be able to fight. Each dwarf can only have one set of armor, and cannot be rearmored by other dwarves. This armor increases a dwarf's health by 10 hearts, 5 from the chestplate and 5 from the leggings.
+* In order to receive armor, a dwarf must armor another, they cannot get their own armor and put it on. To create armor a dwarf must go to an armor station (an extended piston) and right click it to place an armor block. Right clicking this block with a Mighty Pick will refine it. It should be refined until it is smooth, and then can be harvested by being broken. This will produce a gold chestplate which cannot be put on, but can be used on another dwarf to give them armor. In order for a dwarf to get armor themself, they must have another dwarf armor them.
+* '''Repairing''': If a dwarf's armor is damaged (as indicated by their hunger bar and each piece's durability), they can take it off and left click it to fix 125 of the piece’s durability. This consumes 2 gold from the total Gold count. They can also use a [[Dwarven_Equipment#Wiggly_Wrench|Wiggly Wrench]].
+
+<br>
+[[File:Dwarven shovel.png|32px|frameless|left]]
+=== Dwarven Shovel ===
+[[File:Shovel rack.png|thumb|right|Shovel racks where Dwarven Shovels can be obtained.]]
+
+Right click the image of a shovel on a table to obtain a Dwarven Shovel. Though primarily for digging gravel to acquire Cobblestone, this shovel can also start and roll a Rampage. Due to the shovel's low Attack Damage however, it's easier to start the rampage with a sword and then switch to a shovel to roll it.
+* '''Gold Panner''': When digging gravel, dwarves will also receive gold. This is usually done with a Dwarven Shovel, however digging it with anything works just as well.
+<br>
+<br>
+
+<br>
+[[File:Mighty pickaxe.png|32px|frameless|left]]
+=== Mighty Pickaxe ===
+[[File:Pickaxe rack.png|thumb|right|Mighty Pickaxe racks where they can be obtained.]]
+
+Right click the image of a pick on a table Mighty Pickaxe. The pick is used for mining blocks such as gold ore, stone, or for refining armor blocks.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+[[File:Lumberjack axe.png|32px|frameless|left]]
+=== Lumberjack Axe ===
+[[File:Saws.png|thumb|right|A sawmill and a collection of Lumberjack Axe racks for woodworking.]]
+
+Right click the image of an axe on a table to obtain a Lumberjack Axe. The axe is used entirely for woodworking to obtain Torches and Mortar. 
+
+* '''Woodworking''': Right clicking a log block with an axe will obtain the Log item. Taking these Logs to a saw and right clicking them on the saw will turn them into Planks. Repeating this process turns the Planks into Sticks. Repeating this process turns the Sticks into Bowls. Taking Sticks and Bowls to Oil and right clicking them on Oil turns them into Torches and Mortar respectively.
+
+<br>
+<br>
+[[File:Compass.png|32px|frameless|left]]
+=== Compass ===
+
+* A Compass can be obtained by doing /compass or doing /menu and clicking the compass. This will give a Compass that once right clicked will display a menu of the important waypoints on the map. Clicking a waypoint will direct the compass toward that resource or location, and will notify the Dwarf when they reach that exact location, above it, or below it.
+
+== Materials ==
+
+These items are those which are obtained through various means during Build Phase, and while they are not integral to a dwarf's survival, they are necessary in order for dwarves to defend for longer spans of time. They can also be collected infinitely.
+
+<br>
+[[File:Cobblestone.png|32px|frameless|left]]
+=== Cobblestone ===
+[[File:Quarry.png|thumb|right|A quarry filled with gravel to get Cobblestone.]]
+
+Cobblestone is obtained from digging gravel which is usually found in the Quarry (a large pit filled with gravel). Used to build and maintain [[Defenses]] or pillar over walls, dwarves should carry some amount of Cobblestone for when its necessary. Cobblestone on its own is also very weak and can be blown up by [[Creeper|Creepers]] fairly easily; it needs to be strengthened with Mortar to become either Gray or Blue Stone Bricks which are stronger.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+[[File:Gold.png|32px|frameless|left]]
+
+=== Gold ===
+
+Mining gold ore, digging gravel, and killing monsters with a rampage gives dwarves Gold. During Build Phase this Gold will go directly into the shrine, showing up on the sidebar as Gold. After Build Phase, the Gold go into the dwarves' inventory, and must be right clicked on the active shrine to be put into it. 
+
+Dwarves are unable to safely carry large amounts of gold. If a dwarf has too much gold in their inventory, it will be dislodged by Creeper blasts and thrown away from the dwarf, where other monsters can steal it by walking over it. For this reason it is important to deposit scavenged gold into the shrine regularly.
+
+When manually repairing (via left clicking each piece) this Gold is consumed, 2 per left click. Only Gold in the shrine can be used to repair. This Gold can also be stolen by [[Rat|Rats]] and Broodmothers by right clicking on the shrine.
+
+<br>
+[[File:Torch.png|32px|frameless|left]]
+
+=== Torches ===
+[[File:Oil.png|thumb|right|One of many Oil locations in a map.]]
+
+A dwarf's primary light source. By holding a Torch or standing by one in the darkness a dwarf can see, otherwise they will be blind. Breaking these Torches will give most monsters 8 mana, and will give [[Rat|Rats]] 50 mana.
+
+To make Torches, follow the Woodworking section under [[Dwarven_Equipment#Lumberjack_Axe|Lumberjack Axe]].
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+[[File:Mortar.png|32px|frameless|left]]
+=== Mortar ===
+
+Mortar improves Cobblestone in a stronger block by standing near them and left clicking the Mortar. In Build Phase all Cobblestone and Gray Stone Bricks will become Blue Stone Bricks, the strongest possible stone. After Build Phase this will go down one level and turn most Cobblestone into Gray Stone Bricks with a chance to turn each individual block into Blue Stone Bricks, with that chance increasing the closer to the dwarf the blocks are when used. Using Mortar again can make more of the Gray Stone Bricks into Blue Stone Bricks.
+
+Mortar cannot be used on Purple Stone Bricks produced from Dwarven Slabs.
+
+To make Mortar, follow the Woodworking section under [[Dwarven_Equipment#Lumberjack_Axe|Lumberjack Axe]].
+
+== Consumables ==
+
+Consumables are items which are given to dwarves at the start of the game and cannot be obtained through any other means. Incredibly powerful items, they allow easy rectification of a dwarf's mistakes or as extreme preventive measures. All these items are also restricted in use until after Build Phase.
+
+<br>
+[[File:Super mortar.png|32px|frameless|left]]
+=== Super Mortar ===
+
+After Build Phase, normal Mortar no longer turns Cobblestone into Blue Stone Bricks all the time. However, Super Mortar is still able to do so. It is used the exact same way as regular Mortar.
+
+<br>
+[[File:Slab.png|32px|frameless|left]]
+=== Dwarven Slabs ===
+[[File:Bryce slab.png|thumb|right|The wall created when a Dwarven Slab is used.]]
+
+Left clicking a Dwarven Slab will place down an 11x5x3 wall about 2 blocks away in the direction the dwarf is looking. This wall is composed of unique Purple Stone Brick which cannot be repaired using Mortar or Super Mortar, and is easier for monsters to break through. However, using a Dwarven Slab from within a shrine region will produce a fully Blue Stone Brick Slab. Dwarven Slabs cannot be used high above the ground.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+[[File:Enchanted lamp.png|32px|frameless|left]]
+
+=== Enchanted Lamps ===
+[[File:Placed lamp.png|thumb|right|A collection of placed Enchanted Lamps.]]
+
+Left or right clicking an Enchanted Lamp will place a 60 second, unbreakable lamp which produces the same amount of light as a Torch.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+[[File:Wiggly wrench.png|32px|frameless|left]]
+=== Wiggly Wrenches ===
+
+When a dwarf's armor is damaged, left clicking one of these wrenches will repair their armor and return lost armor pieces at the cost of no Gold. If the dwarf doesn't move after left clicking, their experience bar will slowly fill up. The more the bar is filled, the more durability will be repaired; at 0% filled the armor pieces will be repaired for half their durability (and 25% durability for those returned after breaking) and at 100% filled will fully repair their durability.
+
+== Dwarven Strongbox ==
+[[File:Dwarven strongbox location.png|thumb|right|A Dwarven Strongbox located within a keep.]]
+
+The Dwarven Strongbox, appearing as a specially textured enderchest, is a box which can hold a variety of materials and cosmetic items for each dwarf. These cosmetics offer no gameplay advantage and only change their name and sometimes appearance. The contents of this box will be different every game and is unique for each dwarf; meaning this is not a shared resource chest.

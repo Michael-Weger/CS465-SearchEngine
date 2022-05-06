@@ -1,0 +1,15 @@
+There are several maps that can be played on for DvZ. Every map is very different but all strive for the same kind of “not too big” style that was common before the most recent "loadouts" version of DvZ. Every map has all the resources necessary to operate in some form or another and have at least one shrine, but most maps have at least two. Mapmaker credits can be found on the file page for each of the images below (click 'more details' while viewing an image).
+
+== Regular Maps ==
+
+These maps are used for regular DvZ games, either in the main map rotation or as options in the weekly event map vote. Not all of these maps will feature in the map rotation, and some are reserved exclusively for the event map vote due to their size or other features.
+
+{{:Maps/Gallery}}
+
+== Rush Mode Maps ==
+
+[[Rush Mode]] is a special mode for DvZ games in which game progress is sped up considerably compared to normal. Rush Mode games typically run with very few players, and a special rotation of smaller maps is maintained specifically for Rush Mode games. 
+
+{{:Maps/Rush}}
+
+<small>''If you're a builder, it's possible to submit maps for use on the server, but it's important that you read the [[Mapmaking|mapmaking information]] first.''</small>

@@ -1,0 +1,38 @@
+{{:Test Games}}
+
+== What are we testing? ==
+Today's test games include several adjustments to monsters, namely skeletons, and we would appreciate your feedback after experiencing them in-game. The test game also includes several smaller quality of life features and some bug fixes.
+
+== General ==
+* Projectiles now pass through constructs like Arianna's pylon, and decorative armor stands
+* Fire damage increased from negligible to 1 heart.
+* Ranger requirements reduced.
+
+== Skeletons ==
+* Healing tonic is now a full health restore. Still grants scaling regeneration with Elven Quiver.
+* Damage at max Elven Force increased from 4 hearts to 5 hearts.
+
+=== Wither Skeletons ===
+* Damage now ramps up by half a heart per consecutive shot on the same target up to 7.5 hearts at max Sniper. 
+* Window for keeping the Sniper buff up increased.
+* Audio feedback when a dwarf is hit by a sniper buffed shot.
+These changes allow wither skeletons to regain their position as a fearsome foe on the battlefield. Players will once again be worried about taking consecutive sniper hits. The difference this time is the much slower ramp up on the damage allowing dwarves a bit of time before they will be three shot.
+
+=== Fire Skeletons ===
+* Volley shot moved to a cooldown ability and can be fired at will by drawing back on the bow for 2 seconds.
+* Note fire damage increase.
+These changes will allow fire skeletons to serve an attrition role by draining dwarves of their mana due to the increased fire damage. Volley shot getting moved to a cooldown ability provides consistency to the ability.
+
+=== Impact Skeletons ===
+* Reduced the effectiveness of the Siege Cannon ability.
+* Rather than getting absorption hearts, now gains up to 10 additional hearts from Arrow Barrier.
+* Demolisher moved to a cooldown ability and can be fired at will by drawing back on the bow for 2 seconds.
+These changes move impact skeleton's power sideways. Siege Cannon was, unfortunately, too powerful often making impact skeletons more useful than creepers or blaze cannons. In conjunction with the healing tonic buffs impact skeletons will now be a more defensive option allowing them to keep dwarves away while shurgging off ranged hits. Moving demolisher to a cooldown ability provides much needed consistency to the ability which would often randomly fire at inopportune moments.
+
+== Venomburners ==
+* Drain a reduced amount of mana in the light.
+* Note fire damage increase.
+Venomburners have been one of the least frightening monsters for some time now. Unlike wolves or digging zombies, their darkness buffs don't have the ability to end a fight in a few moments by getting the jump on someone. Rather, they need a prolonged fight in order to deal any real damage to their target. Alongside the fire damage buffs, this allows venomburners to still be impactful when dwarves place lights in any engagement, making them more than minor nuisances.
+
+== Creepers ==
+* Now damage constructs like Arianna's Pylon.

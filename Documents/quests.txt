@@ -1,0 +1,123 @@
+Each month, there is an active '''quest''' which can be earned by players. Quest progress can only be made in the month that quest is active, but progress persists between games throughout that month, collectively adding to the final goal of quest and announcing a player's or the playerbase as a whole's completion of that quest as it would for [[achievements]]. Quests reward a high amount of experience, much more than that of any achievement.
+
+Quest progress is tracked automatically, so you do not need to activate or opt into the quest before you play. You can check your progress by visiting the Quests NPC in the lobby. Quest progress is not tracked if the game is in [[Rush Mode]].
+
+== Past Quests ==
+
+These quests have already occurred. While they can not be completed at the moment, they may return in the future to be completed by players next time they occur. The progress towards non-event quests does not reset, meaning that if the quest returns players can pick up where they left off.
+
+* '''Demon Slayer''' - Slay 500 player monsters.
+** Occurred August 2019 with a requirement of 1000 player monsters.
+** Recurred January 2020 lowering the requirement to 500 player monsters.
+** Can only be completed as a dwarf or hero.
+
+* '''The Art of PROC''' - Rampage for an hour cumulatively.
+** Occurred September 2019, April 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''Creeper Keeper''' - Defuse 150 [[Creeper|Creepers]] or [[Super Creeper|Super Creepers]]
+** Occurred October 2019 with a requirement of 250 Creepers and Super Creepers.
+** Recurred October 2020 lowering the requirement to 150 Creepers and Super Creepers.
+** Can only be completed as a dwarf or hero.
+** Creepers and Super Creepers are defused by hitting them when they are hissing to explode.
+
+* '''Finders Keepers''' - Deposit 500 scavenged gold into the shrine.
+** Occurred December 2019, August 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''Shrine Siphoner''' - Drain 3000 shrine health.
+** Occurred February 2020.
+** Recurred January 2021, reducing the requirement to 2100 shrine health.
+** Can only be completed as a monster.
+
+* '''Suited and Booted''' - Restore 20 armour pieces using [[Dwarven_Equipment#Wiggly_Wrenches|Wiggly Wrenches]].
+** Occurred March 2020, October 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''Lifetime Commitment''' - Survive for 10 hours while defending the [[shrine]] or in combat.
+** Occurred April 2020.
+** Can only be completed as a dwarf or hero.
+
+* '''Torch Trouncer''' - Break 500 torches as a monster.
+** Occurred May 2020.
+** Can only be completed as a monster.
+
+* '''Bloody Murder''' - Get 1000 kills below 250 mana.
+** Occurred June 2020.
+** Can only be completed as a dwarf or hero.
+
+* '''Mass Transit''' - As Death's Servant, transport 150 monsters using a doom portal.
+** Occurred July 2020.
+** Can only be completed as Death's Servant.
+
+* '''Archery Addict''' - Kill 200 monsters while over a combo shot of 10.
+** Occurred August 2020.
+** Can only be completed as a dwarf or hero.
+
+* '''Big Spender''' - As a monster, spend 60k mana.
+** Occurred September 2020.
+** Can only be completed as a monster.
+
+* '''Wear and Tear''' - Slay 1000 monsters while missing a piece of armor.
+** Occurred November 2020, January 2022.
+** Can only be completed as a dwarf or hero.
+
+* '''Drink on the Brink''' - Heal below 5 hearts 150 times while in combat.
+** Occurred February 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''UnDeadeye''' - Get 150 bow kills from a horizontal distance of 40 blocks or more.
+** Occurred March 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''Head Hunter''' - Slay 300 player monsters in succession.
+** Occurred May 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''Bloodthirsty''' - Maintain a killstreak of 15 without healing.
+** Occurred June 2021.
+** Can only be completed as a dwarf or hero.
+
+* '''Marksman''' - Slay 100 monsters using reverse bow-procs.
+** Occurred July 2021.
+** Can only be completed as a dwarf or hero.
+
+*'''Sequence Break''' - Begin 100 rampages by slaying player monsters.
+** Occured September 2021
+** Can only be completed as a dwarf or hero.
+
+*'''Halved Heartrate Havoc''' - Slay 2500 monsters while playing with Challenge Mode mana.
+** Occured November 2021
+** Challenge mode mana was an optional mode which limited players to a maximum of 500 mana.
+** Can only be completed as a dwarf.
+
+== Event Quests ==
+
+These quests occur during their respective [[Events|Event]] and revolve around the gameplay changes in those events. Progress towards event quests resets at the end of each event.
+
+* '''Spectral Skrimish''' - Slay 250 special ghosts during the Halloween event.
+** Occurs during the Halloween event.
+** Can only be completed as a dwarf or hero.
+
+* '''Special Delivery''' - Retrieve 50 presents from [[Monsters#Special_Monsters|Special Monsters]] during the Winter event.
+** Occurs during the Winter event.
+** This achievement was a playerbase collective achievement. Any player who retrieved a single present as a dwarf or hero during the event would receive its completion.
+** During the 2021 Winter event the quest was adjusted to be a solo quest and as a result had its goal reduced from 1,000 to 50. If a another player was nearby when a present was picked up both would receive quest progress.
+** Can only be completed as a dwarf or hero.
+
+* '''Gazebogotchi Guardian''' - Have your Gazebogotchi survive 10 games.
+** Occurs during the April event.
+
+Retired:
+
+* '''Showjump Showdown''' - Slay 250 monsters while under the effect of SuperHorse's Horse Force during the April event.
+** Occurred during 2020's April event.
+** Can only be completed as a dwarf or hero that directly receives SuperHorse's Jump Boost buff.
+
+* '''Specter Deflector''' - Slay 500 ghosts during the Halloween event.
+** Occurs during the Halloween event.
+** Can only be completed as a dwarf or hero.
+
+* '''Dress to Distress''' - Slay 1,000 monsters while using Challenge Mode armor acquired from the dwarven strongbox.
+** Occurs during the April event.
+** Can only be completed as a dwarf.

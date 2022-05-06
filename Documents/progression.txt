@@ -1,0 +1,40 @@
+<seo title="Progression" description="Every game of Dwarves vs Zombies generally follows the same progression and major gameplay beats. Every game begins with a Build Phase where all players are dwarves, once it gets dark a plague follows, a certain portion of the players become Monsters and combat ensues until the Monsters have captured every shrine or killed all the dwarves."/> 
+Every game of Dwarves vs Zombies generally follows the same progression and major gameplay beats. Every game begins with a Build Phase where all players are dwarves, once it gets dark a [[plague]] follows, a certain portion of the players become [[monsters]] and [[combat]] ensues until the monsters have captured every [[shrine]] or killed all the dwarves.
+
+== Build Phase ==
+
+During build phase, dwarves are tasked to prepare with the coming onslaught of the monster hordes. They must build [[defenses]], collect their [[Dwarven_Equipment|equipment]], and gather resources. They can only safely do this during the first day before night time, the remaining duration of which is denoted on the sidebar as "Time"; as well as being the same as the duration of Night Vision all dwarves have. Dwarves can continue to do these things after plague, but will have to combat monsters while doing so.
+
+Dwarves do the following during build phase:
+
+* Familiarize themselves with the layout of the [[maps|map]]. A [[Dwarven_Equipment#Compass|compass]] can help with those that have never played on a specific map before.
+* Collect their equipment. This includes a [[Dwarven_Equipment#Dwarven_Runeblade|sword]], [[Dwarven_Equipment#Dwarven_Shortbow|bow]], [[Dwarven_Equipment#Healing_Ale|ale]], [[Dwarven_Equipment#Dwarven_Oak_Shield|shield]], and [[Dwarven_Equipment#Dwarven_Armor|armor]].
+* Dig [[Dwarven_Equipment#Cobblestone|cobblestone]] from the quarry.
+* Mine [[Dwarven_Equipment#Gold|gold]] to be able to repair their armor.
+* Craft [[Dwarven_Equipment#Torches|torches]] to have ample to see in the darkness while fighting and prevent Blindness.
+* Craft [[Dwarven_Equipment#Mortar|mortar]] to strengthen their defenses as they build them and as monsters damage them.
+* Construct effective defenses to keep monsters from getting to their shrine and making it easier to fight them in close quarters.
+
+If the game is in [[Rush Mode]], the build phase will be shortened considerably and dwarves have little time to prepare defences, though they spawn with extra supplies. See the Rush Mode article to learn more.
+
+== Plague ==
+
+Once it becomes night and the dwarves' Night Vision expires, plague begins. In smaller games (less than 20 players) about half of the dwarves will die, and in larger games (20 or more) about one third will die. Plague is somewhat random depending on which plague it is but no plague specifically targets any particular players except for those that opt into the plague using /menu. Those that are plagued are awarded one extra [[Monsters#Monster_Mana|monster mana]] per second to help speed up their upgrade process and become stronger monsters sooner.
+
+== Combat Phase ==
+
+During combat phase the dwarves attempt to keep the monsters at bay away from their shrine by killing them over and over. While they cannot stop them from coming entirely, they can slow their assault this way and by building effective defenses that allow for easier killing and for dwarves to retreat to safety when necessary. 
+
+Monsters are tasked to capture the dwarves' shrine or kill all the dwarves in order to end the game. Early in the game, monsters 3 base monsters ([[Zombie]], [[Skeleton]], and [[Creeper]]) are relatively weak and will make little headway towards these objectives, but can collect torches or stand on the shrine in order to gain additional monster mana and grow stronger. They can also utilize their [[Monsters#Special_Monsters|special monsters]] which are much more dangerous and destructive throughout the game as a whole.
+
+As the game progresses, the 3 base monsters become incredibly difficult for dwarves to deal with alone and can even kill a dwarf in a 1-on-1 battle in some cases. The monster upgrades not only make it easier to kill dwarves, but also drain their resources. Constantly doing damage can put a drain on a dwarf's mana and armor, causing them to repair and drain gold or possibly even use a [[Dwarven_Equipment#Wiggly_Wrenches|wrench]]. They may need to use their shield charges to get away from danger, or use blocks and torches to help their escape. The use of these items can eventually cause the dwarves to run out of them, severely crippling their ability to continue fighting.
+
+If a game goes on "too long" and a monster is able to upgrade all 3 of their base monsters with their final 500 mana cost upgrades, they can become a [[Death's Servant]] which is able to place a [[Death%27s_Servant#Doom_Portal_Mechanics|portal]] that monsters can teleport to upon spawning in, effectively moving monster spawn and making it much easier to return to fighting the dwarves after dying. This puts a massive strain on the dwarves and drains their resources even faster as well as overwhelms the dwarves on the shrine, leading to a quick end of the game.
+
+Shrines play differently depending on if they are the first, interim, or last shrines on a map. These discrepancies are outlined under [[Shrine#Shrine_Progression|Shrine Progression]].
+
+== Temporal Shifts ==
+
+Throughout the game the day-night cycle will continue but at an accelerated pace, making days and nights about half as long as they normally are. This is because of an event known as a Temporal Shift, which occurs around halfway through the daytime and rapidly shifts it to about halfway through the nighttime.
+
+During the night the map is much darker and so certain monsters such as [[Zombie|Zombies]], [[Wolf|Wolves]], [[Venomburner|Venomburners]], and [[Digging_Zombie|Digging Zombies]] become empowered as well as dwarves getting Blindness more frequently. This allows monsters an easier time moving around the map to attack unsuspecting dwarves and destroy their defenses, as well as get to the shrine to capture it.

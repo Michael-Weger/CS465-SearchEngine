@@ -1,0 +1,32 @@
+[[File:Slime1.png|250px|frameless|right]]
+: ''A mysterious goo bubbles from the ground...''
+'''Slimes''' are [[Monsters#Special_Monsters|special monsters]] with the ability to latch to dwarves, dealing constant damage and substantially impairing their ability to fight.
+
+Slimes act as enlarged hitboxes for dwarves they are attached to, meaning other monsters can attack the Slime to deal damage to the dwarf. This makes mounted dwarves much bigger targets.
+
+Slimes are immune to arrows, and while latched to a dwarf are also immune to rampages.
+
+== Mechanics ==
+
+<br>
+[[File:Gooey grapple.png|32px|frameless|left]]
+Slimes spawn with the '''Gooey Grapple''':
+<br>
+<br>
+* Attacking a dwarf with the Gooey Grapple will cause the Slime to attach to that dwarf. While the Slime is riding a dwarf, that dwarf is given poison, slowness and weakness debuffs and is unable to rampage. Additionally, monsters can attack the Slime to damage the dwarf they are riding.
+
+Slimes can press their sneak key (L-Shift by default) while riding a dwarf to dismount.
+
+If a Slime spends a prolonged period mounted to dwarves, it will grow larger and tougher. This can occur up to three times, with the largest size of Slime being much more difficult to kill. Slimes will grow smaller again if they do not mount any dwarves for a while.
+
+== Monster Role ==
+
+* Though they may be slow, slimes can close the gap due to their immunity to arrows.
+* It is best to try to attach to dwarves that are overextended or alone as their teammates will take longer to get to them.
+* Calling your target in chat can help other monsters know to change their focus to attack the impaired dwarf.
+
+== Dwarven Strategy ==
+
+* When slimes are released try to stay near another dwarf so you can help each other get a slime off.
+* While slimes may be immune to rampages when attached to a dwarf, they still take increased damage from the strength buff. 
+* Slimes are immune to arrows, to deal with them before they arrive try to carry a rampage to it to strike first.

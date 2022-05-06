@@ -1,0 +1,64 @@
+During Build Phase and throughout most of the game, Dwarves will need to create and upkeep their '''defenses'''. Defenses serve to slow the monster assault, provide Dwarves with safe places to fight, and enclose choke-points to add to their effectiveness. Usefulness of defenses can especially be determined by playing as a Dwarf, as experience in what is a detriment to their survival and how to fix mitigate those issues, as well as amplify their own power. Above all else however, defenses should serve to defend the shrine.
+
+== General Defense Tips ==
+
+=== Outdoors ===
+
+Outside the environment highly dictates the defenses that are built. Anywhere there are sharp drops that dwarves can die or get stuck in should be sealed or guardrails should be constructed. Bridges specifically should be built in such a way that falling off is made difficult. 
+
+Archers generally want to get up high, so building towers and walls is a good idea for height as well as blocking off areas to funnel monsters. However, more than 5 blocks high is a waste and causes dwarves to have to pillar too high to escape. All small walls built past the choke points will eventually get used by monsters to hide and skeletons to shoot from, so keep that in mind when constructing them.
+
+A couple of structures that dwarves should stray away from include lips on walls which cause dwarves to be unable to pillar up the wall to get away from monsters and into the keep; large roofs which nerf bows to be nearly unusable when they should be at their most powerful; and mazes, which cause confusion and can be easily jumped over by monsters.
+
+=== Indoors ===
+
+Inside, defenses should be constructed that facilitate rampages. These structures should be built to allow dwarves to move quickly and be able to clear halls and rooms. Mazes do the opposite of this, not allowing dwarves to move quickly and sometimes miss monsters altogether. Creepers also get extended time to blow up close to dwarves through the walls of the maze. 
+
+Most importantly however, '''never block off'''. Blocking off all hallways can lead to dwarves dying as they cannot come back to safety, especially those which were not obviously in the hallway beforehand. Blockages also can be cleared by monsters with relative ease, making them not even particularly effective. It is better to simply enclose hallways to funnel monsters straight into rampaging dwarves.
+
+== Specific Structures ==
+
+While defenses are heavily tailored to each map, there is a set of common defenses that can be put in place across multiple different maps. These structures usually have a specific way of building them to make them as effective as possible. 
+
+=== Main Walls ===
+[[File:Nolrim front wall.png|thumb|right|A broken wall in need of reconstruction.]]
+
+On a large number of maps, there is a partially constructed wall, or a clear place to start one between two sides of a valley. These walls are the main defense for the first shrine and should be thick. The thicker the wall, the better, but height is a concerning factor, as walls that have excessive height are difficult to reposition onto and can incur massive amounts of fall damage at some heights. A height of about 5 to 7 blocks is usually preferable and blocks most mobs from being able to bypass it. Holes in the wall also completely defeat the purpose, so they should be plugged up and mortared regularly.
+
+Typically main walls take one of two possible forms. One is a rectangular prism type structure, equally vertical on both of the main sides. The other form is an incredibly large staircase-like structure, vertical on the side that monsters would encounter it, but climbable on the dwarf side. This type of structure allows for easier repositioning if fallen off of and easier to shoot down the construct if necessary, but also makes it easier for monsters to traverse on top of it.
+
+=== Staircases ===
+[[File:Stair defenses.png|thumb|right|An example of defenses on a staircase.|300px]]
+
+When outside, staircases can be a powerful tool in aiding archers to stop monsters in their tracks. Tearing out the actual staircase blocks and enclosing the climbable space to be about 2 blocks wide will slow monsters trying to climb up the stairs, making them easy targets for shooting a bow directly down at them.
+
+When inside, these same practices are useful as prevention, rather than directly aiding in the monsters' demise. Monsters will tend to destroy a single row of stairs to attempt to stop dwarves from retreating or returning up them so destroying the stair blocks can prevent this from occurring.
+<br>
+<br>
+<br>
+
+=== Bridges ===
+[[File:Bridge defenses.png|thumb|right|A completed bridge defense.]]
+
+Some maps include bridges that can go over anything from small gaps to massive ravines with no bottom. Generally dwarves want to make thick walls on either side of the bridge to avoid being knocked or blown off to possibly their death. If dwarves position themselves at the end of a bridge rather than on it they are also generally safer, but with enough structure they can be effectively fought on for at least some time.
+<br>
+<br>
+<br>
+<br>
+<br>
+
+=== Rampage Halls ===
+[[File:Rampage halls.png|thumb|right|An example of rampage halls.]]
+
+Inside, and some locations outside, large areas of the map will be composed of hallways that extend towards a shrine. These hallways are somewhat sizeable or in some cases massive and need some kind of structure built in them to decrease their size. These structures are typically known as rampage halls or PROC halls. 
+
+Composed of long, straight stretches of about 10 blocks at a time, these hallways are usually 2 wide and have small, very slight bends in them so that Skeletons cannot fire straight down them, and to give small corners to more easily focus AI Zombies to start a rampage. The halls never include a roof and typically extend to the ceiling, as having a roof can cause debris to fill the ground bit of the hallway once Creepers weaken the blocks into gravel. These halls decrease the fighting area size to a more manageable state that funnel monsters directly into rampaging dwarves.
+<br>
+<br>
+
+=== Shrine Boxes ===
+[[File:Valley final shrine box.png|thumb|right|A fully constructed shrine box.]]
+
+Around a shrine there is an area known as the Shrine Region which disallows building. Anywhere from 3 to 5 blocks and maybe more, this area sometimes has additional space around it that does allow building. For dwarves, filling in the space around the Shrine Region is regularly helpful as it encloses the space monsters have to move around in, making it easier to clear the room and keeps most monsters from hiding. 
+
+Like rampage halls, a shrine box does not have a roof and typically extends to the ceiling. While gravel can't fall into the shrine region, building up to the ceiling is advised when possible as it prevents monsters from sitting on top of the shrinebox. Roofs would provide further platforms for player monsters to abuse for high ground and make it more difficult for dwarves to shoot at any monsters on top.

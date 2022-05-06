@@ -1,0 +1,26 @@
+[[File:Spiderling.png|250px|frameless|right]]
+: ''A cluster of spiderlings approaches.''
+
+'''Spiderlings''' are [[Monsters#Special_Monsters|special monsters]] capable of corroding walls and poisoning dwarves.
+
+== Mechanics ==
+
+<br>
+[[File:Spiderling fangs.png|32px|frameless|left]]
+Spiderlings are given Spiderling Fangs:
+<br>
+<br>
+* With a left click, the Spiderling will poison dwarves and do a respectable amount of damage.
+* With a right click, the Spiderling will fire a venom ball which corrodes walls, degrading them and turning them to venom blocks. These balls will do nothing to dwarves, only structures within 50 blocks of the Spiderling.
+
+== Monster Role ==
+
+* Spiderlings are primarily used to burrow, degrade, and melt dwarven structures as their venom balls break down walls faster than other monsters can dig through them.
+* Spiderlings have little melee potential. While they do poison and have at least a respectable melee weapon, it's mostly to use in tandem with its jump boost and small hitbox to avoid and evade capture.
+* With no ranged potential, Spiderlings should use their small size to hide and get from wall to wall to tear them down so other monsters can bypass them.
+* Sitting in high locations and spitting down on walls can be incredibly effective at degrading them, however being over 50 blocks away means the balls don't do anything so that should be put into consideration.
+
+== Dwarven Strategy ==
+
+* Spiderlings, like [[Blaze Cannon|Blaze Cannons]], are capable of tearing down entire walls in a short amount of time. Their low health means that their exposure makes them extremely vulnerable to both melee and ranged attacks.
+* Spiderlings, due to their low health, make them easy to start rampages.
