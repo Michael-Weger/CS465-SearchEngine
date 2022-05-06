@@ -21,7 +21,6 @@ where the word occurs (Output the posting list for a term).
 occurrence.
   * Create postings and assign a term frequency to every document in the postings list.
   * Provide a simple GUI to test the system.
-CS 465 Project #1, Simple Information Retrieval System
 
 ## Member Contributions:
   
