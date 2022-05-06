@@ -1,0 +1,87 @@
+[[File:Zombie.png|250px|frameless|right]]
+'''Zombies''' are [[monsters]] which serve as the workhorse of the game as a whole. The most numerous of all monsters, Zombies generally make the most headway to progressing the game and will be the most encountered monster by dwarves.
+
+== Mechanics ==
+
+<br>
+[[File:Makeshift blade.png|32px|frameless|left]]
+Zombies are initially given one item; the Makeshift Blade:
+<br>
+<br>
+* With a left click, the Zombie will deal damage.
+* Once the Leap upgrade is unlocked, a right click will initiate the leap.
+
+<br>
+[[File:Makeshift pick.png|32px|frameless|left]]
+Through upgrades, two other items can be obtained, the first being the Makeshift Pick:
+<br>
+<br>
+* With left click, the Zombie will break blocks. This has a chance to instantly break Cobblestone and Gray Stone Bricks.
+
+<br>
+[[File:Rebirth orb.png|32px|frameless|left]]
+The other item is the Rebirth Orb:
+<br>
+<br>
+* With a left or right click, the Zombie will return to where it had just died, consuming the Orb.
+
+== Monster Role ==
+
+* Zombies make the most progress to the game as a whole. Capable of doing strong melee damage, having a larger health pool to take hits and capture shrines, and having some level of mobility, Zombies are the most prevalent and most frequently encountered monster.
+* Though no ranged potential, with Rapid Regeneration, Leap, and Pursuit, Player Zombies can avoid being hit by arrows and rampaging dwarves fairly well.
+* With Vampirism and a fairly high health pool, Player Zombies are generally not used to start rampages, instead dwarves rely on killing AI Zombies to start them instead.
+* Dwarves which are isolated are extremely vulnerable targets for Zombies, especially those which have unlocked Furious. Easily knocked around, put into darkness, and kept from rampaging, Zombies can wear down these dwarves especially quickly. Melee attacks which are augmented by Furious will have additional red particles and a sound cue.
+* AI Zombies serve to populate hordes of monsters, chasing dwarves with murderous intent but lack most of the evasion potential that Player Zombies have. They can also be used as meat shields for other, more effective monsters.
+
+== Dwarven Strategy ==
+
+* Player Zombies are best avoided until they can be dealt with using a rampage or with 3 consecutive quick bow shots. They can tank most damage and are fairly nimble with their Leap, so starting a rampage of them is difficult.
+* Zombies will attempt to corner and manipulate a dwarf's position to be favorable to them and easily deal mass damage. Denying this with the use of the [[Dwarven Equipment#Dwarven Oak Shield|Dwarven Oak Shield]] or crafty movement can give a dwarf the upper hand in combat.
+* Dwarves should absolutely avoid being isolated by a Zombie, since they can make it especially hard to get a rampage, and when they have upgraded to Furious can deal tons of damage with each hit.
+* AI Zombies can deal a large amount of damage and are not to be underestimated, but are somewhat dumb and generally only run to the nearest dwarf. These can easily start rampages in 4 to 5 hits, so focusing one and then clearing the rest with a rampage is usually the best course of action.
+* AI Zombies can also be a good indicator of nearby Player monsters, since they spawn around them when a dwarf is nearby.
+
+== Upgrades ==
+
+=== Tier 1 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Raw Damage || Increases a Zombie's damage with their Makeshift Blade. || Upgrade Level x 10 mana, capping at 50
+|-
+| Tough Flesh || Increases a Zombie's base health. || Upgrade Level x 10 mana, capping at 50
+|}
+
+=== Tier 2 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Pursuit || Gives a Zombie Speed when hitting a dwarf. Subsequent levels increase the level of Speed. || Upgrade Level x 50 mana
+|-
+| Vampirism || Gives a Zombie health when hitting a dwarf. Subsequent levels increases the amount of health gained. || Upgrade Level x 50 mana
+|-
+| Leap || Gives a Zombie the ability to leap by right clicking their Makeshift Blade. Subsequent levels decrease the cooldown on leap. || Upgrade Level x 20 mana
+|-
+| Makeshift Pick || Gives a Zombie a wooden pick to break blocks with. Subsequent levels increase the durability of the pick and the chance to instantly break blocks. || Upgrade Level x 10 mana
+|-
+| Rapid Regeneration || Gives a Zombie Regeneration III when hit by an arrow. Subsequent levels increase the duration of the Regeneration III. || Upgrade Level x 20 mana
+|-
+| Rebirth || Gives a Zombie the ability to instantly teleport to where they last died via a Rebirth Orb. Subsequent levels increase the chance the Rebirth Orb will appear in the Zombie's inventory. || Upgrade Level x 20 mana
+|}
+
+=== Tier 3 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Furious || Hitting a dwarf between 15 and 30 blocks of another dwarf gives that dwarf Slowness I. Hitting a dwarf 30 or more blocks or out of line of sight of another dwarf or while in darkness gives them Slowness II. Both levels give the Zombie extra damage on that dwarf. A dwarf within 15 blocks of another dwarf or within the shrine region is not affected. || 500 mana
+|}
+
+== AI Zombies ==
+
+Fast and a heavy hitter, the AI Zombie should not be underestimated. However, they are dumb and will generally run to the nearest dwarf. They spawn around all monsters that are nearby dwarves except for [[Skeleton|Infiltrator Skeletons]] that have completed the Infiltrator vine upgrade.

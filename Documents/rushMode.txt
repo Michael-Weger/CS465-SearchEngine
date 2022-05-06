@@ -1,0 +1,26 @@
+[[File:Rush mode boss bar.png|thumb|right|Shrine names are displayed in red when Rush Mode is enabled. Shrines in this mode regenerate slower and are never [[Shrine Shield|shielded]].]]
+'''Rush Mode''' is a special mode for DvZ games in which game progress is sped up considerably compared to normal. If Rush Mode is enabled in a game, shrine names will be shown in red and 'RUSH MODE' will be shown in the lobby game portal and in the Discord game status channel.
+
+Rush Mode makes the game progress much faster and can prove much more challenging for dwarves. Rush Mode games can be quite different from normal DvZ games, and because of these gameplay changes [[achievements]] and [[Quests|quest]] progress are disabled in Rush Mode.
+
+Rush Mode's faster gameplay makes it better-suited to games with only a few players, so Rush Mode games are typically smaller than regular games.
+
+== Gameplay Changes ==
+* [[Heroes]] do not spawn in Rush Mode, regardless of player count
+* [[Progression#Build_Phase|Build phase]] is significantly shorter, meaning dwarves have little time to prepare [[defenses]]
+* Dwarves spawn with armor, tools, weapons and increased starting supplies
+* Dwarves have speed and haste effects during build phase
+* More players [[plague]] (in larger games)
+* [[Shrine Shields|Shrine shields]] are disabled
+* Shrine regeneration rates are reduced
+* Monsters receive more mana
+* [[Monsters#Special_Monsters|Special monster]] waves happen more frequently
+
+== Starting Rush Mode Games ==
+Rush Mode games can be started in the lobby when there are 6 or fewer players online, by visiting the Quests NPC near the DvZ portal. Purchasing a Rush Mode game costs 1,000 gold (earned in loot boxes from playing games) and will replace the current queued game with a random Rush Mode map.
+
+Rush Mode is also sometimes enabled manually by admins.
+
+== Maps ==
+Although Rush Mode can be played on any [[Maps|map]] if enabled by an admin, a special rotation of smaller maps is maintained specifically for Rush Mode games.
+{{:Maps/Rush}}

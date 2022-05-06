@@ -1,0 +1,26 @@
+[[File:Salogel.png|250px|frameless|right]]
+'''Salogel Sureshot''' is a [[Heroes#Minor_Heroes|Minor Hero]] and wielder of Nohdalag. 
+
+: ''The most skilled of [[Lady Lorelei|Lady Lorelei's]] Elven Royal Guard, Salogel earned her title of Sureshot through sheer skill. Quiet and reserved, Salogel is timid to those closest, but of those there are not many; preferring to complete her tasks as directed and move on, and those tasks she does excel at.''
+
+== Items ==
+
+In addition to the standard [[Heroes#Minor_Hero_Kit|Minor Hero kit]], Salogel carries the bow Nohdalag, and its eternal Arrow of Light.
+
+[[File:Nohdalag.png|frameless|left]]
+
+=== Nohdalag ===
+
+<br>
+: ''Made with strings of pure light, the shockwaves produced from Salogel firing arrows are not entirely the bow's doing. Some of that is all her.''
+
+* Striking a monster with an arrow will produce a 3x3 Area of Effect centered around the monster hit which damages all monsters in that area as if they were also struck by an arrow. This effect is denoted by a cloud of gold particles and is also subject to the same mechanics as Dwarven Shortbows, reducing its damage by 70% indoors and by 100% within 5 blocks.
+* Drawing back Nohdalag during a rampage will allow Salogel to shoot an arrow dealing rampage damage even after her rampage has expired.
+* Salogel does not need to craft arrows; as Nohdalag has Infinity it only requires its solitary single Arrow of Light.
+
+== Tips as Salogel ==
+
+* During build phase Salogel can provide much of her excess arrows to other dwarves who need them and prioritize building and mining gold over the time should would have spent crafting arrows.
+* Outside Salogel is especially effective striking from great heights. With no blindness in the dark, no limit on arrows, and a larger hit region as long as she at least hits one monster, she can take out large swaths of monsters from range. Small monsters like [[Rat|Rats]], [[Digging Zombie|Digging Zombies]], and [[Spiderling|Spiderlings]] become much easier to hit as they do not need to be hit directly. 
+* Inside, though damage is reduced, Salogel can still strike groups of AI Zombies to weaken them and easily start rampages, as well as get more value from shooting monsters while rampaging to one-shot them.
+* Though inconsistent, Salogel can shoot a monster and take out her sword, and if the area of effect from the hit kills a monster within 5 blocks of her it will provide her with a rampage.

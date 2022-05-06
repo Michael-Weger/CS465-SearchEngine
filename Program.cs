@@ -9,6 +9,7 @@ using Microsoft.Extensions.Logging;
 using CS465_SearchEngine.Source.Index;
 using CS465_SearchEngine.Source.Web;
 using Microsoft.Extensions.DependencyInjection;
+using CS465_SearchEngine.Source.Index.Utility;
 
 // Michael Weger
 // CS465, S22, Project #1
@@ -27,7 +28,7 @@ namespace CS465_SearchEngine
 
             DocumentMap documentMap = new DocumentMap("./Environment/documents.txt"); // Document mapping. Maps document IDs to file paths.
             InvertedIndex index = new InvertedIndex("./Environment/index.txt"); // The inverted index for this IR system.
-            ParserInverter tokenizer = new ParserInverter(index, documentMap, "./DocumentInput", "./Documents", true, "./Environment/stopWordsLong.txt"); // File parser and inverter
+            ParserInverter parserInverter = new ParserInverter(index, documentMap, "./DocumentInput", "./Documents", true, true, "./Environment/stopWordsLong.txt"); // File parser and inverter
 
             // Print information
             documentMap.Print();
@@ -39,7 +40,7 @@ namespace CS465_SearchEngine
 
             // Initalize the service to allow users to send queries.
             QueryService service = (QueryService) host.Services.GetService(typeof(QueryService));
-            service.Initialize(index, documentMap);
+            service.Initialize(index, documentMap, parserInverter);
 
             // Launch the web host.
             host.Run();

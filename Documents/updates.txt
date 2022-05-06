@@ -1,0 +1,205 @@
+Gazebo DvZ is updated regularly with gameplay changes, new features, bug fixes and quality of life improvements. This page lists significant additions and changes which affect gameplay or user experience, but generally does not list bug fixes, small tweaks, or behind-the-scenes changes which aren't noticeable in-game. You can also read about updates in the announcements channel on our community Discord server. Note that changes listed on this page may have been superseded by subsequent updates.
+
+To keep this page a reasonable length, older updates will be periodically moved to archive pages - keep this in mind when linking to specific updates.
+== April 2022 ==
+=== 2022-04-16 ===
+* [[Emboar|Emboars]] now spawn with regeneration.
+* Emboars now more reliably deal burst damage when chaining a direct impact into an explosion.
+* Emboars now destroy some blocks instantly on impact with walls.
+
+=== 2022-04-01 ===
+* [[SuperHorse]] can now pick up cakes from cake ovens
+* [[Events#April Event|April Event]] (temporary)
+** Players can now opt in to [[Events#April_Event#Death_Replies|Death Replies]]
+** Players can pick up a [[Events#April_Event#Gazebogotchi|Gazebogotchi]] from their [[Dwarven_Equipment#Dwarven_Strongbox|Strongbox]]
+** New [[Monsters#Special_Monsters|Special Monster]]: [[Emboar|Emboars]]
+** New [[Quests|Quest]]: Gazebogotchi Guardian
+
+== March 2022 ==
+=== 2022-03-29 ===
+* [[Lord of the Undead]] has been adjusted. No longer receives resistance from holding the [[Lord of the Undead#Staff of Defile|Staff of Defile]], instead can now build up a lasting overshielding of momentum hearts
+* [[Salogel Sureshot]] has been adjusted. Can now draw her bow back during a rampage to fire an arrow to deal rampage damage after the rampage has expired
+* [[Priestess Arianna]] has been adjusted. Her pylon has had its range reduced and it can now be destroyed by monsters, but the pylon now produces light and its buffs refresh and last longer
+* [[Sprocket]] and [[SuperHorse]] now have nameplates
+* [[Blaze Cannon|Blaze Cannons]] have had the randomness of their fireballs reduced
+* [[Slime|Slimes]] now have their size indicated by the itemstack on their hotbar
+* [[Spiderling|Spiderlings]] now produce mossy cobblestone when degrading blocks
+* The /stats command now shows the statistics of your current role. The command can be provided an argument of either 'dwarf' or 'monster' to display the respective statistics
+
+== February 2022 ==
+=== 2022-02-19 ===
+* [[Rat|Rats]] and [[Creeper#Broodmother|Broodmothers]] now deal less damage to shrines
+* Reduced [[Creeper]] explosion knockback when hitting dwarves consecutively midair
+* Updated [[Creeper#AI_Rats|AI Rat]] pathfinding to more effectively traverse the map
+** A selection of maps has been updated to accommodate new rat pathfinding, and we'll gradually roll this out to remaining maps
+* [[Blaze Cannon|Blaze Cannons]] now have their seppuku right-click interrupted when launching fireballs
+* Added an [[Achievements|achievement]] for [[Slime|Slimes]]
+* Added an achievement for [[Myra the Unseen|Myra]]
+* Added a new team achievement for dwarves
+* Monsters will now receive gold stolen credit for killing players holding gold
+* Re-instated the gold breaking sound
+* The winter event's Snowman has had its particle effects reduced and cooldown increased
+
+=== 2022-02-12 ===
+* Reduced requirements for Murderous Miscellany [[Quests|quest]]
+
+=== 2022-02-05 ===
+* New [[Quests|Quest]]: Murderous Miscellany
+
+== January 2022 ==
+=== 2022-01-15 ===
+* Returning [[Quests|Quest]]: Wear and Tear
+
+== December 2021 ==
+=== 2021-12-24 ===
+* Significantly reduced the chance of AI zombies spawning with the 'risk averse' trait, which makes them run away from rampaging dwarves
+
+=== 2021-12-11 ===
+* [[Winter Event]] (temporary)
+* Event [[Quests|Quest]]: Special Delivery
+** Quest is now solo, rather than team-based
+** Any dwarves near to a present when it's collected are now credited with quest progress
+
+== November 2021 ==
+=== 2021-11-29 ===
+* [[Slime|Slimes]] can now spawn as regular special monsters
+
+=== 2021-11-13 ===
+* New [[Quests|Quest]]: Halved Heartrate Havoc
+
+== October 2021 ==
+=== 2021-10-23 ===
+* [[Halloween Event]] (temporary)
+** Event [[Quests|Quest]]: Spectral Skirmish
+
+=== 2021-10-18 ===
+* AI zombies will no longer spawn from dwarves who are actively rampaging or whose rampage ended within the last 10 seconds
+* AI zombies can now spawn with traits which affect their behavior
+** Most AI zombies now avoid dwarves with rampages
+** Some AI zombies are now 'bloodthirsty' and prefer to target bleeding dwarves
+* AI zombies should no longer spawn in walls
+* The monster menu has been adjusted and now includes back buttons on all sub-menus
+* The main player menu (accessed via /menu or with the book during the game start countdown) has a new layout
+
+=== 2021-10-02 ===
+* Returning [[Quests|Quest]]: Suited and Booted
+
+== September 2021 ==
+=== 2021-09-27 ===
+* ''Resource packs updated - if you have a custom or locally-saved pack, you will need to update it''
+* New minor hero: [[Myra the Unseen]]
+* [[Grand Paladin Ziros]] rampage duration reduced from 4.5 seconds to 4 seconds
+* Added a distinct texture for Dwarven Shields for [[Heroes#Minor_Heroes|Minor Heroes]] and [[Titles#Top Title|Top Titles]]
+* [[General Kurt]] can no longer block using Caliburn or the Buffalo Horn
+* Blocking with the lumberjack axe will no longer reduce damage
+* [[Titles#Cultist|Cultist Dagger]] now plays a higher pitched sheathing and unsheathing sound
+* [[Hector#Durendal|Durendal]] now plays a lower pitched sheathing and unsheathing sound
+ 
+=== 2021-09-04 ===
+* New [[Quests|Quest]]: Sequence Break
+* New stats season (Season 10)
+* New rare cosmetic items added to [[Strongbox]] pool
+
+== August 2021 ==
+=== 2021-08-07 ===
+* Returning [[Quests|Quest]]: Finders Keepers
+
+== July 2021 ==
+=== 2021-07-30 ===
+* The domain has been updated - the Minecraft server is now at '''play.gazebodvz.com''' and the website (including guides and stats) is now at '''https://gazebodvz.com'''
+* Existing players who connect with the new address will be rewarded with an item in the lobby and some experience
+* Cooldown messages have been removed for some items in the lobby with short cooldowns
+* Pegasus Boots cooldown has been reduced in the lobby
+
+=== 2021-07-18 ===
+* [[Skeleton|Impact Skeletons]] no longer destroy torches
+* [[Death's Servant|Death's Servant]] can no longer spawn doom portals in problematic areas
+* [[Magnus|Magnus's]] Holy Purifier deals 50% damage to Death's Servant up from 0%
+* Added new [[Achievements|Achievements]] for most [[Heroes|Major Heroes]]
+
+=== 2021-07-03 ===
+* New [[Quests|Quest]]: Marksman
+
+== June 2021 ==
+=== 2021-06-05 ===
+* New [[Quests|Quest]]: Bloodthirsty
+
+== May 2021 ==
+=== 2021-05-08 ===
+* New [[Quests|Quest]]: Head Hunter
+
+== April 2021 ==
+=== 2021-04-25 ===
+* [[Dwarven Oak Shield]] charges are now indicated on the item stack rather than in the item name
+* [[Lady Lorelei|Lorelei's]] bow charges are now indicated on the item stack
+* [[Supercreeper|Supercreepers']] explosion radius is now indicated by a ring of particles when they explode
+* Particles are no longer used to indicate valid [[Death's Servant]] portal locations (this is still indicated by item enchantment)
+
+=== 2021-04-19 ===
+* [[Margrave Hector|Hector's]] extended reach on Durendal has been replaced with a charge based sword beam
+* [[Magnus the Red|Magnus's]] refuel rate has been doubled
+* Magnus's purifier fuel is now indicated by the size of the item stack rather than in the item name
+* [[Sprocket|Sprocket's]] Tinderflame spell has had its visual effects reinstated
+* Sprocket's Tinderflame has been made easier to aim
+
+=== 2021-04-12 ===
+* [[Death's Servant|Death's Servant's]] blink ability moved from the Death's Essence item to the Death's Touch weapon
+
+=== 2021-04-11 ===
+* Returning [[Quests|Quest]]: The Art of PROC
+
+=== 2021-04-03 ===
+* [[Events#April Event|April Event]] (temporary)
+* New [[Quests|Quest]]: Dress to Distress
+
+== March 2021 ==
+=== 2021-03-19 ===
+* Dwarf slab count reverted to 5 per player
+* Hero slab count increased to 7 per player
+
+=== 2021-03-12 ===
+* Dwarf slab count reduced to 3 per player
+* Hero slab count reduced to 5 per player
+* Slabs cannot be repaired using mortar or super mortar
+
+=== 2021-03-03 ===
+* New [[Quests|Quest]]: UnDeadeye
+
+== February 2021 ==
+=== 2021-02-19 ===
+* [[Death's Servant]] portal mana decays while standing in the active shrine region again, but at a reduced rate
+* Some death messages have been changed to use less chat space
+* The [[Plague|Plague of Frogs]] now allows dwarves to heal until frogs start spawning
+* Holding a Makeshift Pickaxe as a zombie no longer prevents AI zombies from spawning
+
+=== 2021-02-07 ===
+* [[Rush Mode]] games can now be purchased in the lobby (using gold earned from playing games)
+** Available when 6 or fewer players are online
+** Replaces the current queued game with a random Rush Mode map
+* Dwarves with titles enabled no longer spawn with duplicate weapons in Rush Mode games
+
+=== 2021-02-06 ===
+* New [[Quests|Quest]]: Drink on the Brink
+
+== January 2021 ==
+=== 2021-01-25 ===
+* Rats and broodmothers must be within the active shrine region to steal gold from it
+
+=== 2021-01-18 ===
+* ''[[Resource Packs|Resource packs]] updated''
+* New [[plague]] event - Plague of Frogs
+* [[Death's Servant]] no longer loses portal mana while standing in the active shrine region
+* The rate at which [[Broodmother|broodmothers]] can steal gold directly from the shrine (by right-clicking) has been reduced
+* Monsters are now credited for gold stolen by rats they released from blocks, even if they are not a broodmother
+* Rats and broodmothers can only steal gold from shrine blocks which are within the shrine capture region
+* Medal requirements in [[Rush Mode]] games have been increased
+* Leave/join messages now show hero names if applicable
+* A trivia question will automatically play during the countdown before the game starts
+
+=== 2021-01-08 === 
+* Returning [[Quests|Quest]]: Shrine Siphoner
+
+== Older Updates ==
+* [[Updates/2020|2020 Updates]]
+* [[Updates/2019|2019 Updates]]
+* [https://discordapp.com/channels/428716551730888705/428717413262163998 Discord Announcements]

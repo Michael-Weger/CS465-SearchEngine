@@ -1,0 +1,27 @@
+[[File:Arianna.png|250px|frameless|right]]
+'''Priestess Arianna''' is a [[Heroes#Minor_Heroes|Minor Hero]] and holder of the Ruby Necklace. 
+
+: ''When younger, Arianna was a timid and curious girl who aspired to join the Order of Light and serve the dwarves in their fight against darkness. Through her service she would become a militaristic zealot, the High Priestess of the Order of Light; ready to support her followers in their task to strike down the evil forces of the monsters.''
+
+== Items ==
+
+Arianna does has the standard [[Heroes#Minor_Hero_Kit|Minor Hero kit]] as well as the Ruby Necklace. 
+
+[[File:Ruby_Necklace.png|frameless|left]]
+
+=== Ruby Necklace ===
+
+<br>
+[[File:Ruby Necklace Pylon.png|200px|thumb|right|The Pylon placed down by Arianna's Ruby Necklace.]]
+: ''A necklace made by dwarves of an era gone by. The pristine ruby pendant enables its wearer to manipulate the surrounding ether into a regenerative field, allowing them to heal all wounds.''
+
+* The Ruby Necklace acts as Arianna's potion, as such left clicking it will fully heal Arianna and clear all negative status effects at the cost of 100 mana. In addition she receives Regeneration IV for 10 seconds.
+* Right clicking the Ruby Necklace will place down a healing pylon which provides a light source and grants dwarves Regeneration II and Night Vision in the affected region as long as they have line of sight to the pylon. This pylon lasts for 30 seconds and is on cooldown for 60 seconds from when it was placed. Monsters can destroy the pylon by attacking it.
+
+== Tips as Arianna ==
+
+* During build phase Arianna has a lot of spare time due to spawning with much of the supplies she needs, thus she can spend her time building or mining gold, doing actions to support the dwarves as a whole.
+* Arianna on her own is somewhat tanky, serving as a paladin cleric role as she can give herself a continuous buff of Regeneration II and then boost it to Regeneration IV for 10 seconds upon healing. This allows her to conserve mana greatly and space out her heals to only when they are necessary. 
+* Placing the healing pylon where it would affect the most dwarves, such as on shrines or front walls is advised so its value can be most capitalized on. Night Vision allows dwarves much more freedom in both ranged and melee combat, no longer needing to rely on a torch to see their target or be able to hit them with a critical hit. 
+* The pylon can be used to temporarily draw player monster aggro. This allows Arianna to draw out key targets such as [[Wolf|Wolves]] or [[Zombie|Fury Zombies]] as they need to destroy the pylon to capitalize on their darkness buffs.
+* It is imperative that Arianna remind the dwarves that her pylon does not block monsters that gain some buff from being in darkness such as Wolves or [[Venomburner|Venomburners]] from doing so, meaning dwarves should still stay alert even if they are no longer blinded in the dark.

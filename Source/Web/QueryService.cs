@@ -16,13 +16,15 @@ namespace CS465_SearchEngine.Source.Web
     /// </summary>
     public class QueryService
     {
-        private InvertedIndex InvertedIndex; // The index
-        private DocumentMap   DocumentMap;  // The documents mapping used to verify that documents still exist before sending them to the user.
+        private InvertedIndex  InvertedIndex;  // The index
+        private DocumentMap    DocumentMap;    // The documents mapping used to verify that documents still exist before sending them to the user.
+        private ParserInverter ParserInverter; // Provides standardised string manipulation between index creation and user queries
 
-        public void Initialize(InvertedIndex invertedIndex, DocumentMap documentMap)
+        public void Initialize(InvertedIndex invertedIndex, DocumentMap documentMap, ParserInverter parserInverter)
         {
             InvertedIndex = invertedIndex;
             DocumentMap = documentMap;
+            ParserInverter = parserInverter;
         }
 
         /// <summary>
@@ -131,9 +133,11 @@ namespace CS465_SearchEngine.Source.Web
         /// <returns>A normalized user query.</returns>
         private List<string> PreprocessQuery(string rawQuery)
         {
-            rawQuery = rawQuery.ToLower();
-            rawQuery = string.Join("", from character in rawQuery where char.IsLetterOrDigit(character) || char.IsWhiteSpace(character) select character);
-            return new List<string>(rawQuery.Split(' '));
+            string processedQuery = ParserInverter.ProcessString(rawQuery);
+            List<string> splitQuery = ParserInverter.SplitString(processedQuery);
+            splitQuery = ParserInverter.ProcessWords(splitQuery);
+
+            return splitQuery;
         }
 
         /// <summary>
@@ -155,7 +159,7 @@ namespace CS465_SearchEngine.Source.Web
 
             foreach (string token in rawQuery.Split(' '))
             {
-                if(token.Length > 1 && token[0] == '\\')
+                if (token.Length > 1 && token[0] == '\\')
                 {
                     // No term token on this pass. Add default distance.
                     if (nextTokenTerm)
@@ -167,7 +171,7 @@ namespace CS465_SearchEngine.Source.Web
                     {
                         distance = Convert.ToInt32(token.Substring(1));
                     }
-                    catch(FormatException)
+                    catch (FormatException)
                     {
                         distance = 1;
                     }
@@ -184,7 +188,7 @@ namespace CS465_SearchEngine.Source.Web
                         queryDistances.Add(1);
                         nextTokenTerm = true;
                     }
-                    else if(currTerm > 0)
+                    else if (currTerm > 0)
                     {
                         nextTokenTerm = false;
                     }
@@ -198,6 +202,9 @@ namespace CS465_SearchEngine.Source.Web
             // Check if the last distance is present in the case the user ended the query on a term to default to 1
             if (queryStr.Count - 1 > queryDistances.Count)
                 queryDistances.Add(1);
+
+            if(ParserInverter.DoStemming)
+                queryStr = PorterStemmer.StemWords(queryStr);
 
             return new Tuple<List<string>, List<int>>(queryStr, queryDistances);
         }

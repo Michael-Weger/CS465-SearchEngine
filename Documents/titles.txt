@@ -1,0 +1,84 @@
+'''Titles''' are earned through various means, and are added to a player’s name as a prefix (Title_Jimmy). All of these titles give a player a special item which has no considerable difference from the conventional weapons given to other Dwarves other than possibly appearance. 
+
+Except for Mason, titles are earned on a season by season basis and are reset at the start of every new season. Each one has a corresponding title for the person with the most kills of each category.
+
+== Paladin ==
+
+[[File:Holy blade.png|32px|frameless|left]]
+''Forged in light, this blade will shine green on the destruction of your enemies, paving the way to glory.''
+<br>
+<br>
+
+A reward for killing 3,000 monsters with a sword in a single season. Paladins spawn with the Holy Blade, a weapon identical to the Dwarven Runeblade except in appearance and name.
+
+The player with the most sword kills in a season possesses the title of GrandPaladin.
+
+== Ranger ==
+
+[[File:bow.png|32px|frameless|left]]
+''My lad, the boys who can't aim get the short bow. You, however, get the good stuff.''
+<br>
+<br>
+
+A reward for killing 3,000 monsters with a bow in a single season. Rangers spawn with the Dwarven Longbow, a weapon identical to the Dwarven Shortbow except in name.
+
+The player with the most bow kills in a season possesses the title of Sureshot.
+
+== Gravedigger ==
+
+[[File:Tomb maker.png|32px|frameless|left]]
+''I dig the graves for old and young men. We bring only doom and decay, my friend. A shovel is no sword, but in battle it thrives. Once you have killed, more death shall arrive.''
+<br>
+<br>
+
+A reward for killing 3,000 monsters with a shovel in a single season. Gravediggers spawn with the Tomb Maker, a weapon identical to the Dwarven Shovel except in appearance and name.
+
+The player with the most shovel kills in a season possesses the title of Lord.
+
+== Guardsman ==
+
+[[File:Radiant blade.png|32px|frameless|left]]
+''A blade forged in light which shines brightest in the presence of Thor. It will bring swift end to any who dare to defile our shrines.''
+<br>
+<br>
+
+A reward for killing 3,000 monsters protecting the shrine (close to the shrine) in a single season. Guardsmen spawn with the Radiant Blade, a weapon identical to the Dwarven Runeblade except in appearance and name.
+
+The player with the most shrine kills in a season possesses the title of Sentinel.
+
+== Cultist ==
+
+[[File:Cultist dagger.png|32px|frameless|left]]
+''Light ends on this night. The undead rise with their might. An end filled with fright.''
+<br>
+<br>
+
+A reward for earning 30 monster medals in a single season. Cultists spawn with the Bloodied Dagger, a weapon identical to the Dwarven Runeblade except in appearance and name.
+
+The player with the most monster medals in a season possesses the title of Necromancer.
+
+Monster medals are gained by being one of the top players for the following statistics per game as a monster:
+* Damage done to dwarves.
+* Shrine health drained.
+* Torches broken.
+* Armor pieces broken.
+* Gold stolen from the shrine or off the ground.
+
+== Top Title ==
+
+[[File:Dwarven_Shield.png|32px|frameless|left]]
+''These heavy shields were once used in the Great Wars by dwarven soldiers. Few survived the devastation and they are now wielded by only our finest.''
+<br>
+<br>
+
+Players holding one of the top titles are granted a cosmetic shield. These shields are identical in function to the Dwarven Oak Shield and have the texture of the Dwarven Shields carried by [[Heroes#Minor_Heroes|Minor Heroes]].
+
+
+== Mason ==
+
+[[File:Mason brick.png|32px|frameless|left]]
+''I tried to come up with a pun, but all the jokes were just about getting laid.''
+<br>
+<br>
+
+A reward for building or helping build an approved map for play. The map must be fully approved, not just submitted, in order to receive this title. Masons spawn with the Mason Brick, a weapon identical to the Dwarven Runeblade except in appearance and name.

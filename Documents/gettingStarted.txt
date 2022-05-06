@@ -1,0 +1,50 @@
+Welcome to Gazebo Dwarves vs Zombies! This game follows the war between two opposing sides, the dwarves and the monsters. Dwarves are much more powerful than monsters but only have one single life, as after they die they become monsters which can die and respawn repeatedly. The goal of the dwarves is to defend their [[Shrine|shrines]] from the monsters, who seek to capture them. The game will always result in the dwarves losing either by all dying or the shrines being captured and there is no way for the dwarves to win, so they seek instead to survive as long as possible before they eventually fall.
+
+== Dwarves ==
+
+In [[Progression#Build_Phase|build phase]], a dwarf is tasked with obtaining materials and building defenses they will use to defend the shrines from the monster hordes.
+
+The absolute essentials are as follows:
+
+* '''Obtain a [[Dwarven_Equipment#Healing_Ale|Healing Ale]].''' This is the lifeline of the dwarves, allowing them to fully heal themselves when they left click it at the cost of 100 mana as shown on their experience bar. This mana will slowly regenerate.
+* '''Obtain a [[Dwarven_Equipment#Dwarven_Runeblade|Dwarven Runeblade]].''' This is the dwarven melee weapon. Killing a monster with this sword will give them a rampage which allows them to instantly kill most monsters they hit for a short time, refreshing the rampage on each kill.
+* '''Obtain a [[Dwarven_Equipment#Dwarven_Shortbow|Dwarven Shortbow]].''' This is the dwarven ranged weapon. Left clicking and standing still will craft arrows. Outside bows will do massive damage to monsters, but inside or when a dwarf has a block above their head they will do considerably less. Within 5 blocks of the target the bow will also do no damage at all.
+* '''Obtain [[Dwarven_Equipment#Dwarven_Armor|Dwarven Armor]].''' Dwarves armor each other so one dwarf typically can get all the armor for the entire team. This armor will take damage in combat and so taking each piece off one at a time and left clicking it, then putting it back on will repair a portion of it at the cost of Gold from the shrine.
+* '''Obtain [[Dwarven_Equipment#Torches|Torches]].''' While more can be crafted, dwarves spawn with 32 Torches at the beginning of the game as well. When in darkness dwarves are blinded, unable to see, sprint, or critically hit. Holding a torch or standing in the light will prevent these effects.
+* '''Utilize [[Dwarven_Equipment#Wiggly_Wrenches|Wrenches]].''' Dwarves spawn with 3 wrenches each. While armor is usually manually repaired, wrenches can quickly repair a portion of the armor or all of it if the dwarf stands still. Using a wrench will also return broken pieces of armor, as this is the only method to do so.
+* Obtaining a [[Compass|compass]] via /compass can help find the locations of resources and important waypoints that are different between maps.
+
+There are more tools to succeed as a dwarf, but these are the bare minimum in order to survive the initial monster hordes. During Build Phase many of the dwarves will be building walls, hallways, and other defenses to better defend the shrine from the monsters. 
+
+At the end of build phase, a portion of the dwarves will die to the [[plague]]. After plague, those dwarves that died will become [[monsters]]. The monsters will attempt to capture the shrine by standing on it and killing the dwarves. 
+
+The following tips are essential for combat:
+
+* Left click the Healing Ale when at low health. Low health can constitute as anything under half or 10 hearts. Without doing this, most monsters will kill a dwarf within seconds.
+* Get a kill with a sword and continue killing, rolling the rampage and clearing areas with relative ease.
+* Use bows outside but not inside, their low damage inside can make them more of a detriment than an asset.
+* Stay close to other dwarves and in the light. Some monsters get extra buffs in the darkness and when dwarves are separated, making it easy for them to kill dwarves quickly.
+
+Do ''NOT'' do the following:
+
+* '''Do not remove the Healing Ale from the bar.''' Dwarves need the Healing Ale to be able to stay alive. Taking it off their bar will result in them dying extremely quickly.
+* '''Do not spam torches excessively.''' Monsters get mana which makes them stronger from breaking torches. Placing them sparingly and where they are necessary is key.
+* '''Do not block off hallways entirely.''' Dwarves need to be able to retreat to safe areas and the shrine to defend it. Blocking off hallways can get them trapped with monsters and quickly killed.
+* '''Do not take all armor pieces off at once.''' This makes a dwarf extremely vulnerable and is unnecessary, simply repairing one piece at a time is much safer.
+* '''Do not always ignore advice from others.''' Especially when building or repairing, dwarves generally want to help one another and will attempt to do so in chat.
+
+== Monsters ==
+: ''Main article: [[Monsters]]''
+
+Once a dwarf dies, whether it be from the plague or after, they become a monster. The entire goal of the monsters is to capture the dwarven shrines, whether by killing all the dwarves or simply by standing on it.
+
+Monsters get stronger as the game progresses, due to their increasing numbers and their ability to upgrade their 3 base monsters; [[Zombie]], [[Skeleton]], and [[Creeper]]. These upgrades cost mana which is gained over time, standing on the shrine, or by breaking torches.
+
+Though Dwarves may seem invincible while playing a Monster, they are slowly losing resources as the game goes on. Gold is required to repair and is used faster than its gained. Defenses slowly deteriorate from Creepers and other explosions as well as tunnelling monsters. Light sources are broken. Dwarves may not die from direct combat but their draining resources put a huge burden on them to continue living.
+
+Tips to playing monster:
+
+* Avoid rampaging dwarves. Dwarves surrounded in green or orange sparkles are able to instantly kill most monsters. Avoiding them is integral to longer monster lives and to be impactful each life.
+* Do not run at the dwarves as low health monsters such as Skeleton, [[Rat]], [[Spiderling]], etc. as it will cause a dwarf to be able to start a rampage.
+* Kiting dwarves when fighting in a melee and knocking them to dangerous locations can yield better results than simply left clicking them.
+* Standing on the shrine and draining the shrine power can cause dwarves which are up front to have to concede the area they are holding in order to keep the shrine alive.

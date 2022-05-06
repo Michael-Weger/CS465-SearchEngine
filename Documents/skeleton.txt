@@ -1,0 +1,187 @@
+[[File:Skeleton.png|250px|frameless|right]]
+'''Skeletons''' are [[monsters]] which are the ranged threat to the dwarves and come in four distinct types.
+
+== Mechanics ==
+
+<br>
+[[File:bow.png|32px|frameless|left]]
+Skeletons are given three items, the first being the Bone Tooth Bow:
+<br>
+<br>
+* With a left click, the Skeleton will start a cast time to create 8 Bone Arrows in their inventory.
+* With a right click, it will fire an arrow, the more a Skeleton hold right click, the further an arrow will go, however regardless of how much the bow is pulled back the arrow will have the same damage. Arrows do pass through other monsters.
+
+<br>
+[[File:Arrow.png|32px|frameless|left]]
+The ammo for the Bone Tooth Bow are Bone Arrows:
+<br>
+<br>
+* Skeletons spawn with a few of these initially, though more can be obtained by left clicking their Bone Tooth Bow or upgrading the initial amount they start with.
+
+<br>
+[[File:Healing tonic 32x.png|32px|frameless|left]]
+The final item Skeletons spawn with is the Healing Tonic:
+<br>
+<br>
+* Drinking this will give the Skeleton Regeneration.
+
+== Monster Role ==
+
+* While the upgrade path a Skeleton follows almost entirely dictates their role in the game, all Skeletons do follow a couple of universal rules: they rely heavily on keeping large amounts of distance between themselves and the dwarves, and need to evade any damage as they typically take 1-2 bow shots to kill.
+* Positioning in towers, on walls, shrineboxes, or any sort of high ground can make Skeletons hard to hit, but make it easier to hit shots.
+ 
+=== Fire Skeleton ===
+
+* Fire Skeletons are effective for Skeletons which cannot typically hit shots, whether it be due to their own ability, location, or because of the location the dwarves are taking. They rely heavily on their volley from fully drawn bow shots to rain fire from places which make them hard to hit.
+* Continually annoying the dwarves with damage ticks from the fire can eventually pose a drain on their mana while they also take damage from other sources.
+* The speed Fire Skeletons get also allows them to position themselves quickly after dying, returning to their location faster than other Skeletons can.
+
+=== Wither Skeleton ===
+
+* Wither Skeletons produce the highest raw damage per shot of any Skeleton. Repeatedly hitting their shots on the same dwarf over and over can drastically reduce their armor durability, mana, and health.
+* Wither Skeletons' repeated damage buff is only produced from hitting the same dwarf over and over, switching targets will make the first shot hit do less damage before returning to its buffed state. Bow spamming a dwarf running straight at the Skeleton can make it easy to quickly deal a ton of damage in a short span of time.
+* With Wither Skeleton's final upgrade: Nether Skeleton; hitting shots on dwarves to keep its health up can make a Wither Skeleton especially durable, but also makes them stand out in a crowd.
+
+=== Infiltrator Skeleton ===
+
+* Infiltrator Skeletons revolve around snaring dwarves and catching them off-guard, as well as constructing vineways to get to higher locations or impede dwarf movement. 
+* Infiltrator skeletons get most of their killing value from catching dwarves behind shrine protection. These dwarves are typically weak from battle, repairing their armor, or simply not paying attention enough to fight off a Skeleton who can slow their attempts to melee them down and backpedal to keep distance. 
+* Infiltrator Skeletons can also break lights in the keep and setup vineways to quickly bypass chokepoints on certain maps, making them an extremely valuable as a support monster.
+* With Infiltrator Skeleton's final upgrade: Potent Formula; shooting dwarves in a huge crowd of AI Zombies which are trying to start a rampage can cause them to be unable to do so, possibly resulting in their death.
+
+=== Impact Skeleton ===
+
+* Impact Skeletons excel at knocking dwarves out of position and destroying their defenses. Knocking dwarves off of high ledges can readily cause their death.
+* Positioning in such a way to knock dwarves off of precarious positions on maps is especially effective, however even knocking them back can cause them to find it difficult to re-aim a shot or to be able to run down a hallway with a rampage.
+* Nearly all shots as an Impact Skeleton will destroy torches in the area that is fired upon, making it hard for dwarves in those areas to see. Firing at [[Defenses]] as well can open up alternative pathways and make it easier to knock around dwarves.
+
+== Dwarven Strategy ==
+
+* Skeletons are extremely weak in close quarters, unable to do any damage within 5 blocks of the dwarf its attacking. Getting within this range can be dangerous, though using a [[Dwarven Equipment#Dwarven Oak Shield|Dwarven Oak Shield]] can make it easier to cross that gap, especially against Infiltrator and Impact Skeletons.
+* Most Skeletons, especially Wither Skeletons, get most of their value from repeatedly hitting a dwarf over and over. Thus, dwarves should look to evade shots, especially in rapid succession of one another.
+* Skeletons are generally immobile, making ranged combat quite effective especially since they usually die in 1 to 2 shots.
+* It can be especially beneficial to have 1 or 2 dwarves constantly watching for Infiltrator Skeletons behind the front lines, especially as when they are left alone they can completely destroy all the lights before dwarves are able to fight there. Vines should also be destroyed on sight as they provide high positional value. Dwarven Runeblades destroy vines fairly quickly.
+* Watching positioning when dealing with Impact Skeletons is a must, as they can easily knock dwarves off of high cliffs to their death.
+* Shooting Skeletons while rampaging can also quickly deal with them inside, on top of shrine boxes, or with extra health; since shots while rampaging will instantly kill them as long as the rampage is still active when the shot lands.
+
+== Upgrades ==
+
+=== Tier 1 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Elven Force || Increases a Skeleton's base damage. || Upgrade Level x 10 mana
+|-
+| Elven Quiver || Increases the amount of arrows Skeletons spawn with. || Upgrade Level x 10 mana
+|}
+
+=== Tier 2 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Fire Skeleton || A Skeleton's arrows now light dwarves on fire. || 250 mana
+|-
+| Wither Skeleton || A Skeleton's arrows now wither dwarves. || 250 mana
+|-
+| Infiltrator Skeleton || A Skeleton's arrows will now poison dwarves. || 250 mana
+|-
+| Impact Skeleton || A Skeleton's arrows now knock back dwarves. || 250 mana
+|}
+
+=== Tier 3 Upgrades ===
+
+==== Fire Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Dragon's Flame || Gives a Skeleton speed upon spawning. Subsequent levels increase the duration of the speed. || 50, 100, 125, 150, 200 mana
+|-
+| Volley Shot || Gives a Skeleton a chance to fire a volley of arrows from fully drawn shots. || 50, 100, 125, 150, 200 mana
+|}
+
+==== Wither Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Sniper || Gives a Skeleton increased damage after hitting a dwarf for a short time on that same dwarf. Subsequent levels increase the amount of damage dealt. || 50, 100, 125, 150, 200 mana
+|-
+| Darkness Devours || Gives a Skeleton health when hitting a dwarf. Subsequent levels increase the amount of health gained. || 50, 100, 125, 150, 200 mana
+|}
+
+==== Infiltrator Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Crippling Poison || A Skeleton's arrows now slow dwarves. Subsequent levels increase the potency and duration of poison and slowness effects. || 50, 100, 125, 150, 200 mana
+|-
+| Infiltrator || Gives a Skeleton's vines. Subsequent levels increase the number of vines. The final level also allows a Skeleton to pass through shrine protection. || 50, 100, 125, 150, 200 mana
+|}
+
+==== Impact Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Siege Cannon || A Skeleton's arrows have a chance to destroy walls which scales with how far they pull the bow back. Subsequent levels increase this chance. || 50, 100, 125, 150, 200 mana
+|-
+| Arrow Barrier || Gives a Skeleton absorption hearts upon spawning. Subsequent levels increase the number of hearts.  || 50, 100, 125, 150, 200 mana
+|}
+
+=== Tier 4 Upgrades ===
+
+==== Fire Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Conflagration || Fire caused by a Skeleton's arrows spreads from dwarf to dwarf. || 500 mana
+|}
+
+==== Wither Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Nether Skeleton || Increases a Skeleton's health to 15 hearts and changes their model to be a Wither Skeleton with a regular Skeleton skull. || 500 mana
+|}
+
+==== Infiltrator Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Potent Formula || A Skeleton's arrows will now give dwarves Weakness II. || 500 mana
+|}
+
+==== Impact Skeleton ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Demolisher || Gives a Skeleton a 15% chance to fire an explosive arrow from fully drawn shots. These arrows will not deal additional damage, but does still deal knockback and destroys blocks. || 500 mana
+|}
+
+== Gallery ==
+
+<gallery mode="traditional">
+Image:Skeleton fire.png|Fire Skeleton
+Image:Skeleton wither.png|Wither Skeleton
+Image:Skeleton nether.png|A Wither Skeleton with the final upgrade: Nether Skeleton
+Image:Skeleton infiltrator.png|Infiltrator Skeleton
+Image:Skeleton impact.png|Impact Skeleton
+</gallery>

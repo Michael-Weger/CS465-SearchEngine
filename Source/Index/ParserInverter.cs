@@ -19,11 +19,12 @@ namespace CS465_SearchEngine.Source.Index
         private string OutputDirectory; // Document output directory
 
         private bool DoCaseFolding; // Whether or not to perform case folding.
+        public readonly bool DoStemming;   // Whether or not to perform stemming. Exposed to allow for the positional search to normalize its strings in a slightly different way...
         private List<string> StopWords; // Stop words to exclude from the index.
 
-        public ParserInverter(InvertedIndex index, DocumentMap documentMap, string inputDirectory, string outputDirectory, bool doCaseFolding) : this(index, documentMap, inputDirectory, outputDirectory, doCaseFolding, "") { }
+        public ParserInverter(InvertedIndex index, DocumentMap documentMap, string inputDirectory, string outputDirectory, bool doCaseFolding, bool doStemming) : this(index, documentMap, inputDirectory, outputDirectory, doCaseFolding, doStemming, "") { }
 
-        public ParserInverter(InvertedIndex index, DocumentMap documentMap, string inputDirectory, string outputDirectory, bool doCaseFolding, string stopWordsPath)
+        public ParserInverter(InvertedIndex index, DocumentMap documentMap, string inputDirectory, string outputDirectory, bool doCaseFolding, bool doStemming, string stopWordsPath)
         {
             this.Index = index;
             this.DocumentMap = documentMap;
@@ -31,7 +32,8 @@ namespace CS465_SearchEngine.Source.Index
             this.InputDirectory = inputDirectory;
             this.OutputDirectory = outputDirectory;
 
-            this.DoCaseFolding = doCaseFolding;
+            this.DoCaseFolding = doCaseFolding || doStemming;
+            this.DoStemming = doStemming;
             this.StopWords = this.ReadStopWords(stopWordsPath);
 
             this.ProcessDocuments(); // Begin processing documents once initialized.
@@ -79,26 +81,69 @@ namespace CS465_SearchEngine.Source.Index
             return stopWords;
         }
 
+
         /// <summary>
         /// Normalizes the provided string.
         /// </summary>
         /// <param name="str">String to normalize.</param>
         /// <returns>Normalized string.</returns>
-        private string ProcessString(string str)
+        public string ProcessString(string str)
+        {
+            return ProcessString(str, false);
+        }
+
+        /// <summary>
+        /// Normalizes the provided string.
+        /// </summary>
+        /// <param name="str">String to normalize.</param>
+        /// <param name="whitelistPositional">Whether or not to whitelist \ for processing positional queries</param>
+        /// <returns>Normalized string.</returns>
+        public string ProcessString(string str, bool whitelistPositional)
         {
             string output = str;
 
-            Regex rgx = new Regex("[^a-zA-z0-9 ]"); // Whitelists all alphanumeric characters and whitespace
+            Regex regex = whitelistPositional ? new Regex("^[a-zA-Z0-9\\\\ ]*$") : new Regex("[^a-zA-z0-9 ]"); // Whitelists all alphanumeric characters and whitespace
 
             if (DoCaseFolding)
                 output = output.ToLowerInvariant(); //Makes each word lowercase
 
             output = output.Replace("\r", "").Replace("\n", " "); // Removes all carriage return values in txt documents (for windows)
             output = output.Replace("&", "and").Replace("@", "at");
-            output = rgx.Replace(output, "");
+            output = regex.Replace(output, "");
             output = output.Replace("[", "").Replace("]", "").Replace("^", ""); // Replaces '[' , ']' and '^' as they are not specified in regex
 
             return output;
+        }
+
+        /// <summary>
+        /// Standardises splitting strings.
+        /// </summary>
+        /// <param name="toSplit">String to split.</param>
+        /// <returns>List of tokens from the string.</returns>
+        public List<string> SplitString(string toSplit)
+        {
+            return toSplit.Split(new char[] { ' ', '.', '?', '!', '_', '-' }, StringSplitOptions.RemoveEmptyEntries).ToList();
+        }
+
+        public List<string> ProcessWords(List<string> words)
+        {
+            this.RemoveStopWords(words);
+
+            if (DoStemming)
+                words = PorterStemmer.StemWords(words);
+
+            return words;
+        }
+
+        /// <summary>
+        /// Removes all stop words recgonized by this instance from the provided list of words.
+        /// </summary>
+        /// <param name="words">List of words to remove stop words from.</param>
+        /// <returns>List of words with stop words removed.</returns>
+        public List<string> RemoveStopWords(List<string> words)
+        {
+            words.RemoveAll(word => this.StopWords.Contains(word)); // Remove Stopwords
+            return words;
         }
 
         /// <summary>
@@ -160,23 +205,24 @@ namespace CS465_SearchEngine.Source.Index
             int currPosition = 1; // Current position in the document (for positional searches)
 
             StreamReader reader = new StreamReader(filePath);
-            Regex rgx = new Regex("[^a-zA-z0-9 ]"); // Whitelists all alphanumeric characters and whitespace
             List<string> distinctList = new List<string>(); // List of distinct words (for statistics)
 
             string line;
             while ((line = reader.ReadLine()) != null)
             {
+                // Process before delimiting
                 line = this.ProcessString(line);
+
                 // Tokenizes line based on certain delimiters
-                List<string> words = line.Split(new char[] { ' ', '.', '?', '!', '_', '-' }, StringSplitOptions.RemoveEmptyEntries).ToList(); // Split on these delimiting characters
-                
-                distinctList.AddRange(words); // Adds all words to the distinct list and removes all nondistinct values.
-                distinctList = distinctList.Distinct().ToList();
+                List<string> words = this.SplitString(line);
 
                 // Statistics stuff
+                distinctList.AddRange(words); // Adds all words to the distinct list and removes all nondistinct values.
+                distinctList = distinctList.Distinct().ToList();
                 totalWords += words.Count; // Update total words for statistics
 
-                words.RemoveAll(word => this.StopWords.Contains(word)); // Remove Stopwords
+                // Process individual tokens
+                words = this.ProcessWords(words);
 
                 // Process each token
                 foreach (string word in words)

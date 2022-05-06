@@ -1,0 +1,49 @@
+[[File:General kurt.png|250px|frameless|right]]
+'''General Kurt''' is a [[Heroes#Major_Heroes|Major Hero]] with a kit that revolves around having better versions of normal dwarves' equipment to the point of complete monster destruction.
+
+: ''Held in high regard as a masterful tactician and fighter without equal, General Kurt brings the limits of a single dwarf’s potential into question. Kurt maintains a simultaneous blessing and curse from Thor, the Thunder God. Thor’s boon of strength has given the dwarven general pure unmitigated might, but his curse has brought about an enemy which cannot be contained-- condemning Kurt to an endless cycle of death and rebirth against the legions of demise. Throughout his cycle of eternal struggle, General Kurt has grown ever more bold and authoritative, ignoring even the Dwarven Council’s authority to take charge and fight back against the curse he cannot hope to conquer. Though every battle is lost, Kurt refuses to concede defeat, powering through each fight as if it were his last.''
+
+
+== Items ==
+
+In addition to the standard [[Heroes#Major_Hero_Kit|Major Hero kit]], Kurt also receives the golden sword Caliburn, his powerful bow Melia, and the Horn of the Buffalo.
+
+[[File:Excaliju.png|frameless|left]]
+=== Caliburn ===
+
+<br>
+: ''Broken and reforged a thousand times, Caliburn is a legendary blade stronger than normal weapons despite its brittle material.''
+
+* Caliburn is a gold sword which radiates Kurt's rampages in all directions. With a 4.5 second rampage signified by gold particles instead of green, Kurt can also, upon killing a monster, kill 5 monsters in a 1 block radius around himself.
+* Holding Caliburn gives Kurt Knockback Resistance, which is useful if his Dwarven Hero Helmet has broken.
+
+<br>
+[[File:Virendra32x.png|32px|frameless|left]]
+
+=== Melia ===
+
+<br>
+: ''A bow created from the bones of a dragon and the soul of Kurt's late wife. When drawn, her strings are imbued with the force of Kurt's love and regret, resulting in immense damage and knockback when piercing monster skulls.''
+
+* Melia possesses Punch X and has 1.5x the damage of a normal Dwarven Shortbow.
+* Melia is however subject to the same rules as Dwarven Shortbows, meaning that under a roof it will deal 70% less damage and within 5 blocks will deal 100% less damage.
+* An additional capability is that if Kurt fires an arrow with Melia and switches to Caliburn before the arrow kills its target, Kurt will gain a rampage.
+
+<br>
+[[File:Buffalo Horn.png|32px|frameless|left]]
+=== Horn of the Buffalo ===
+
+<br>
+: ''A well-crafted horn made for use by dwarven generals to direct their allies. A mighty blow from this horn inspires other dwarves, sending them into a powerful rampage.''
+
+* Left click blows this horn to invigorate all dwarves on the battlefield, giving them a 10 second special rampage with Speed III and Haste I after a short 2 second delay. This rampage however will be overridden upon rolling it, replacing its special buffs with that of the normal rampage.
+* The cooldown for the horn is dependent on the number of dwarves alive times 6, with a minimum of 60 seconds. Meaning the more dwarves that die, the more the horn can be used.
+* Kurt can also right-click the Horn to block 50% of all incoming damage.
+
+== Tips as Kurt ==
+
+* During build phase Kurt has a lot of spare time due to spawning with much of the supplies he needs, thus he can spend his time building or mining gold, doing actions to support the dwarves as a whole. His horn gives Speed III and Haste I as well which is useful in helping other dwarves collect stone and gold, so blowing it often is recommended.
+* Kurt's ability to mow through monster hordes is unmatched. Every time he kills a monster, another 5 can die around him. This should be noted when other dwarves are starting to get rampages, as being around them could cause them to be unable to do so. Kurt can stand at the very front lines will little repercussion, so he should probably stick to doing so.
+* When using Melia, anticipating where the Punch X will send the monster after the first shot and firing there can allow Kurt to hit a monster with two shots in quick succession.
+* Melia doesn't strictly need to be used to kill monsters alone. Since she has Punch X, using her to knock back monsters out of melee range is useful, and when able to kill monsters switching to Caliburn to get an instant rampage is particularly powerful.
+* Using the Horn of the Buffalo is an easy way to get many dwarves out of trouble fast. When fighting [[Wolf|Wolves]] or [[Venomburner|Venomburners]] at night, or [[Iron Golem|Iron Golems]] at any time, using the horn can help dwarves make swift work of them. It should be noted however that not using the horn for extended periods of time can be wasteful, so it should be used timely, but not without reason.

@@ -1,0 +1,38 @@
+'''Plague''' events signify the end of Build Phase and occur at nightfall in order to kill a few dwarves so they will play as monsters. The amount of dwarves killed is proportional to the amount of dwarves in the game, in order to make the game fair. About half the dwarves will die to the plague if the game has 20 players or fewer, and about a third if it has 21 or more. Dwarves that befall said plague will also get one additional monster mana per second upon death. [[Heroes]] are immune to all plague events.
+
+Dwarves who die to the plague (without opting into it) will have a reduced plague chance if they stay for the next game. If they do plague in the next game they will receive a lump sum of bonus monster mana.
+
+== Plague Events ==
+
+One of the following plague events is randomly selected each game.
+
+=== Old Plague ===
+You have become sick and will soon die! Wither effects kill you quickly and make you unable to use your Healing Ale.
+
+=== Zombie Infection ===
+You have contracted the Zombie Infection! You will instantly become a zombie and slowly die, but hitting other dwarves may spread the infection!
+
+=== Dragon Rage ===
+The dwarves are angry! In order to take out their anger they must hit each other, though through sheer rage they ignore all damage taken. Those dwarves that do not relieve their anger will have their hearts explode!
+
+=== DEATH ===
+'''DEATH''' has come to claim your souls. He screeches as he teleports from dwarf to dwarf, killing them as he goes. If you see '''DEATH''', avert your eyes and run, your only hope is he claims another dwarf in your place.
+
+=== Storm ===
+A STORM COMETH! Passing storms strike lightning around the map. Bouncing through the air probably isn't a good idea, but maybe being grounded isn't that much better anyway...
+
+=== Purge ===  
+The dwarves are lifted by an other-worldly force high into the air, some of which having their souls ripped from their body. The now lifeless corpses fall to the ground, as well as those which retained their souls, protected on their fall.
+
+=== Plague of Frogs ===
+An onslaught of frogs begins to rain down from the heavens above. The dwarves must attempt to fend off the frogs or end up overwhelmed by their sheer numbers.
+
+== Admin Events ==
+
+These events are plague events that are started by admins and do not happen often, if at all. Their appearance is legendary.
+
+=== DARAGOR === 
+The son of Vlaurunga has become angry with the dwarves. You must fight against this dragon in order to slay him and save your fellow dwarves, but many will die in the process. Keep him at range, and if he starts to speak, RUN.
+
+=== DOOM ===
+The air around the dwarves gets colder and thicker. A force begins to pull them in, and the closer they seem to get to it, the stronger the draw becomes. If you get too close, it may just completely '''''consume''''' you.

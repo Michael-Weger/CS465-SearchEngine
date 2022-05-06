@@ -1,0 +1,79 @@
+Below is a list of commands. 
+
+== /msg ==
+==== Description ====
+Sends a direct message to the player.
+==== Syntax ==== 
+/msg <player> <message>
+==== Alternate forms ==== 
+/tell, /whisper, /m, /w, /t
+
+== /r ==
+==== Description ====
+Replies to the last direct message you have received.
+==== Syntax ==== 
+/msg <message>
+==== Alternate forms ==== 
+/reply
+
+== /who ==
+==== Description ====
+Lists online players and shows real names if their nickname is significantly different.
+==== Alternate forms ==== 
+/list
+
+== /hub ==
+==== Description ====
+Returns you to the lobby.
+==== Alternate forms ==== 
+/lobby, /gazebo
+
+== /stats ==
+=== Description ===
+Views your statistics for the current game.
+==== Syntax ==== 
+/stats <role>
+
+== /compass ==
+=== Description ===
+Opens a menu with important points on it.
+
+== /menu==
+=== Description ===
+Opens a menu of options for Dwarves vs Zombies. In it you are able to:
+* Select your resource pack.
+* Change your title.
+* Change your hero opt-in status.
+* Opt into the plague.
+* View your statistics for the current game.
+* Get a compass with important points.
+* Toggle your tutorial.
+* Toggle death messages in chat for Zombies, Skeletons, and Creepers.
+
+== /resourcepack ==
+=== Description ===
+Select your preferred resource pack.
+
+== /title==
+=== Description ===
+Change your title.
+
+== /chat==
+=== Description ===
+Toggles your chat on or off.
+
+== /tells ==
+=== Description ===
+Toggles your tells (direct messages) on or off.
+
+== /ignore ==
+==== Description ====
+Ignores the player.
+==== Syntax ==== 
+/ignore <player>
+
+== /unignore ==
+==== Description ====
+Unignores the player.
+==== Syntax ==== 
+/unignore <player>

@@ -1,0 +1,26 @@
+[[File:Alfon.png|250px|frameless|right]]
+'''Guard Captain Alfon''' is a [[Heroes#Minor_Heroes|Minor Hero]] and holder of the Hookshot. 
+
+: ''Inheriting his position of Guard Captain from his befallen father, Alfon is capable at his position, but tends to spend a lot of time away from it. Seen by some as lacking discipline and by others as outright lazy, Alfon still knows when he needs to be serious, but that's only really when monsters are on the shrine. Outside of that Alfon spends most of his time swinging around, having more fun than he probably should be while doing so.''
+
+== Items ==
+
+In addition to the standard [[Heroes#Minor_Hero_Kit|Minor Hero kit]], Alfon carries the Hookshot.
+
+[[File:Hookshot.png|frameless|left]]
+
+=== Hookshot ===
+
+<br>
+: ''A beautifully fashioned hookshot made from a lightweight yet durable metal. It has been passed down by royal dwarven guards for generations.''
+
+* Left clicking with the Hookshot will send out a hook capable of bringing a player monster directly in front of Alfon unless it is an [[Iron Golem]] or [[Death's Servant]], in which case he will be pulled towards it or evade it respectively. Unless Alfon directly hits the monster with the point of the hook, it will only do slight damage (or when rampaging, no damage), however if directly hit the Monster will be dealt massive damage.
+* Right clicking the Hookshot will send out a hook which pulls Alfon to wherever it lands.
+
+== Tips as Alfon ==
+
+* During build phase Alfon has a lot of spare time due to spawning with much of the supplies he needs, thus he can spend his time building or mining gold, doing actions to support the dwarves as a whole. He can also traverse the map fairly quickly with the use of his Hookshot.
+* Alfon is a master of evasion, using his Hookshot to go to locations far out of reach of monsters can provide him with vantage points to shoot at monsters, safety to repair his armor, or a pause to regenerate mana.
+* Left clicking the Hookshot has a massive hit region capable of pulling in player monsters from huge crowds. In tandem with this, the damage it deals is enough to instantly kill [[Rat|Rats]] and [[Spiderling|Spiderlings]], so the Hookshot can be used to quickly deal with those mobs without chasing them or aiming at them.
+* Pulling in monsters can also serve as a way for Alfon to quickly reset his rampage and roll it if no AI Zombies or other monsters are nearby to do so.
+* If Alfon does take the time to aim his Hookshot, the point of the hook can become as deadly as an arrow, dealing massive damage and when rampaging; instantly killing most Monsters outside of Iron Golems and Death's Servant.

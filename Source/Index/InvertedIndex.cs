@@ -33,7 +33,6 @@ namespace CS465_SearchEngine.Source.Index
 				this.FilePath = filePath;
 
 				this.ResolveFromFile(filePath);
-				this.traverse();
 			}
 			catch(Exception e)
 			{

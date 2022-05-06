@@ -1,0 +1,40 @@
+[[File:Myra.png|250px|frameless|right]]
+'''Myra the Unseen''' is a [[Heroes#Minor_Heroes|Minor Hero]] and wielder of Athalux. 
+
+== Items ==
+
+In addition to the standard [[Heroes#Minor_Hero_Kit|Minor Hero kit]], Myra carries the dagger Athalux and is equipped with Spiked Boots.
+
+[[File:Athalux.png|frameless|left]]
+
+=== Athalux===
+
+<br>
+: ''A dagger imbuded with light which enables the user to seemingly flicker in and out of existence.''
+
+* Blink charges can be stored as indicated by the item stack size.
+* Right clicking with Athalux will cause Myra to blink forward damaging monsters in her path.
+
+<br>
+[[File:Diamond boots.png|32px|frameless|left]]
+
+=== Spiked Boots ===
+
+<br>
+: ''A pair of spiked boots which enables the user to climb walls.''
+
+* Crouching next to a wall will allow Myra to a climb it based on the direction she is looking.
+* Crouching whilst falling next to a wall will slow Myra's descent performing a wall slide.
+* Releasing crouch whilst performing a wall slide will perform a wall kick away from the wall.
+* These boots also have Feather Falling V.
+
+== Tips as Myra ==
+
+* During build phase Myra has a lot of spare time due to spawning with much of the supplies she needs, thus she can spend her time building or mining gold, doing actions to support the dwarves as a whole. She can also traverse the map fairly quickly by using Athalux.
+* By expending blink charges Myra can chase down and corner weaker targets to attain a rampage. Additionally slaying a monster with the blink damage will grant a rampage, and hitting a monster whilst rampaged will extend the rampage.
+* Expending blink charges also enables Myra to chase down key player monster targets such as [[Zombie|Zombies]] or [[Wolf|Wolves]] which would otherwise leap past other dwarves.
+* Athalux's blink will climb one block slopes allowing Myra to quickly climb stairs or other constructs to chase down targets.
+* Athalux's blink can be used midair in succession allowing Myra to cross sizable gaps.
+* Myra's Spiked Boots enable her to easily get on top of shrine boxes or other perches to displace [[Skeleton|Skeletons]] or [[Venomburner|Venomburners]].
+* A wall kick can be used in conjunction with Athalux's blink to extend Myra's horizontal travel.
+* While wall kicks can only be performed off the ground, Myra can easily perform one nearly from the ground by jumping at a wall whilst crouching and releasing crouch at the peak of her jump. Myra can also briefly look up to climb to make a quick wall kick from the ground more consistent.

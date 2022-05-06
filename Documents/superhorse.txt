@@ -1,0 +1,72 @@
+[[File:Super horse.png|250px|frameless|right]]
+A special hero that doesn't adhere to the typical [[Heroes#Major_Heroes|major]]/[[Heroes#Minor_Heroes|minor hero]] scheme, '''SuperHorse''' has many different tools in his kit. SuperHorse will typically only spawn during some [[Events]].
+
+: ''Kurt has had few friends he can truly rely on in his time as a Dwarven General, but one he knows will never let him down is his trusty steed: SuperHorse. Resilient, powerful, and supportive, SuperHorse brings strength and increases the morale of all the Dwarves he fights with.''
+
+== Spawning Requirements ==
+
+SuperHorse's spawning requirements are modified from that of typical heroes.
+
+* During the [[Events#April_Event|April Event]], SuperHorse is a guaranteed spawn regardless of the size of the game and does not affect the spawning of other heroes, raising the normal maximum number of heroes in a game from 3 to 4.
+* During the [[Events#Halloween_Event|Halloween Event]], SuperHorse is added to the pool of minor heroes. This means he is not guaranteed to spawn every game.
+* SuperHorse is also known to appear in other battles when his schedule permits.
+
+== Items ==
+
+SuperHorse's kit is slightly varied from that of all other Heroes. SuperHorse is given [[Heroes#Mighty_Healing_Ale|Mighty Healing Ale]], and the armor from the [[Heroes#Major_Hero_Kit|Major Hero kit]] except for the helmet, which is a normal Dwarven Helmet. This accommodates SuperHorse's larger size, but doesn't also give him permanent Knockback Resistance from his helmet. He is also given Mighty Hooves, the Equine Arrowslinger, and the Super Saddle, as well as extra utility from Stone Cakes.
+
+[[File:Mighty hooves.png|32px|frameless|left]]
+
+=== Mighty Hooves ===
+
+<br>
+: ''SuperHorse leaps into battle, ready to crush demons with his Mighty Hooves!''
+
+* A sword which when right clicked, causes SuperHorse to leap forward a short distance with a cooldown of 10 seconds.
+* As well, Mighty Hooves grants rampages after slaying a demon exactly like a [[Dwarven_Equipment#Dwarven_Runeblade|Dwarven Runeblade]].
+
+<br>
+[[File:bow.png|32px|frameless|left]]
+
+=== Equine Arrowslinger ===
+
+<br>
+: ''Drawing the string with his teeth, SuperHorse can hurl arrows at amazing speeds.''
+
+* A bow identical to the [[Dwarven_Equipment#Dwarven_Shortbow|Dwarven Shortbow]] except that it has Infinity.
+
+<br>
+[[File:Saddle.png|32px|frameless|left]]
+
+=== Super Saddle ===
+
+<br>
+: ''SuperHorse doesn't leap into battle alone, he carries the mightiest of warriors and empowers them to elevate them over the rest of the rabble.''
+
+* Left click temporarily increases the showjumping potential of nearby dwarves using Horse Force, giving them and himself Jump Boost for 10 seconds on a cooldown of 60 seconds.
+* Right clicking a dwarf will put them on SuperHorse's back, giving them a rampage for the entire duration they are riding him. This ability has a cooldown of 60 seconds from when SuperHorse picks the dwarf up.
+* Holding the Super Saddle also gives SuperHorse Knockback Resistance.
+
+<br>
+[[File:Cake.png|32px|frameless|left]]
+
+=== Stone Cake ===
+
+<br>
+* While not an item SuperHorse himself carries, when he eats a Stone Cake (achieved by breaking the cake rather than right clicking it) he is granted 10 seconds of Resistance. 
+
+== Tips as SuperHorse ==
+
+* During build phase SuperHorse has a lot of spare time due to spawning with much of the supplies he needs, thus he can spend his time building or mining gold or making arrows for other dwarves that may need them, doing actions to support the dwarves as a whole. He can also traverse the map much quicker than any dwarf can with the use of his Mighty Hooves, and can even taxi dwarves across the map.
+* SuperHorse should remind the dwarves to make Stone Cakes and place them so he can use his Resistance buff as often as possible.
+* SuperHorse has extremely high mobility especially when he has a rampage since he is able to leap from target to target when they are just out of range normally.
+* The cooldown on SuperHorse's leap is also the same duration as the Resistance buff he receives from breaking a Stone Cake. This means he can eat a cake, leap into combat, fight, and leap out right when the buff ends, making his combat especially safe if this is repeated.
+* SuperHorse's most powerful item, the Super Saddle, should be used as often and frequent as possible. The Jump Boost buff provides dwarves with added mobility especially in ranged combat, and picking up a dwarf gives them a free rampage they can continue to carry even when they fall off your back.
+* Picking up dwarves can also frequently save them if they have low health or mana, since it allows them to rampage and regenerate some of what they have missing.
+* SuperHorse's hitbox however is larger in melee combat. Due to this, he is easier to hit and will be hit more often. He should pay special attention to his helmet, since without the additional Unbreaking X his other pieces have, it will break extremely quickly.
+
+== Gallery ==
+
+<gallery mode="traditional">
+Image:Super horse zombie.png|Super Horse's 2019 Halloween costume
+</gallery>

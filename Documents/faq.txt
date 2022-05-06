@@ -1,0 +1,74 @@
+== Server Questions ==
+
+=== When are games played? ===
+Games can be played at any time, and will start automatically once 10 players have queued, but generally weekends are the most active periods on the server. We play scheduled weekly games every Saturday starting from around 1pm US Eastern time. If you'd like to be notified when these games start, you can join our Discord server, where you can also enable an optional 'Game Alert' role to be notified when games start during the rest of the week.
+
+=== How can I report rulebreaking? ===
+If you think someone's breaking the [https://coathar.com/rules rules], please use the in-game report command: '''/report [player] [reason]'''. If you can't give a player name, for example because you aren't sure which player is responsible, you can use '''?''' in place of the player name, for example /report ? flying golem. Before reporting, please take note of the following points:
+* Don't discuss the issue in chat or attempt to bait the player; just /report and move on. Calling out rulebreaking in chat is against the server rules.
+* Be as descriptive as possible, to help moderators deal with the issue quickly. For example, don't just write 'hacking' if you can be more descriptive.
+* Don't ask other people to report. We only require one report to investigate an issue, and reports based on hearsay create more work as they aren't reliable. Don't assume your report isn't being dealt with simply because the player's still in the game - sometimes it can take time to investigate an issue properly. Reporting alerts moderators even if they're not in the game.
+
+=== What's the number on tab for? ===
+The number next to people's names on the player list represents server experience (XP) level. Experience is earned based on playtime (via loot chests), unlocking [[achievements]] and completing [[quests]]. Some other actions on the server also give small amounts of bonus experience. Server experience has no purpose other than display.
+
+=== I'm having trouble with the resource pack ===
+: ''Main article: [[Resource Packs]]''
+
+=== Why was I banned? ===
+If you've been banned from the server, it's most likely for severe or multiple violations of the [https://coathar.com/rules rules]. We try to avoid banning players whenever possible, so being banned means your behaviour was far removed from what we can tolerate on the server.
+
+To find out what to do next, check the ban message when you try to log into the server.
+* If the ban is temporary (i.e. gives a date the ban will expire), just wait for the ban to end. We won't accept ban appeals for temporary bans. Take note of the ban reason and use the time to reflect on your behaviour, so that when your ban ends you can return and have fun.
+* If the ban is permanent, you may be able to appeal the ban after one month has passed. You can appeal either on Discord by messaging Gazebot#6665, or via email by emailing appeals@coathar.com. Do not message individual admins for ban appeals. We'll take into account your appeal, ban reason and previous behaviour in deciding whether you should be unbanned.
+
+'''Do not attempt to play on the server while banned.''' Ban evasion (joining on another account) will result in a permanent ban which cannot be appealed.
+
+=== Why is my hero toggle locked? ===
+
+Admins may sometimes lock players' hero toggle, preventing them from being selected as a hero, as punishment for certain bad behavior. The most common reason for this is being rude about other players who have been selected as hero - if you can't be respectful towards other players when it's their turn to be hero, you don't get a turn. Other punishments may apply alongside this depending on the situation.
+
+If you have been hero locked, this will be shown in the DvZ options menu when trying to toggle hero opt-in. If the hero toggle option doesn't say it's locked, your hero is not locked. Remember that heroes are selected using random number generation each game, and this means that sometimes you will naturally go several games without being selected - this is ''not'' being hero locked.
+
+A hero lock can be appealed after 30 days, using the same contact methods as [[FAQ/Bans|ban appeals]].
+
+=== Can I submit a map? ===
+
+We do accept map submissions, but it's important that you read all the [[Mapmaking|mapmaking information]] first.
+
+=== Why does it say the server is whitelisted? ===
+Occasionally we may need to enable a temporary whitelist to ensure games are able to run smoothly. We try to minimise these periods and will always aim to disable the whitelist as soon as possible. If you try to join and the server says it's whitelisted, we're sorry for the inconvenience and would ask you to try again another day. The whitelist is based on a regularly-updated list of active players; please note that we can't manually whitelist players, so please don't pester staff with requests.
+
+== Gameplay Questions ==
+
+=== Are there different dwarf classes? ===
+This version of Dwarves vs Zombies doesn't have different dwarf classes, dwarf upgrades or loadouts. All dwarves have the same abilities and starting gear, with the exception of heroes which are selected randomly when the game begins.
+
+=== What is gold for? ===
+Gold in the lobby is earned by playing games, and is used to purchase cosmetic items such as toys and boots, which can only be used in the lobby.
+
+In-game gold is a separate mechanic, and is used for dwarven armor repair. See [[Dwarven_Equipment#Gold|the gold section]] for more information.
+
+=== How do I get a better weapon? ===
+There are no weapons that normal dwarves can acquire that are better than the default weapons. Items with a light blue name are all equal to the default variations of those items, and the only items with any gameplay advantage are those with gold names which only heroes start with.
+
+=== Why do I sometimes earn more monster mana? ===
+Monsters earn extra mana if they died to the plague, and also earn bonus mana while standing in a shrine region. Additionally, in small games (20 players or less) all monsters earn more mana. If more players join later so that the game is no longer considered small, this extra mana is disabled.
+
+=== Where is _______? ===
+Most of the important waypoints on the map are denoted by using [[Compass|/compass]]. You can click on the waypoint you wish to go to and follow the compass to where you want to go.
+
+=== What are cakes for? ===
+Cake is a fun item that is a holdover from back when dwarves needed to eat so they didn't starve and could sprint. Because eating is no longer required, cakes do nothing except when [[SuperHorse]] is around.
+
+=== What is that achievement for? ===
+[[Achievements]] are fully explained on their own page, however hovering over the name of the achievement in chat after someone has earned it will explain its requirements.
+
+=== What is 'Rush Mode'? ===
+: ''Main article: [[Rush Mode]]''
+
+Rush Mode is a special mode where game progression is sped up, making the game more challenging for dwarves. Players can sometimes queue Rush Mode games from the lobby depending on how many players are online, or they may be queued by admins. They are also sometimes used to test updates.
+
+=== Why do my arrows fly in random directions? ===
+
+Due to a Minecraft bug, sometimes an individual in game will have their arrows randomly fire in different directions than where they are aiming. Leaving the game and rejoining will fix this bug. Dwarves have unlimited relogs before plague and can relog once after plague, but should not relog to fix this during the plague as this will instantly kill them upon logging back in.

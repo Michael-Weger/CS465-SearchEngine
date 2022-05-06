@@ -1,0 +1,31 @@
+[[File:Digging zombie.png|250px|frameless|right]]
+'''Digging Zombies''' are [[Monsters#Special_Monsters|special monsters]] which are smaller, faster zombies capable of boring holes in walls and making quick, powerful strikes on dwarves with a rapidly degrading pickaxe.
+
+== Mechanics ==
+
+<br>
+[[File:Makeshift blade.png|32px|frameless|left]]
+Digging Zombies are given two items, the first being the Makeshift Blade:
+<br>
+<br>
+* With a left click, the Digging Zombie will deal damage equal to that of an unupgraded zombie, but also gains Fury of the Night, meaning that damage is enhanced by a Strength buff gained in darkness.
+
+<br>
+[[File:Broken pickaxe.png|32px|frameless|left]]
+The other item Digging Zombies are given is the Broken Pickaxe:
+<br>
+<br>
+* With a left click, a Digging Zombie can break blocks and bore holes through walls more precisely than [[Blaze Cannon|Blaze Cannons]] and [[Spiderling|Spiderlings]], as well as deal more damage than with their Makeshift Blade, but at the cost of durability, meaning the pick will break. This pick can also be augmented by Fury of the Night.
+
+== Monster Role ==
+
+* Digging Zombies get most of their value from their enhanced speed and smaller size, meaning they can sneak past or run by dwarves and bore holes in walls as entrances for other monsters.
+* With Fury of the Night in darkness, Digging Zombies are also extremely strong in melee combat until their pickaxe breaks. Melee attacks which are augmented by Fury of the Night will have additional red particles. They can use their speed to kite dwarves more effectively.
+* Though no ranged potential, they are excellent at completely avoiding ranged combat altogether by closing gaps quickly or moving out of harm's way entirely within seconds.
+* Without any sort of lifesteal or regeneration, Digging Zombies must stay diligent in avoiding damage altogether, as it takes extremely long to heal it back.
+
+== Dwarven Strategy ==
+
+* Digging Zombies are a lingering threat, hard to see due to their speed and size but boring holes throughout walls and structures, leaving entrances everywhere that will need to be patched up. Continuing wall maintenance is key.
+* While hard to hit, Digging Zombies have no health recovery. As such, landing hits on them leave them weak for the next time they attack, even if they aren't killed in the initial melee. Every hit on a Digging Zombie is valuable.
+* Avoid fighting Digging Zombies in darkness so they cannot take advantage of their Fury of the Night buff.

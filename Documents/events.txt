@@ -1,0 +1,82 @@
+Over the course of the year there are a number of '''events''' that occur for a short time. During these events, some game mechanics will differ and there will be a [[Quests|quest]] tailored to that event for the duration. The past events are listed below.
+
+== April Event ==
+
+Occurring in early April each year, the April Event adds temporary changes which are fun and slightly silly but may not be as balanced as regular gameplay. The following features have been exclusive to the event.
+
+=== Gazebogotchi ===
+During the April Event, dwarves will spawn with a Gazebogotchi in their [[Strongbox]]. Clicking the the Gazebogotchi will add a new set of items to the player's crafting grid in their inventory. Players take care of their Gazebogotchi by feeding it cake as a dwarf or sating its bloodlust as a monster, and interacting with it to keep it happy. Gazebogotchis which survive an entire game will increase the player's progress toward the Gazebogotchi Guardian [[Quests|Quest]].
+
+=== Death Replies ===
+During the April Event, players will have a new option in their player menus to enable a feature called Death Replies. Enabling this feature will cause dwarves to automatically send a message "explaining" their death the instant they die.
+
+=== Emboars ===
+[[File:Emboar.png|250px|frameless|right]]
+
+: ''Main article: [[Emboar]]''
+During the April Event, players can spawn as a new special monster, the Emboar, which disrupts dwarves and damages walls.
+
+=== Challenge Mode ===
+During the April Event, dwarves spawn with both a special wrench and potion in their Strongbox. 
+
+Using the wrench after being armored will replace the dwarf's helmet, leggings and boots with weaker iron armor. Challenge armor consumes less gold when repairing, and the wrench can be used again to restore regular dwarven armor. Kills gained while wearing the weaker armor count towards the Dress to Distress Quest if it is active.
+
+Using the potion will halve the dwarf's maximum mana. Using it again, like the wrench, will restore the dwarf to their previous maximum mana. Kills gained while using the reduced mana cap will count toward the Halved Heartrate Havoc Quest if it is active.
+
+Heroes are unable to use both challenge mode armor and challenge mode mana.
+
+=== SuperHorse ===
+[[File:Super horse.png|250px|frameless|right]]
+
+: ''Main article: [[SuperHorse]]''
+
+During the April Event SuperHorse is guaranteed to spawn in every game (unless it is [[Rush Mode]]), regardless of size. He also does not impede the spawning of other heroes.
+<br clear=all>
+
+=== Distraction Creepers ===
+
+To complement the existing damage and destruction creeper paths, Distraction Creepers can confuse and bewilder dwarves. Distraction creepers are able to hide in the undergrowth and make strange noises to lure dwarves into danger, leaving the shrines undefended from monster attacks. Any creeper can use this ability by right-clicking their explosion, regardless of upgrade path.
+
+== Halloween Event ==
+
+Occurring around Halloween, the Halloween Event includes changes which bring a spooky, scary tone to this game about zombies and skeletons.
+
+=== SuperHorse ===
+[[File:Super horse skeleton.png|250px|frameless|right]]
+
+: ''Main article: [[SuperHorse]]''
+
+SuperHorse can appear in the Halloween event, dressed in a skeleton costume. Unlike the April Event he is not guaranteed to spawn every game, but is added to the Minor Hero pool.
+<br clear=all>
+
+=== Ghosts ===
+
+As well as the normal AI Zombies, AI Ghosts will spawn around player Monsters near dwarves. These Ghosts function similarly to AI Zombies, except they are partially invisible and jump higher.
+
+In addition to regular ghosts, some ghosts spawn with special abilities:
+* The Polterthrice splits into three smaller ghosts upon death, which will attack the dwarf who killed it
+* The Shrill-o-Wisp releases a pulse of fire which damages and ignites nearby dwarves
+* When the Popular Ghost is killed, other nearby ghosts will try to avenge it and will gain speed and strength buffs
+
+=== Dark Moon ===
+
+The Dark Moon is similar to the [[Temporal Shift]], but during a Dark Moon any AIs spawning in an area exposed to the sky will always be ghosts. This increases the number of special ghosts you will encounter.
+
+=== Bats ===
+
+When a dwarf dies during the Halloween Event, they emit a puff of smoke and bats fly out of their tummy. The bats cannot be killed and will linger on as a squeaky reminder of your fallen comrades.
+
+
+== Winter Event ==
+
+Occurring around Christmas, the Winter Event puts on a seasonal layer of paint over the game as a whole but does not alter any of its core gameplay, leaving most of it to be cosmetic. 
+
+=== Presents ===
+
+During the Winter Event, [[Monsters#Special_Monsters|Special Monsters]] that are slain will drop presents on the ground. Right clicking these presents as a dwarf will pick them up, increasing the counter on the sidebar for each present collected. Presents collected count towards the Special Delivery [[Quests|quest]].
+
+=== Snowmen ===
+[[File:Snowman.png|250px|frameless|right]]
+
+: ''Main article: [[Snowman]]''
+During the April Event, players can spawn as a new special monster, the Snowman, which summons devastating snow squalls.

@@ -1,0 +1,24 @@
+[[File:Snowman.png|250px|frameless|right]]
+: ''A chilly gust blows in.''
+
+'''Snowmen''' are [[Monsters#Special_Monsters|special monsters]] which spawn during the [[Events#Winter_Event|Winter Event]] with the ability to summon devastating snow squalls capable of damaging terrain and launching dwarves.
+
+== Mechanics ==
+
+<br>
+[[File:Stick.png|32px|frameless|left]]
+Snowmen are given the Snowman's Arm:
+<br>
+<br>
+* With a left click, the Snowman will harness the power of winter and create a snow squall.
+* Snow Squalls are large twisters which slowly advance forward launching dwarves high into the sky, and damage the terrain and dwarven constructs.
+
+== Monster Role ==
+
+* Snowmen should keep their distance from dwarves as they are extremely fraile. Launch snow squalls from a fair distance.
+* Snowmen can aim snow squalls at walls to force any dwarves off as the snow squall approaches.
+
+== Dwarven Strategy ==
+
+* Snowmen should be a priority target for dwarves due to their ability to control vast amounts of space with their snow squalls.
+* Much like getting launched by a [[Super Creeper|super creeper]], dwarves should try to land on higher ground than that which they were launched from to avoid death.

@@ -1,0 +1,23 @@
+[[File:Ziros.png|250px|frameless|right]]
+'''Grand Paladin Ziros''' is a [[Heroes#Minor_Heroes|Minor Hero]] and wielder of Lightbringer. 
+
+: ''Holding one of the highest positions in the Paladin Order, Ziros is strong, authoritative, and professional to all but his closest acquaintances. To his friends he can be relaxed and jovial, though he insists on not entering rooms without lighting a torch first. A king of melee combat, his prowess is unmatched even among the other Minor Heroes.''
+
+== Items ==
+
+In addition to the standard [[Heroes#Minor_Hero_Kit|Minor Hero kit]], Ziros carries the sword Lightbringer.
+
+[[File:Diamond pickaxe.png|frameless|left]]
+=== Lightbringer ===
+
+<br>
+: ''Crafted in the pure light of the Golden Forge of Randinburg, the Lightbringers are swords handed down to the grandest paladins of the dwarves.''
+
+* Slaying a monster with Lightbringer gives Ziros a 4 second rampage, 1 second longer than a standard dwarf's rampage. This rampage is also signified by gold rampage particles rather than green.
+* In addition, due to Lightbringer's strength it can also act as a pickaxe, capable of breaking blocks faster than a standard pick as it is a diamond pick with Efficiency III. It can also refine gold at armor tables.
+
+== Tips as Ziros ==
+
+* During build phase Ziros is by far the best gold miner in the game due to having a high efficiency pick. Ziros will tend to mine as much gold as he can to supplement the dwarves' need.
+* Ziros's strength in combat is reliant on employing the effects of the rampage. As his time between kills is longer, he can use his rampage speed to chase down escaping monsters, hunt down player monsters in a crowd more accurately, take advantage of all 4 absorption hearts he gains via momentum per rampage kill, and use his extended rampage's Strength buff to break [[Iron Golem|Iron Golems']] and [[Death's Servant|Death's Servants']] chestplates quickly.
+* Ziros can also afford to allow his fellow dwarves to take his rampage fodder, since he can wait slightly longer to renew it than they can. This allows both parties to continue rampaging longer and taking advantage of the safety that grants.

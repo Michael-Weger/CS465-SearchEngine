@@ -1,0 +1,28 @@
+[[File:Wolf.png|250px|frameless|right]]
+: ''A pack of wolves approaches.''
+
+'''Wolves''' are [[Monsters#Special_Monsters|special monsters]] capable of extremely high damage on dwarves in the dark and are incredibly agile. Their abilities are extremely similar to that of a fully upgraded [[Zombie]], with some slight variances. 
+
+== Mechanics ==
+
+<br>
+[[File:Wolf fangs.png|frameless|left]]
+Wolves are given Wolf Fangs:
+<br>
+<br>
+* With a left click, the Wolf will deal damage which is drastically increased with the Strength effect they gain in darkness via their ability Fury of the Night. With a smaller hitbox, strong lifesteal, and speed upon hitting a dwarf, wolves excel in melee combat and can catch unsuspecting dwarves off guard with their high damage.
+* With a right click, the Wolf will leap through the air, able to hop over most walls and away from danger or towards dwarves to attack them.
+
+== Monster Role ==
+
+* Wolves should constantly be looking for dark areas to be able to strike dwarves with their Strength-enhanced melee attack. Melee attacks which are augmented by Fury of the Night will have additional red particles. Leaping around the map into and out of these areas are the typical routes wolves will take in their attack strategy.
+* Within melee range wolves should look to kite dwarves using the speed they gain from attacking. Moving back and forth to avoid sword swings will be effective in avoiding a rampaging dwarf. If the dwarf is about to hit the Wolf, they can also leap away avoiding the attack altogether.
+* Even if a dwarf seems capable of outhealing the Wolf damage, the continued pressure will deplete their mana and armor much quicker than other monsters can manage, and can be done constantly.
+* Though inheriting Rapid Regeneration from their [[Zombie|zombie]] counterpart upon getting struck by an arrow, the Wolf version is less potent. The window of time a dwarf has to hit the Wolf with successive shots is much larger and so wolves should avoid ranged combat altogether since they have no means of fighting back in such a scenario.
+
+== Dwarven Strategy ==
+
+* Wolves are extremely dangerous melee threats that should be dealt with before they can cause major damage in the darkness. Fighting them in the light, with a rampage, or outside melee range with a bow are advisable.
+* Wolves passively make growling sounds out of combat, making it easier to know when they are nearby.
+* Due to their reduced Rapid Regeneration when struck by an arrow dwarves are much more capable of killing a Wolf with successive bow shots than their [[Zombie|zombie]] counterpart.
+* Starting a rampage with a Wolf is difficult due to their lifesteal capability and speed from hitting a dwarf. It is much easier to start a rampage with an [[Zombie|AI zombie]] and roll it to kill the Wolf instead.

@@ -1,0 +1,26 @@
+[[File:Lord.png|250px|frameless|right]]
+'''Lord of the Undead''' is a [[Heroes#Minor_Heroes|Minor Hero]] and wielder of the Staff of Defile. 
+
+: ''Between life and death, a gravedigger who has cast away his name, Lord of the Undead has made it his life's goal to put monsters in the dirt with his shovel alone. Lord holds himself to a buisnessman-like cadence that falls away when he can finally express his obsession with death and ending the lives of monsters.''
+
+== Items ==
+
+In addition to the standard [[Heroes#Minor_Hero_Kit|Minor Hero kit]], Lord carries his shovel: the Staff of Defile.
+
+[[File:Staff_of_Defile.png|frameless|left]]
+
+=== Staff of Defile ===
+
+<br>
+: ''A shovel so beaten and destroyed from overuse its lost its original head, replaced with a mysterious purple orb. Its power makes Lord feel not like a dwarf anymore, but something more.''
+
+* Extending a rampage with the Staff of Defile grants Lord two additional momentum hearts stacking up to a total of 30 bonus momentum hearts. These momentum hearts do not expire shortly after the rampage ends as regular momentum hearts would, granting Lord a significant amount of bulk.
+* Kills during rampage with the Staff of Defile also provide double Scavenger rates, making it more likely to get items upon killing a monster.
+* The Staff of Defile is also a gold shovel with Efficiency III, making it particularly effective at digging gravel.
+
+== Tips as Lord ==
+
+* During build phase Lord is capable of digging gravel at an accelerated rate. He can use Gold Panner to acquire gold by doing so which is instantly placed in the gold reserve, as well as provide other dwarves with additional cobblestone to build with.
+* Starting a rampage with his sword and then switching to the Staff of Defile allows him to build up extra momentum hearts, making him especially tanky when rampaging and freedom to take more damage as his mana usage will also be slowed. 
+* With incredibly low Attack Damage on the Staff of Defile itself, Lord cannot capitalize on the Strength buff gained when rampaging with it. In order to damage [[Iron Golem|Iron Golems']] and [[Death's Servant|Death's Servants']] chestplates effectively he must switch to his sword. Alternatively, he can poise himself as the main target of the Iron Golems when rampaging with the staff, saving his fellow dwarves from the damage as they weaken its armor.
+* Lord also has incredible gold obtaining ability. Using his doubled Scavenger rates and his ability to break gravel in destroyed walls much quicker than other dwarves means he will obtain gold extremely quickly when compared to others and can provide himself and his fellow dwarves with resource for repairing once the shrine has run dry.

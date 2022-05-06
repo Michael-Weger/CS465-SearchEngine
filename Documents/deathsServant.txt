@@ -1,0 +1,45 @@
+[[File:Enderman.png|250px|frameless|right]]
+'''Death's Servant''' is a [[Monsters#Special_Monsters|special monster]] which is slightly different from others of its class. Instead of spawning randomly in waves, a monster gains access to the Death’s Servant by unlocking the final upgrade on all generic monsters ([[Zombie]], [[Skeleton]], [[Creeper]]), and then spending 1000 additional mana to use it once.
+
+If a game has been going too long, a Death's Servant is soon to arrive. Capable of moving the monster spawn, sapping dwarves of mana, and teleporting great distances, Death's Servant is the ultimate monster to fight in battle.
+
+== Mechanics ==
+
+<br>
+[[File:Deaths touch.png|32px|frameless|left]]
+Death's Servant is given two items, the first being Death's Touch:
+<br>
+<br>
+* With a left click, Death's Servant deals damage as well as steals mana from dwarves at an even higher rate than [[Venomburner|Venomburners]].
+* With a right click, Death's Servant teleports to wherever they are looking.
+
+<br>
+[[File:Deaths essence.png|32px|frameless|left]]
+The other item Death's Servant is given is Death's Essence:
+<br>
+<br>
+* With a left click, Death's Servant will place down a Doom Portal. This will temporarily give all monsters that spawn a Doom Portal Orb that will teleport them to this Doom Portal, effectively moving their mob spawn. This Doom Portal will stay open as long as the Death's Servant is alive and has over 0 mana. Mana is gained as a Death's Servant by being close to dwarves and by attacking them with Death's Touch. Mana will be lost at a slower rate while the Death's Servant is standing in the active shrine region. Opening the doom portal will also fully repair the Death's Servant's chestplate.
+
+Death's Servant also cannot be killed with a rampage and have Knockback Resistance as long as their chestplate is not broken.
+
+== Monster Role ==
+[[File:Outside doom portal.png|thumb|right|A Doom Portal summoned outside.]]
+
+* Death's Servant's first task is to set up the Doom Portal. There are limitations to how close it can be to a shrine, but getting it in a position that is favorable to mobs and as close to the shrine as possible is advised. It is also worth knowing that wherever the Death's Servant is looking when the portal is opened is where all monsters will look when passing through it.
+* Once the Doom Portal is set up, Death's Servant is given 1000 mana that begins to tick down after a short grace period. They should attempt to keep this above 0 as long as possible and weaken the dwarves while doing so. Diving in to drain dwarves mana and fill their own mana back to 1000, then teleporting back out of the fray is the best way to optimize a Doom Portal's duration. Standing near dwarves will also slow, stop, or even reverse the Death's Servant's loss of mana, and standing within the active shrine region will also reduce the rate at which Death's Servant loses mana.
+* Even if a Doom Portal closes, Death's Servant is still extremely potent at killing dwarves. Dwarves which have low mana and are bleeding are the most obvious targets since their remaining mana can be sapped away, preventing them from healing. Melee attacks which drain mana will have additional purple particles and a sound cue.
+* In melee, kiting dwarves with their thin hitbox that fades in and out of reality as well as their ability to teleport best mitigates how much armor damage a Death's Servant will take at any one time.
+[[File:Indoor doom portal.png|thumb|right|A Doom Portal summoned indoors.]]
+
+==== Doom Portal Mechanics ====
+
+* Outside, or places with extremely high roofs, the Doom Portal will spawn high in the air and monsters will drop out of it through a hole in the center. Inside, an area of the environment will be corrupted, leaving the spawn point at the center. 
+* All monsters can use all their abilities once going through the Doom Portal except for [[Creeper|Creepers]] and [[Super Creeper|Super Creepers]], which cannot explode for a short duration.
+* The Doom Portal has the same anti-dwarf mechanics as the regular monster spawn, meaning all dwarves that enter its radius will experience negative effects.
+
+== Dwarven Strategy ==
+
+* Death's Servant is the highest value target for dwarves. Killing it or denying its ability to keep the Doom Portal open is imperative as the longer the Doom Portal is open, the more unrelenting the monster hordes will be. Like an [[Iron Golem]], the easiest way to kill it is by breaking its chestplate, especially when using the Strength buff gained through rampaging.
+* Keeping the Death's Servant at bay can also be effective, because as long as it cannot get close to the dwarves it cannot regain mana to keep the Doom Portal open.
+* It is best to avoid being cornered by the Death's Servant, as they can quickly drain mana to a point that a dwarf can no longer heal and resilient enough to have the time to do so. Kiting the Death's Servant the same way the Servant will kite dwarves is advisable.
+* In tandem, dwarves should look to stay away from the Doom Portal once it is opened, as it gives negative status effects the same way a typical monster spawn does, monsters that come out will still have rampage immunity from spawning in most cases, and the repeated spawning can catch some unsuspecting dwarves off guard when more powerful monsters come through.

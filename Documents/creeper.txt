@@ -1,0 +1,134 @@
+[[File:Creeper.png|250px|frameless|right]]
+'''Creepers''' are [[monsters]] which blow up dwarves and their defenses at the cost of their life. 
+
+== Mechanics ==
+
+<br>
+[[File:Explosion.png|32px|frameless|left]]
+Creepers are given Explosion:
+<br>
+<br>
+* With a left click, the Creeper will initiate a fuse that ends with an explosion which does considerable damage to dwarves and walls. The closer to the dwarf it explodes, the more damage and knockback it will deal. This fuse can be interrupted by being hit.
+* With a right click, the Creeper will make the same sound its left click makes but without exploding.
+
+== Monster Role ==
+
+* Before choosing an upgrade path Creepers really only serve one purpose; walk up to a wall and explode, damaging it marginally. Once reaching their choice of upgrade between Blasting and Destruction, they will follow wildly different roles as a result of their choice.
+ 
+=== Blasting Creeper ===
+
+* Blasting Creepers are entirely devoted to damaging dwarves. Capable of doing large bursts of damage and knocking back dwarves substantially, they want to get close to their target and explode.
+* Rampaging dwarves are especially susceptible to losing a rampage due to being knocked back, so by running at one and timing their fuse, a Creeper can knock them away from any additional monsters to kill to roll it.
+* Blasting Creepers can especially catch dwarves who are repairing off guard with enough damage to potentially kill them in one go.
+
+=== Destruction Creeper ===
+
+* Destruction Creepers are entirely devoted to damaging walls and defenses. With heightened destructive capabilities and the possibility of infesting blocks, Destruction Creepers progress the game of attrition. 
+* Infested blocks become AI Rats which are capable of stealing 1 gold in their life before dying if they reach the shrine. This is integral to the progress of the game since the faster dwarves lose Gold, the faster they can no longer repair their armor.
+* Structures with high value to the dwarves such as front walls, shrine boxes, and rampage halls can be made short work of by a devoted Destruction Creeper, turning most of those structures into infested blocks and AI Rats. 
+* Destruction Creepers should seek to infest as many blocks as possible by having a large amount of Blue Stone Bricks and Gray Stone Bricks within range of their explosion. Blocks already infested will also produce AI Rats.
+* Once given the option to become a Broodmother, Destruction Creepers can awaken their already infested walls. Though Broodmothers are able to infest walls on their own, it may be more productive to blow up and infest a bunch of Blue and Gray Stone Bricks as a Destruction Creeper and then swap to Broodmother to awaken them all at once.
+
+== Dwarven Strategy ==
+
+* Creepers are potentially dangerous because of the after effects of their explosions (knockback or wall destruction) moreso than when they are present on the battlefield. Interrupting their fuse before they explode and killing them can make their entire effort to get to their location moot.
+* Blasting Creepers are more of a threat from their raw damage and knockback. Dwarves should position themselves when taking explosions from these Creepers in a way that they can safely heal or continue their rampage, since they can sometimes be knocked out of range of their next target. Dwarves should also avoid repairing armor when one of these is exploding nearby.
+* Destruction Creepers need to be stopped before they explode on [[defenses]], weakening them. Doing relatively low damage, it's perfectly fine to let one explode on a dwarf as long as it doesn't put them in peril and keeps them from exploding on a structure.
+* AI Rats and Broodmothers also make it easy to start a rampage due to their relatively low health, but are especially integral in the dwarves losing Gold quickly and should be stopped as soon as they're spotted.
+
+== Upgrades ==
+
+Creeper upgrades completely diversify the role of the Creeper in question; whether it be to Blasting Creepers which are quite potent to hurting dwarves or Destruction Creepers that tear down [[defenses]] quickly. Both paths of upgrading are equal in cost and are also the highest cost of the 3 basic monsters to upgrade. The choice for path comes up in the Tier 3 upgrades between the choice of Blasting and Destruction.
+
+=== Tier 1 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Carapace || Increases a Creeper's base health. || Upgrade Level x 20 mana
+|-
+| Adrenaline || Increases a Creeper's speed when they start their fuse. || Upgrade Level x 20 mana
+|}
+
+=== Tier 2 Upgrades ===
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Creeper Core || Increases a Creeper's damage to dwarves upon explosion. || Upgrade Level x 50 mana
+|}
+
+=== Tier 3 Upgrades ===
+
+==== Blasting Creeper ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Blasting || Increases a Creeper's damage to dwarves upon explosion. || 150, 200, 250 mana
+|-
+| Enhanced Detonation || Increases a Creeper's knockback upon explosion. || 200 mana per level
+|}
+
+==== Destruction Creeper ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Destruction || Increases a Creeper's block damage upon explosion. || 150, 200, 250 mana
+|-
+| Infestation || Increases a Creeper's chance to infest a block. || 200 mana per level
+|}
+
+=== Tier 4 Upgrades ===
+
+==== Blasting Creeper ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Rapid Ignition || Reduces a Creeper's fuse time by half a second. || 500 mana
+|}
+
+==== Destruction Creeper ====
+
+{| class="wikitable"
+|-
+! Upgrade Name !! Description !! Mana Cost
+|-
+| Broodmother || A Creeper is now given access to spawn as a Broodmother, capable of awakening AI Rats which infested within blocks from prior lives. These rats will move towards the shrine and steal gold, dying after they do so.<br />Exploding on dwarves with this upgrade unlocked causes them to drop more gold, if they are carrying too much. || 500 mana
+|}
+
+== Broodmother ==
+[[File:Broodmother.png|250px|frameless|right]]
+
+Broodmothers are unlocked by fully upgrading Creeper via the Destruction Creeper upgrade path. Appearing similar to a [[Rat]], they have a small size and are capable of awakening the AI Rats within the infested blocks from Creeper lives past. The player can still become a Creeper once Broodmother is unlocked, as it is a seperate option to spawn as.
+
+Broodmothers primarily drain Gold from the shrine at an accelerated rate. Its entire purpose is to infest blocks and then awaken the Rats within, using its small size to evade dwarves seeking to kill it.
+
+<br>
+[[File:Melon seeds.png|32px|frameless|left]]
+Broodmothers are given two items, the first being Awaken Rats:
+<br>
+<br>
+* With a left click, all infested blocks nearby are instantly turned into AI Rats.
+* With a right click, when looking at an active shrine block, a Broodmother will steal one gold per click, making a sound for each gold stolen, much like a [[Rat]].
+
+<br>
+[[File:Pumpkin seeds.png|32px|frameless|left]]
+The other item Broodmothers are given is Create Nest:
+<br>
+<br>
+* With a right click on Gray Stone Bricks, Broodmothers can infest that block much like they could as a Destruction Creeper, but more directly and less randomly. Doing this will consume an Create Nest. When one of the AI Rats spawned from using Awaken Rats consumes Gold from the shrine, the Broodmother who awakened that Rat will receive 1 Create Nest. Broodmothers can only hold 1 Create Nest at a time.
+
+== AI Rats ==
+
+Spawned from Destruction Creepers and Broodmothers, AI Rats have one purpose: reach the shrine and steal Gold. However, unlike player [[Rat|Rats]], the AI Rat immediately expires and dies when it steals 1 Gold. 
+
+* AI Rats are a good source of rampage fodder for dwarves, only taking two hits to kill. However, they do not count towards any kind of kill total stat such as sword kills, bow kills, etc. but do count towards ones such as longest rampage. They should be used to start and roll rampages, but shouldn't be the main target of them.
+* Killing AI Rats however does delay them from stealing Gold, letting the dwarves repair for longer. Taking them out does still have a high amount of value.
